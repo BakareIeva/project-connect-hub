@@ -101,11 +101,11 @@ function AboutPage() {
                 className="grid grid-cols-2 gap-3"
               >
                 <div className="relative row-span-2 aspect-[3/4] overflow-hidden">
-                  <Image src="/photos/ieva-1.jpeg" alt="Ieva Bakare" fill className="object-cover object-top" />
+                  <img src="/photos/ieva-1.jpeg" alt="Ieva Bakare" className="absolute inset-0 w-full h-full object-cover object-top" />
                   <div className="absolute bottom-0 right-0 w-10 h-10 border-b-2 border-r-2" style={{ borderColor: "#C9A84C" }} />
                 </div>
                 <div className="relative aspect-[3/4] overflow-hidden">
-                  <Image src="/photos/ieva-3.jpeg" alt="Ieva Bakare" fill className="object-cover object-top" />
+                  <img src="/photos/ieva-3.jpeg" alt="Ieva Bakare" className="absolute inset-0 w-full h-full object-cover object-top" />
                 </div>
                 <div className="flex flex-col justify-center p-6" style={{ background: "#111111" }}>
                   <p className="font-serif italic font-light text-white/80 text-sm leading-relaxed mb-4">
