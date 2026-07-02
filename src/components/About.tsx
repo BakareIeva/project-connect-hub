@@ -88,22 +88,20 @@ export default function About() {
           >
             {/* Large photo — col 1, spans both rows */}
             <div className="relative row-span-2 aspect-[3/4] overflow-hidden">
-              <Image
+              <img
                 src="/photos/ieva-1.jpeg"
                 alt="Ieva Bakare"
-                fill
-                className="object-cover object-top"
+                className="absolute inset-0 w-full h-full object-cover object-top"
               />
               <div className="absolute bottom-0 right-0 w-10 h-10 border-b-2 border-r-2" style={{ borderColor: "#C9A84C" }} />
             </div>
 
             {/* Top right photo */}
             <div className="relative aspect-[3/4] overflow-hidden">
-              <Image
+              <img
                 src="/photos/ieva-3.jpeg"
                 alt="Ieva Bakare"
-                fill
-                className="object-cover object-top"
+                className="absolute inset-0 w-full h-full object-cover object-top"
               />
             </div>
 
