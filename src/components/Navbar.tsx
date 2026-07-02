@@ -11,7 +11,7 @@ export default function Navbar() {
   const { locale } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const router = useRouter();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -21,19 +21,19 @@ export default function Navbar() {
 
   const handleNav = (href: string) => {
     setMenuOpen(false);
-    if (href.startsWith("/")) {
-      router.push(href);
-      return;
-    }
     if (href.startsWith("#")) {
       const el = document.querySelector(href);
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
-      } else {
-        router.push(`/${href}`);
+        return;
       }
+      navigate({ to: "/" });
+      setTimeout(() => document.querySelector(href)?.scrollIntoView({ behavior: "smooth" }), 100);
+      return;
     }
+    navigate({ to: href });
   };
+
 
   const navLinks = [
     { label: locale === "lt" ? "Apie mane" : "About Me", href: "/about" },
