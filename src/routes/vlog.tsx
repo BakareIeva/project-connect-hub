@@ -1,19 +1,13 @@
-import { createFileRoute } from "@tanstack/react-router";
-// next/link removed
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { supabase } from "@/lib/supabase";
-import { VlogClient } from "./VlogClient";
+import { VlogClient } from "@/components/VlogClient";
+import type { VlogEntry } from "@/lib/types";
 
-export const revalidate = 60;
+function VlogPage() {
+  const entries: VlogEntry[] = [];
 
-export default async function VlogPage() {
-  const { data: entries } = await supabase
-    .from("vlog_entries")
-    .select("*")
-    .eq("published", true)
-    .order("created_at", { ascending: false });
 
   return (
     <>
