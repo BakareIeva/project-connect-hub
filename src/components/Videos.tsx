@@ -2,7 +2,7 @@
 import { useRef, useState } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import { Play, X, Clock, ArrowRight } from "lucide-react";
-import Link from "next/link";
+import { Link } from "@tanstack/react-router";
 import { videos } from "@/lib/content";
 import { useLanguage } from "@/lib/LanguageContext";
 

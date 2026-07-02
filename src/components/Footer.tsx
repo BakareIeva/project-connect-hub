@@ -1,5 +1,5 @@
 
-import Link from "next/link";
+import { Link } from "@tanstack/react-router";
 import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Footer() {
