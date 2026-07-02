@@ -1,4 +1,3 @@
-"use client";
 
 import { useLanguage } from "@/lib/LanguageContext";
 import { motion } from "framer-motion";
