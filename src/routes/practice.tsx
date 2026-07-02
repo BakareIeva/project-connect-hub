@@ -99,7 +99,7 @@ function PracticePage() {
               animate={heroInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7 }}
             >
-              <Link
+              <a
                 href="/"
                 className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-white/50 hover:text-white/80 transition-colors mb-10"
               >
@@ -272,7 +272,7 @@ function PracticePage() {
                 ? "Turite klausimų apie imigraciją ar administracinę teisę? Parašykite."
                 : "Have a question about immigration or administrative law in Lithuania? Send a message."}
             </p>
-            <Link
+            <a
               href="/#contact"
               className="inline-block px-8 py-4 text-xs font-medium tracking-widest uppercase transition-colors duration-300"
               style={{ background: "#111111", color: "white" }}

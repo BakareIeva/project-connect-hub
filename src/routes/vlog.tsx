@@ -22,7 +22,7 @@ export default async function VlogPage() {
         {/* Header */}
         <section className="pt-40 pb-20" style={{ background: "#111111" }}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
-            <Link
+            <a
               href="/"
               className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-white/50 hover:text-white/80 transition-colors mb-10"
             >
@@ -64,7 +64,7 @@ export default async function VlogPage() {
             <p className="text-white/60 font-light mb-6">
               Have questions after watching? Feel free to get in touch.
             </p>
-            <Link
+            <a
               href="/#contact"
               className="inline-block px-8 py-4 text-xs font-medium tracking-widest uppercase transition-colors duration-300 hover:opacity-80"
               style={{ background: "#C9A84C", color: "#111111" }}

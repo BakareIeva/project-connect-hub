@@ -30,7 +30,7 @@ function AboutPage() {
               animate={headerInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7 }}
             >
-              <Link
+              <a
                 href="/"
                 className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-white/40 hover:text-white/70 transition-colors mb-10"
               >
@@ -189,7 +189,7 @@ function AboutPage() {
                 ? "Turite klausimų apie imigraciją ar administracinę teisę Lietuvoje?"
                 : "Have a question about immigration or administrative law in Lithuania?"}
             </p>
-            <Link
+            <a
               href="/#contact"
               className="inline-block px-8 py-4 text-xs font-medium tracking-widest uppercase transition-opacity hover:opacity-80"
               style={{ background: "#111111", color: "white" }}

@@ -67,7 +67,7 @@ function BookPage() {
               animate={headerInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7 }}
             >
-              <Link
+              <a
                 href="/"
                 className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-white/50 hover:text-white/80 transition-colors mb-10"
               >
@@ -121,7 +121,7 @@ function BookPage() {
                       ? "Susisieksiu su jumis per 48 valandas, kad suderintume pokalbio laiką."
                       : "I'll reach out within 48 hours to schedule a time that works for you."}
                   </p>
-                  <Link
+                  <a
                     href="/"
                     className="text-xs font-medium tracking-widest uppercase pb-0.5 transition-colors"
                     style={{ color: "#C9A84C", borderBottom: "1px solid #C9A84C" }}

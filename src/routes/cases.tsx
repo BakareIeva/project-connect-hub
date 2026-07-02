@@ -139,7 +139,7 @@ function CasesPage() {
               animate={headerInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7 }}
             >
-              <Link
+              <a
                 href="/"
                 className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-white/40 hover:text-white/70 transition-colors mb-10"
               >
@@ -191,7 +191,7 @@ function CasesPage() {
                 ? "Turite klausimų apie savo situaciją? Parašykite."
                 : "Have a question about your specific situation? Send a message."}
             </p>
-            <Link
+            <a
               href="/#contact"
               className="inline-block px-8 py-4 text-xs font-medium tracking-widest uppercase transition-opacity hover:opacity-80"
               style={{ background: "#C9A84C", color: "#111111" }}

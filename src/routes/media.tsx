@@ -129,7 +129,7 @@ function MediaPage() {
                   {t.mediaPage.askSubtext}
                 </p>
               </div>
-              <Link
+              <a
                 href="/#contact"
                 className="shrink-0 px-6 py-3 text-xs font-medium tracking-widest uppercase transition-colors duration-300"
                 style={{ background: "#C9A84C", color: "#111111" }}
