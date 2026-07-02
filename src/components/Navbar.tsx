@@ -54,7 +54,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-none">
+          <Link to="/" className="flex flex-col leading-none">
             <span
               className="font-serif text-xl font-light tracking-widest text-white uppercase"
               style={{ letterSpacing: "0.15em" }}

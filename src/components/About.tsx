@@ -69,7 +69,7 @@ export default function About() {
                 {t.about.cta}
               </motion.button>
               <Link
-                href="/about"
+                to="/about"
                 className="group inline-flex items-center gap-2 px-7 py-3.5 text-xs font-medium tracking-widest uppercase border transition-colors duration-300"
                 style={{ borderColor: "#E4E4E2", color: "#111111" }}
               >

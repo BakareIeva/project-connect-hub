@@ -42,7 +42,7 @@ export default function BlogPreview() {
             </h2>
           </div>
           <Link
-            href="/blog"
+            to="/blog"
             className="group inline-flex items-center gap-3 text-xs font-medium tracking-widest uppercase transition-colors duration-200 shrink-0 pb-1"
             style={{ color: "#111111", borderBottom: "1px solid #C9A84C" }}
           >
@@ -59,7 +59,7 @@ export default function BlogPreview() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: i * 0.12 }}
             >
-              <Link href={`/blog/${post.slug}`} className="group block h-full">
+              <Link to="/blog/$slug" params={{ slug: post.slug }} className="group block h-full">
                 <article
                   className="h-full flex flex-col bg-white transition-all duration-300 border"
                   style={{ borderColor: "#E4E4E2" }}

@@ -87,7 +87,7 @@ export default function CasesSection() {
                 : "Below are the specific case types I handle — not abstract categories, but real situations my clients actually face. Each includes an anonymised example from my practice."}
             </p>
             <Link
-              href="/cases"
+              to="/cases"
               className="group self-start inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase pb-0.5"
               style={{ color: "#111111", borderBottom: "1px solid #C9A84C" }}
             >

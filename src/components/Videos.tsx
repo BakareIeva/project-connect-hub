@@ -39,7 +39,7 @@ export default function Videos() {
             </h2>
           </div>
           <Link
-            href="/media"
+            to="/media"
             className="group inline-flex items-center gap-3 text-xs font-medium tracking-widest uppercase transition-colors duration-200 shrink-0 pb-1 text-white/60 hover:text-white"
             style={{ borderBottom: "1px solid rgba(201,168,76,0.4)" }}
           >
