@@ -1,6 +1,6 @@
 
-import { Link } from "@tanstack/react-router";
 import { useLanguage } from "@/lib/LanguageContext";
+
 
 export default function Footer() {
   const { t, locale } = useLanguage();
@@ -44,12 +44,12 @@ export default function Footer() {
               <ul className="space-y-3">
                 {col.links.map((link) => (
                   <li key={link.href}>
-                    <Link
+                    <a
                       href={link.href}
                       className="text-white/50 text-sm font-light hover:text-white/80 transition-colors duration-200"
                     >
                       {link.label}
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>
