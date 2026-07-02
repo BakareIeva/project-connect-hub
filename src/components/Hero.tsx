@@ -18,12 +18,10 @@ export default function Hero() {
     >
       {/* Full-bleed photo — entire section */}
       <div className="absolute inset-0">
-        <Image
+        <img
           src="/photos/ieva-2.jpeg"
           alt="Ieva Bakare"
-          fill
-          priority
-          className="object-cover object-center"
+          className="absolute inset-0 w-full h-full object-cover object-center"
           style={{ filter: "brightness(0.42)" }}
         />
         {/* Primary overlay — dark at bottom where text lives */}
