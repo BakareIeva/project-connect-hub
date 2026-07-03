@@ -23,8 +23,10 @@ const areas = [
       "Paprastai: jei jūs (ar šeimos narys) atvykstate į Lietuvą iš ne ES šalies, imigracijos teisė nustato ar galite atvykti, kokiu pagrindu, kiek laiko ir ką galite čia daryti.",
   },
   {
+    id: "administrative-law",
     icon: Scale,
     color: "#9A8BB5",
+
     tag: "Practice Area",
     title: "Administrative Law",
     ltTitle: "Administracinė teisė",
