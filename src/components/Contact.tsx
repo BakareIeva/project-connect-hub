@@ -1,7 +1,7 @@
 
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { MapPin, Phone, Clock, Mail, Send } from "lucide-react";
+import { MapPin, Phone, Mail, Send } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Contact() {
@@ -20,7 +20,6 @@ export default function Contact() {
     { icon: MapPin, label: t.contact.location, value: "Vilnius, Lithuania" },
     { icon: Phone, label: "Phone", value: "+370 _ ___ ____" },
     { icon: Mail, label: t.contact.email, value: "bakareieva@gmail.com" },
-    { icon: Clock, label: t.contact.hours, value: t.contact.hoursValue },
   ];
 
   return (
