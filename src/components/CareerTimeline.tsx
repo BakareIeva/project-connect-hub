@@ -24,7 +24,7 @@ export default function CareerTimeline() {
       <div ref={ref} className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Header */}
-        <brunn        <motion.div
+        <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
