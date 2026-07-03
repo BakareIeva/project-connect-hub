@@ -6,8 +6,10 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
   {
+    id: "immigration-law",
     icon: Globe,
     color: "#6B9EB8",
+
     tag: "Practice Area",
     title: "Immigration Law",
     ltTitle: "Imigracijos teisė",
@@ -21,8 +23,10 @@ const areas = [
       "Paprastai: jei jūs (ar šeimos narys) atvykstate į Lietuvą iš ne ES šalies, imigracijos teisė nustato ar galite atvykti, kokiu pagrindu, kiek laiko ir ką galite čia daryti.",
   },
   {
+    id: "administrative-law",
     icon: Scale,
     color: "#9A8BB5",
+
     tag: "Practice Area",
     title: "Administrative Law",
     ltTitle: "Administracinė teisė",
@@ -36,8 +40,10 @@ const areas = [
       "Paprastai: kai valstybės institucija priima jums nepalankų sprendimą, administracinė teisė nustato terminus, kompetentingą teismą ir įrodymus, kurie svarbūs ginčijant sprendimą.",
   },
   {
+    id: "how-courts-think",
     icon: Gavel,
     color: "#C9A84C",
+
     tag: "Perspective",
     title: "How the Court Thinks",
     ltTitle: "Kaip mąsto teismas",
@@ -104,11 +110,13 @@ export default function PracticeSection() {
             return (
               <motion.div
                 key={a.title}
+                id={a.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="group bg-white border overflow-hidden transition-all duration-300"
+                className="group bg-white border overflow-hidden transition-all duration-300 scroll-mt-24"
                 style={{ borderColor: "#E4E4E2" }}
+
                 onMouseEnter={(e) => { (e.currentTarget as HTMLDivElement).style.boxShadow = "0 8px 32px rgba(26,43,74,0.08)"; }}
                 onMouseLeave={(e) => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
               >
