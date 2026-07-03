@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import CareerTimeline from "@/components/CareerTimeline";
 import PracticeSection from "@/components/PracticeSection";
 import Certifications from "@/components/Certifications";
 
@@ -16,7 +15,6 @@ function Home() {
       <main>
         <Hero />
         <About />
-        <CareerTimeline />
         <PracticeSection />
         <Certifications />
         <Contact />
