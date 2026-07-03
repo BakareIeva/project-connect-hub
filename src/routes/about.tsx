@@ -169,7 +169,7 @@ function AboutPage() {
               />
 
               <div className="space-y-0">
-                {t.about.background.map((m, i) => (
+                {t.about.background.filter((m) => m.period !== "2019").map((m, i) => (
                   <motion.div
                     key={m.period}
                     initial={{ opacity: 0, x: -20 }}
