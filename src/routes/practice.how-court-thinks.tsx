@@ -91,7 +91,7 @@ function HowCourtThinksPage() {
               <p className="text-white/55 font-light leading-relaxed max-w-xl">
                 {locale === "lt"
                   ? "Ką dešimtmetis Lietuvos vyriausiajame administraciniame teisme išmokė apie tai, kaip teisėjai iš tiesų sprendžia imigracijos ir administracines bylas."
-                  : "What a decade inside the Highest Administrative Court of Lithuania has taught me about how judges actually decide immigration and administrative disputes."}
+                  : "Drawing on professional experience at the Supreme Administrative Court of Lithuania to explore the legal principles, procedural safeguards, and judicial reasoning that shape immigration and administrative law."}
               </p>
             </motion.div>
           </div>
