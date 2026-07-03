@@ -21,7 +21,6 @@ import { Route as PracticeImmigrationLawRouteImport } from './routes/practice.im
 import { Route as PracticeHumanRightsLawRouteImport } from './routes/practice.human-rights-law'
 import { Route as PracticeHowCourtThinksRouteImport } from './routes/practice.how-court-thinks'
 import { Route as PracticeEuLawRouteImport } from './routes/practice.eu-law'
-import { Route as PracticeCourtPracticeRouteImport } from './routes/practice.court-practice'
 import { Route as PracticeAdministrativeLawRouteImport } from './routes/practice.administrative-law'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 
@@ -85,11 +84,6 @@ const PracticeEuLawRoute = PracticeEuLawRouteImport.update({
   path: '/eu-law',
   getParentRoute: () => PracticeRoute,
 } as any)
-const PracticeCourtPracticeRoute = PracticeCourtPracticeRouteImport.update({
-  id: '/court-practice',
-  path: '/court-practice',
-  getParentRoute: () => PracticeRoute,
-} as any)
 const PracticeAdministrativeLawRoute =
   PracticeAdministrativeLawRouteImport.update({
     id: '/administrative-law',
@@ -111,7 +105,6 @@ export interface FileRoutesByFullPath {
   '/vlog': typeof VlogRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/practice/administrative-law': typeof PracticeAdministrativeLawRoute
-  '/practice/court-practice': typeof PracticeCourtPracticeRoute
   '/practice/eu-law': typeof PracticeEuLawRoute
   '/practice/how-court-thinks': typeof PracticeHowCourtThinksRoute
   '/practice/human-rights-law': typeof PracticeHumanRightsLawRoute
@@ -127,7 +120,6 @@ export interface FileRoutesByTo {
   '/vlog': typeof VlogRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/practice/administrative-law': typeof PracticeAdministrativeLawRoute
-  '/practice/court-practice': typeof PracticeCourtPracticeRoute
   '/practice/eu-law': typeof PracticeEuLawRoute
   '/practice/how-court-thinks': typeof PracticeHowCourtThinksRoute
   '/practice/human-rights-law': typeof PracticeHumanRightsLawRoute
@@ -145,7 +137,6 @@ export interface FileRoutesById {
   '/vlog': typeof VlogRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/practice/administrative-law': typeof PracticeAdministrativeLawRoute
-  '/practice/court-practice': typeof PracticeCourtPracticeRoute
   '/practice/eu-law': typeof PracticeEuLawRoute
   '/practice/how-court-thinks': typeof PracticeHowCourtThinksRoute
   '/practice/human-rights-law': typeof PracticeHumanRightsLawRoute
@@ -164,7 +155,6 @@ export interface FileRouteTypes {
     | '/vlog'
     | '/blog/$slug'
     | '/practice/administrative-law'
-    | '/practice/court-practice'
     | '/practice/eu-law'
     | '/practice/how-court-thinks'
     | '/practice/human-rights-law'
@@ -180,7 +170,6 @@ export interface FileRouteTypes {
     | '/vlog'
     | '/blog/$slug'
     | '/practice/administrative-law'
-    | '/practice/court-practice'
     | '/practice/eu-law'
     | '/practice/how-court-thinks'
     | '/practice/human-rights-law'
@@ -197,7 +186,6 @@ export interface FileRouteTypes {
     | '/vlog'
     | '/blog/$slug'
     | '/practice/administrative-law'
-    | '/practice/court-practice'
     | '/practice/eu-law'
     | '/practice/how-court-thinks'
     | '/practice/human-rights-law'
@@ -303,13 +291,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PracticeEuLawRouteImport
       parentRoute: typeof PracticeRoute
     }
-    '/practice/court-practice': {
-      id: '/practice/court-practice'
-      path: '/court-practice'
-      fullPath: '/practice/court-practice'
-      preLoaderRoute: typeof PracticeCourtPracticeRouteImport
-      parentRoute: typeof PracticeRoute
-    }
     '/practice/administrative-law': {
       id: '/practice/administrative-law'
       path: '/administrative-law'
@@ -329,7 +310,6 @@ declare module '@tanstack/react-router' {
 
 interface PracticeRouteChildren {
   PracticeAdministrativeLawRoute: typeof PracticeAdministrativeLawRoute
-  PracticeCourtPracticeRoute: typeof PracticeCourtPracticeRoute
   PracticeEuLawRoute: typeof PracticeEuLawRoute
   PracticeHowCourtThinksRoute: typeof PracticeHowCourtThinksRoute
   PracticeHumanRightsLawRoute: typeof PracticeHumanRightsLawRoute
@@ -339,7 +319,6 @@ interface PracticeRouteChildren {
 
 const PracticeRouteChildren: PracticeRouteChildren = {
   PracticeAdministrativeLawRoute: PracticeAdministrativeLawRoute,
-  PracticeCourtPracticeRoute: PracticeCourtPracticeRoute,
   PracticeEuLawRoute: PracticeEuLawRoute,
   PracticeHowCourtThinksRoute: PracticeHowCourtThinksRoute,
   PracticeHumanRightsLawRoute: PracticeHumanRightsLawRoute,
@@ -364,13 +343,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
