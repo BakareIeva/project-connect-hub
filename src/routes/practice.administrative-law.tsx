@@ -13,9 +13,9 @@ const sections = [
     heading: "What administrative law actually is",
     ltHeading: "Kas iš tiesų yra administracinė teisė",
     body:
-      "Administrative law governs the relationship between the individual and the state — how public institutions make decisions, and how those decisions can be challenged. In immigration matters it is the framework behind every Migration Department ruling, every refusal, and every appeal that follows.",
+      "Administrative law regulates the relationship between individuals and public authorities. It establishes the legal principles governing how administrative decisions are made, how public powers are exercised, and how those decisions may be reviewed by the courts. In Lithuania, it plays a central role in ensuring that public authorities act lawfully, fairly, and within the limits of their legal powers.",
     ltBody:
-      "Administracinė teisė reguliuoja asmens ir valstybės santykius — kaip institucijos priima sprendimus ir kaip juos galima ginčyti. Imigracijos bylose tai yra kiekvieno Migracijos departamento sprendimo, atsisakymo ir skundo pagrindas.",
+      "Administracinė teisė reguliuoja asmenų ir valstybės institucijų santykius. Ji nustato teisinius principus, reglamentuojančius administracinių sprendimų priėmimą, valstybės galių vykdymą ir šių sprendimų teisinę peržiūrą teismuose. Lietuvoje ji atlieka svarbų vaidmenį užtikrinant, kad valstybės institucijos veiktų teisėtai, sąžiningai ir savo įstatymų suteiktų galių ribose.",
   },
   {
     heading: "In plain terms",
