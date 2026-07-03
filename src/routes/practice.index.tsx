@@ -1,24 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ArrowLeft, ArrowRight, Globe, Scale, Gavel, BookOpen, Landmark, Shield } from "lucide-react";
+import { ArrowLeft, ArrowRight, Globe, Scale, Gavel, Landmark, Shield } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
-  {
-    to: "/practice/court-practice",
-    icon: BookOpen,
-    color: "#5B8A72",
-    tag: "Practice Area",
-    title: "Court Practice & Legal Insights",
-    ltTitle: "Teismo praktika ir teisiniai įžvalgos",
-    summary:
-      "Litigation strategy, evidence preparation, appellate briefs, and settlement negotiation in Lithuanian administrative courts.",
-    ltSummary:
-      "Teismo strategija, įrodymų rengimas, apeliaciniai skundai ir taikos derybos Lietuvos administraciniuose teismuose.",
-  },
   {
     to: "/practice/immigration-law",
     icon: Globe,
@@ -110,19 +98,19 @@ function PracticeIndex() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
                 <span className="text-xs font-medium tracking-[0.3em] uppercase" style={{ color: "#C9A84C" }}>
-                  {locale === "lt" ? "Praktika" : "Practice"}
+                  {locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights"}
                 </span>
               </div>
               <h1
                 className="font-serif font-light text-white leading-[1.05] mb-6"
                 style={{ fontSize: "clamp(2.8rem, 6vw, 4.5rem)" }}
               >
-                {locale === "lt" ? "Penkios sritys.\nViena perspektyva." : "Five Areas.\nOne Court-Side View."}
+                {locale === "lt" ? "Keturios sritys.\nViena perspektyva." : "Four Areas.\nOne Court-Side View."}
               </h1>
               <p className="text-white/55 font-light leading-relaxed max-w-xl">
                 {locale === "lt"
-                  ? "Mano darbas sutelktas į penkias glaudžiai susijusias sritis — teismo praktiką, imigracijos, administracinę, Europos Sąjungos ir žmogaus teisių teisę — ir pagrįstas dešimtmečio patirtimi Lietuvos vyriausiajame administraciniame teisme."
-                  : "My work sits across five closely connected fields — court practice, immigration, administrative, European Union, and human rights law — grounded in a decade inside the Highest Administrative Court of Lithuania."}
+                  ? "Mano darbas sutelktas į keturias glaudžiai susijusias sritis — imigracijos, administracinę, Europos Sąjungos ir žmogaus teisių teisę — ir pagrįstas dešimtmečio patirtimi Lietuvos vyriausiajame administraciniame teisme."
+                  : "My work sits across four closely connected fields — immigration, administrative, European Union, and human rights law — grounded in a decade inside the Highest Administrative Court of Lithuania."}
               </p>
             </motion.div>
           </div>

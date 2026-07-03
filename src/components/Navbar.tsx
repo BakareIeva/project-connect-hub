@@ -50,15 +50,11 @@ export default function Navbar() {
 
   const navLinks = [
     { label: locale === "lt" ? "Apie mane" : "About Me", href: "/about" },
-    { label: locale === "lt" ? "Praktika" : "Practice", href: "/practice" },
+    { label: locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights", href: "/practice" },
     { label: locale === "lt" ? "Tinklaraštis" : "Blog", href: "/blog" },
   ];
 
   const practiceItems = [
-    {
-      label: locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights",
-      href: "/practice/court-practice",
-    },
     {
       label: locale === "lt" ? "Imigracijos teisė" : "Immigration Law",
       href: "/practice/immigration-law",

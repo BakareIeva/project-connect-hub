@@ -1,23 +1,10 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, Globe, Scale, Gavel, BookOpen, Landmark, Shield } from "lucide-react";
+import { ArrowRight, Globe, Scale, Gavel, Landmark, Shield } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
-  {
-    to: "/practice/court-practice" as const,
-    icon: BookOpen,
-    color: "#5B8A72",
-    tag: "Practice Area",
-    ltTag: "Praktikos sritis",
-    title: "Court Practice & Legal Insights",
-    ltTitle: "Teismo praktika ir teisiniai įžvalgos",
-    blurb:
-      "Litigation strategy, evidence preparation, appellate briefs, and settlement negotiation in Lithuanian administrative courts.",
-    ltBlurb:
-      "Teismo strategija, įrodymų rengimas, apeliaciniai skundai ir taikos derybos Lietuvos administraciniuose teismuose.",
-  },
   {
     to: "/practice/immigration-law" as const,
     icon: Globe,
@@ -103,7 +90,7 @@ export default function PracticeSection() {
             <div className="flex items-center gap-3 mb-6">
               <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
               <span className="text-xs font-medium tracking-[0.3em] uppercase" style={{ color: "#C9A84C" }}>
-                {locale === "lt" ? "Praktika" : "Practice"}
+                {locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights"}
               </span>
             </div>
             <h2 className="font-serif font-light text-[#111111]" style={{ fontSize: "clamp(2.2rem, 5vw, 3.2rem)" }}>
@@ -115,8 +102,8 @@ export default function PracticeSection() {
           <div className="flex flex-col gap-4">
             <p className="text-[#6B6B6B] font-light leading-relaxed">
               {locale === "lt"
-                ? "Šeši atskiri puslapiai. Kiekvienas — savarankiška apžvalga: teismo praktika, imigracijos teisė, administracinė teisė, Europos Sąjungos teisė, žmogaus teisių teisė ir kaip mąsto teismas."
-                : "Six dedicated pages. Each a standalone read: court practice, immigration law, administrative law, European Union law, human rights law, and how the court thinks."}
+                ? "Penki atskiri puslapiai. Kiekvienas — savarankiška apžvalga: imigracijos teisė, administracinė teisė, Europos Sąjungos teisė, žmogaus teisių teisė ir kaip mąsto teismas."
+                : "Five dedicated pages. Each a standalone read: immigration law, administrative law, European Union law, human rights law, and how the court thinks."}
             </p>
           </div>
         </motion.div>
