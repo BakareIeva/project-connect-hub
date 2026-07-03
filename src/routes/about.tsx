@@ -14,8 +14,6 @@ function AboutPage() {
   const headerInView = useInView(headerRef, { once: true });
   const bioRef = useRef(null);
   const bioInView = useInView(bioRef, { once: true, margin: "-80px" });
-  const bgRef = useRef(null);
-  const bgInView = useInView(bgRef, { once: true, margin: "-80px" });
 
   return (
     <>
@@ -140,78 +138,6 @@ function AboutPage() {
           </div>
         </section>
 
-        {/* Professional background — dark */}
-        <section ref={bgRef} className="py-24 lg:py-32" style={{ background: "#111111" }}>
-          <div className="max-w-7xl mx-auto px-6 lg:px-12">
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              animate={bgInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.7 }}
-              className="mb-12"
-            >
-              <div className="flex items-center gap-3 mb-2">
-                <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
-                <span className="text-xs font-medium tracking-[0.3em] uppercase" style={{ color: "#C9A84C" }}>
-                  {t.about.backgroundHeading}
-                </span>
-              </div>
-            </motion.div>
-
-            {/* Timeline */}
-            <div className="relative">
-              {/* Vertical line */}
-              <motion.div
-                initial={{ scaleY: 0 }}
-                animate={bgInView ? { scaleY: 1 } : {}}
-                transition={{ duration: 1.2, delay: 0.3 }}
-                className="absolute left-[3.5rem] top-0 bottom-0 w-px hidden lg:block"
-                style={{ background: "rgba(201,168,76,0.35)", transformOrigin: "top" }}
-              />
-
-              <div className="space-y-0">
-                {t.about.background.filter((m) => m.period !== "2019").map((m, i) => (
-                  <motion.div
-                    key={m.period}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={bgInView ? { opacity: 1, x: 0 } : {}}
-                    transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
-                    className="group grid lg:grid-cols-[4rem_2rem_1fr] gap-0 lg:gap-6 items-start py-8 border-b"
-                    style={{ borderColor: "rgba(255,255,255,0.08)" }}
-                  >
-                    {/* Period */}
-                    <div
-                      className="font-serif font-light text-2xl mb-2 lg:mb-0 text-right pr-0 lg:pr-4 pt-1"
-                      style={{ color: "#C9A84C" }}
-                    >
-                      {m.period}
-                    </div>
-
-                    {/* Dot */}
-                    <div className="hidden lg:flex items-start justify-center pt-2.5">
-                      <div
-                        className="w-3 h-3 rounded-full border-2 transition-all duration-300 group-hover:scale-125"
-                        style={{ borderColor: "#C9A84C", background: "#111111" }}
-                      />
-                    </div>
-
-                    {/* Content */}
-                    <div className="pt-0.5">
-                      <h3 className="font-serif font-light text-xl mb-2" style={{ color: "white" }}>
-                        {m.title}
-                      </h3>
-                      <p
-                        className="font-light text-sm leading-relaxed"
-                        style={{ color: "rgba(242,241,239,0.6)" }}
-                      >
-                        {m.subtitle}
-                      </p>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Contact CTA */}
         <section className="py-20 text-center" style={{ background: "#F2F1EF" }}>
