@@ -127,14 +127,14 @@ function AboutPage() {
                 {locale === "lt" ? "Video" : "In Her Own Words"}
               </span>
             </div>
-            <div className="relative w-full overflow-hidden" style={{ background: "#111111" }}>
-              <video
-                src="/videos/horizontal.mp4"
-                controls
-                playsInline
-                preload="metadata"
-                className="w-full block"
-                style={{ maxHeight: "70vh", objectFit: "contain" }}
+            <div className="relative w-full overflow-hidden" style={{ background: "#111111", paddingBottom: "56.25%", height: 0 }}>
+              <iframe
+                src="https://www.youtube.com/embed/i-N-PBBlwMI"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+                style={{ border: 0 }}
               />
             </div>
           </div>
