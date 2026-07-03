@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import PracticeSection from "@/components/PracticeSection";
 import Certifications from "@/components/Certifications";
-
+import CareerTimeline from "@/components/CareerTimeline";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
