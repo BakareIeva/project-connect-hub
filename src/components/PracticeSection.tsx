@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, Globe, Scale, Gavel } from "lucide-react";
+import { ArrowRight, Globe, Scale, Gavel, BookOpen, Landmark, Shield } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
