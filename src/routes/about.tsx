@@ -59,7 +59,7 @@ function AboutPage() {
         </section>
 
         {/* Video */}
-        <section className="py-16 lg:py-24" style={{ background: "#F2F1EF" }}>
+        <section className="pt-16 lg:pt-24 pb-6 lg:pb-8" style={{ background: "#F2F1EF" }}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
