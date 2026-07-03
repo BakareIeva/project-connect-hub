@@ -95,10 +95,16 @@ export default function Hero() {
             className="pb-2"
           >
             <p
-              className="font-serif italic font-light text-lg mb-5"
+              className="font-serif italic font-light text-lg mb-2"
               style={{ color: "rgba(255,255,255,0.55)" }}
             >
               Immigration Lawyer · Vilnius
+            </p>
+            <p
+              className="text-[10px] font-medium tracking-[0.25em] uppercase mb-5"
+              style={{ color: "rgba(201,168,76,0.75)" }}
+            >
+              Individual Activity — XXXXX
             </p>
             <p
               className="text-sm font-light leading-relaxed mb-8"

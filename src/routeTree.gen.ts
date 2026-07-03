@@ -12,7 +12,6 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as VlogRouteImport } from './routes/vlog'
 import { Route as PracticeRouteImport } from './routes/practice'
 import { Route as MediaRouteImport } from './routes/media'
-import { Route as CasesRouteImport } from './routes/cases'
 import { Route as BookRouteImport } from './routes/book'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -32,11 +31,6 @@ const PracticeRoute = PracticeRouteImport.update({
 const MediaRoute = MediaRouteImport.update({
   id: '/media',
   path: '/media',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CasesRoute = CasesRouteImport.update({
-  id: '/cases',
-  path: '/cases',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BookRoute = BookRouteImport.update({
@@ -69,7 +63,6 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/book': typeof BookRoute
-  '/cases': typeof CasesRoute
   '/media': typeof MediaRoute
   '/practice': typeof PracticeRoute
   '/vlog': typeof VlogRoute
@@ -80,7 +73,6 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/book': typeof BookRoute
-  '/cases': typeof CasesRoute
   '/media': typeof MediaRoute
   '/practice': typeof PracticeRoute
   '/vlog': typeof VlogRoute
@@ -92,7 +84,6 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/book': typeof BookRoute
-  '/cases': typeof CasesRoute
   '/media': typeof MediaRoute
   '/practice': typeof PracticeRoute
   '/vlog': typeof VlogRoute
@@ -105,7 +96,6 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/book'
-    | '/cases'
     | '/media'
     | '/practice'
     | '/vlog'
@@ -116,7 +106,6 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/book'
-    | '/cases'
     | '/media'
     | '/practice'
     | '/vlog'
@@ -127,7 +116,6 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/book'
-    | '/cases'
     | '/media'
     | '/practice'
     | '/vlog'
@@ -139,7 +127,6 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   BookRoute: typeof BookRoute
-  CasesRoute: typeof CasesRoute
   MediaRoute: typeof MediaRoute
   PracticeRoute: typeof PracticeRoute
   VlogRoute: typeof VlogRoute
@@ -168,13 +155,6 @@ declare module '@tanstack/react-router' {
       path: '/media'
       fullPath: '/media'
       preLoaderRoute: typeof MediaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/cases': {
-      id: '/cases'
-      path: '/cases'
-      fullPath: '/cases'
-      preLoaderRoute: typeof CasesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/book': {
@@ -219,7 +199,6 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   BookRoute: BookRoute,
-  CasesRoute: CasesRoute,
   MediaRoute: MediaRoute,
   PracticeRoute: PracticeRoute,
   VlogRoute: VlogRoute,
