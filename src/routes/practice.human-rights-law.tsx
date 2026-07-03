@@ -10,28 +10,36 @@ const COLOR = "#B87A6B";
 
 const sections = [
   {
-    heading: "What human rights law actually covers",
-    ltHeading: "Ką iš tiesų apima žmogaus teisių teisė",
+    heading: "What Human Rights Law Is",
+    ltHeading: "Kas yra žmogaus teisių teisė",
     body:
-      "Human rights law in immigration work centres on the European Convention on Human Rights (ECHR) and the Charter of Fundamental Rights of the European Union. It protects against arbitrary detention, guarantees fair procedure, and — most frequently in my cases — safeguards the right to family life and private life against disproportionate state interference.",
+      "Human rights law protects the fundamental rights and freedoms of every individual. In Europe, these rights are principally safeguarded by the European Convention on Human Rights (ECHR), interpreted by the European Court of Human Rights (ECtHR), and by the Charter of Fundamental Rights of the European Union, where European Union law applies. Together, they provide an important legal framework for protecting dignity, equality, private and family life, fair procedures, and effective legal protection.",
     ltBody:
-      "Žmogaus teisių teisė imigracijos srityje sutelkta į Europos žmogaus teisių konvenciją (EŽTK) ir Europos Sąjungos pagrindinių teisių chartiją. Ji saugo nuo savavališko sulaikymo, garantuoja teisingą procesą ir — dažniausiai mano bylose — saugo teisę į šeimos ir privataus gyvenimą nuo neproporcingo valstybės kišimosi.",
+      "Žmogaus teisių teisė saugo kiekvieno asmens pagrindines teises ir laisves. Europoje šios teisių yra saugomos Europos žmogaus teisių konvencijos (EŽTK), kurią aiškina Europos žmogaus teisių teismas (EŽTT), bei Europos Sąjungos pagrindinių teisių chartijos, kai taikytina Europos Sąjungos teisė. Kartu jos sudaro svarbų teisinį pagrindą, saugantį orumą, lygybę, privataus ir šeimos gyvenimo teisę, teisingą procesą ir veiksmingą teisinę gynybą.",
   },
   {
-    heading: "In plain terms",
+    heading: "In Plain Terms",
     ltHeading: "Paprasta kalba",
     body:
-      "When the state wants to deport someone, refuse family reunification, or revoke residence, human rights law asks whether the interference is proportionate. Do the reasons given outweigh the harm to family life? Is there a less restrictive alternative? These questions are not optional extras — they are binding legal tests that Lithuanian courts and the European Court of Human Rights apply in every relevant case.",
+      "Human rights law ensures that public authorities respect fundamental rights whenever they make decisions affecting individuals. Whether a case concerns immigration, family life, detention, discrimination, or another area of public law, authorities must act lawfully, fairly, and proportionately, while balancing the interests of the individual with the legitimate interests of the State.",
     ltBody:
-      "Kai valstybė nori ką nors išsiųsti, atsisakyti šeimos susijungimo ar panaikinti leidimą gyventi, žmogaus teisių teisė klausia, ar kišimasis proporcingas. Ar pateiktos priežastys nusveria žalą šeimos gyvenimui? Ar yra mažiau ribojanti alternatyva? Šie klausimai nėra papildomi — tai privalomi teisiniai testai, kuriuos Lietuvos teismai ir Europos žmogaus teisių teismas taiko kiekvienoje aktualioje byloje.",
+      "Žmogaus teisių teisė užtikrina, kad viešosios institucijos gerbtų pagrindines teises, priimdamos sprendimus, kurie veikia asmenis. Nesvarbu, ar byla susijusi su imigracija, šeimos gyvenimu, sulaikymu, diskriminacija, ar kita viešosios teisės sritimi, institucijos privalo veikti teisėtai, teisingai ir proporcingai, sverdamos asmens interesus su valstybės teisėtais interesais.",
   },
   {
-    heading: "The core human-rights arguments I develop",
-    ltHeading: "Pagrindiniai žmogaus teisių argumentai, kuriuos vystau",
+    heading: "Why It Matters",
+    ltHeading: "Kodėl tai svarbu",
     body:
-      "Article 8 ECHR claims protecting family and private life, non-refoulement arguments against removal to unsafe countries, procedural fairness challenges under Article 6, and proportionality assessments that weigh state interests against individual rights. Each argument is anchored in the specific facts of the client’s situation and supported by documentary and expert evidence.",
+      "Human rights law plays a significant role in immigration and administrative law. Lithuanian courts, together with the European Court of Human Rights and the Court of Justice of the European Union where relevant, regularly assess whether public authorities have respected fundamental rights when making administrative decisions. As a result, human rights principles continue to influence judicial practice, administrative decision-making, and the development of national legislation.",
     ltBody:
-      "EŽTK 8 straipsnio reikalavimai, saugantys šeimos ir privataus gyvenimo teisę, negrąžinimo argumentai prieš išsiuntimą į nesaugią šalį, procedūrinio teisingumo pažeidimai pagal 6 straipsnį ir proporcingumo vertinimai, sveriantys valstybės interesus prieš asmens teises. Kiekvienas argumentas yra paremtas konkrečiomis kliento situacijos aplinkybėmis ir dokumentiniais ar ekspertiniais įrodymais.",
+      "Žmogaus teisių teisė atlieka svarbų vaidmenį imigracijos ir administracinėje teisėje. Lietuvos teismai, kartu su Europos žmogaus teisių teismu ir Europos Sąjungos Teisingumo Teismu, kai aktualu, reguliariai vertina, ar viešosios institucijos, priimdamos administracinius sprendimus, gerbė pagrindines teises. Dėl to žmogaus teisių principai ir toliau daro įtaką teismų praktikai, administraciniam sprendimų priėimui ir nacionalinės teisės raidai.",
+  },
+  {
+    heading: "Professional Focus",
+    ltHeading: "Profesinis dėmesys",
+    body:
+      "My professional interest focuses on the practical application of human rights principles within immigration and administrative law, with particular attention to the jurisprudence of the European Court of Human Rights (ECtHR) and its interaction with Lithuanian and European Union law. Through this website, I share recent court practice and legal insights that explain how these principles are interpreted and applied in practice.",
+    ltBody:
+      "Mano profesinis dėmesys sutelktas į žmogaus teisių principų taikymą praktikoje imigracijos ir administracinėje teisėje, ypač į Europos žmogaus teisių teismo (EŽTT) jurisprudenciją ir jos sąveiką su Lietuvos ir Europos Sąjungos teise. Per šią svetainę dalinuosi naujausia teismų praktika ir teisinėmis įžvalgomis, paaiškinančiomis, kaip šie principai aiškinami ir taikomi praktikoje.",
   },
 ];
 
