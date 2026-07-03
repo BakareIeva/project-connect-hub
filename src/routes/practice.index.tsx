@@ -39,9 +39,9 @@ const areas = [
     title: "European Union Law",
     ltTitle: "Europos Sąjungos teisė",
     summary:
-      "Free movement, family reunification under EU directives, EU Blue Cards, and when EU law overrides national rules.",
+      "European Union law and the legal principles influencing immigration, residence rights, free movement, and cross-border legal protection.",
     ltSummary:
-      "Laisvas judėjimas, šeimos susijungimas pagal ES direktyvas, ES mėlynoji kortelė ir kai ES teisė nusveria nacionalinius aktus.",
+      "Europos Sąjungos teisė ir teisiniai principai, darantys įtaką imigracijai, gyvenimo teisėms, laisvam judėjimui ir tarptautinei teisinei apsaugai.",
   },
   {
     to: "/practice/human-rights-law",
