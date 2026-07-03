@@ -10,28 +10,36 @@ const COLOR = "#7A8BB8";
 
 const sections = [
   {
-    heading: "What European Union law actually covers",
-    ltHeading: "Ką iš tiesų apima Europos Sąjungos teisė",
+    heading: "What European Union Law Is",
+    ltHeading: "Kas yra Europos Sąjungos teisė",
     body:
-      "EU law governs the rights of citizens and residents across the Union, including free movement, family reunification under the Citizens’ Rights Directive, EU Blue Card conditions, and the primacy of EU legislation over conflicting national rules. In immigration cases it is often the decisive layer: a Lithuanian regulation that contradicts an EU directive can be challenged directly.",
+      "European Union law forms a legal framework that applies across all Member States and influences many areas of national law, including immigration, free movement, residence rights, family reunification, employment, and non-discrimination. Through the EU Treaties, Regulations, Directives, and the case law of the Court of Justice of the European Union (CJEU), it establishes common legal standards that Member States are required to respect and implement.",
     ltBody:
-      "ES teisė reguliuoja piliečių ir gyventojų teises visoje Sąjungoje, įskaitant laisvą judėjimą, šeimos susijungimą pagal Piliečių teisių direktyvą, ES mėlynosios kortelės sąlygas ir ES teisės aktų viršenybę prieš prieštaraujančius nacionalinius teisės aktus. Imigracijos bylose tai dažnai lemiamas sluoksnis: Lietuvos reglamentą, prieštaraujantį ES direktyvai, galima ginčyti tiesiogiai.",
+      "Europos Sąjungos teisė sudaro teisinę struktūrą, taikomą visose valstybėse narėse ir darančią įtaką daugeliui nacionalinės teisės sričių, įskaitant imigraciją, laisvą judėjimą, teisę gyventi, šeimos susijungimą, užimtumą ir nediskriminavimą. Per ES sutartis, reglamentus, direktyvas ir Europos Sąjungos Teisingumo Teismo (CJEU) teismų praktiką ji nustato bendras teisines normas, kurių valstybės narės privalo laikytis ir įgyvendinti.",
   },
   {
-    heading: "In plain terms",
+    heading: "In Plain Terms",
     ltHeading: "Paprasta kalba",
     body:
-      "If you are an EU citizen moving to Lithuania, or a non-EU family member of an EU citizen, EU law often gives you stronger rights than Lithuanian national law alone. It can override stricter domestic requirements, shorten waiting periods, and widen the list of family members who qualify for residence. Knowing when EU law applies — and how to argue it before a national court — changes outcomes.",
+      "European Union law provides important rights and protections for EU citizens and, in many situations, their family members. It also influences the rights of certain non-EU nationals, particularly in areas such as residence, employment, family reunification, and long-term mobility within the European Union. Where European Union law applies, it plays an important role in shaping how national legislation is interpreted and implemented.",
     ltBody:
-      "Jei esate ES pilietis, atvykstantis į Lietuvą, ar ne ES šeimos narys ES piliečio, ES teisė dažnai suteikia daugiau teisių nei vien Lietuvos nacionalinė teisė. Ji gali panaikinti griežtesnius nacionalinius reikalavimus, sutrumpinti laukimo laiką ir praplėsti šeimos narių, turinčių teisę į leidimą gyventi, sąrašą. Žinoti, kada taikoma ES teisė ir kaip ją argumentuoti nacionaliniame teisme, keičia rezultatus.",
+      "Europos Sąjungos teisė suteikia svarbias teises ir apsaugą ES piliečiams ir, daugybėje situacijų, jų šeimos nariams. Ji taip pat daro įtaką tam tikrų ne ES piliečių teisėms, ypač tokiose srityse kaip gyvenimas, užimtumas, šeimos susijungimas ir ilgalaikis judumas Europos Sąjungoje. Kur taikoma Europos Sąjungos teisė, ji atlieka svarbų vaidmenį formuojant, kaip nacionalinė teisė aktai aiškinami ir įgyvendinami.",
   },
   {
-    heading: "Why it matters for immigration cases",
-    ltHeading: "Kodėl tai svarbu imigracijos bylose",
+    heading: "Why It Matters",
+    ltHeading: "Kodėl tai svarbu",
     body:
-      "Many refusal decisions by the Migration Department rely on purely domestic criteria that EU law has superseded. Family reunification for EU citizens, derived rights of residence for non-EU carers, and the right of permanent residence after five years all have direct EU anchors. A case framed under EU law can be referred to the Court of Justice of the European Union for a preliminary ruling when national courts need interpretive guidance.",
+      "European Union law is a significant part of immigration and administrative law in Lithuania. National authorities and courts are required to apply European Union legislation consistently with the principles established by the Court of Justice of the European Union. As a result, European Union law continues to influence the development of national legislation, administrative decision-making, and judicial practice, helping to ensure the consistent protection of rights across the European Union.",
     ltBody:
-      "Daugelis Migracijos departamento atsisakymų remiasi vien nacionaliniais kriterijais, kuriuos ES teisė pakeitė. ES piliečių šeimos susijungimas, ne ES prižiūrėtojų išvestinės gyvenimo teisės ir teisė į nuolatinę gyvenamąją vietą po penkerių metų turi tiesioginius ES pagrindus. Byla, suformuluota pagal ES teisę, gali būti perduota Europos Sąjungos Teisingumo Teismui prejudiciniam sprendimui priimti, kai nacionaliniams teismams reikia aiškinimo.",
+      "Europos Sąjungos teisė yra svarbi imigracijos ir administracinės teisės dalis Lietuvoje. Nacionalinės institucijos ir teismai privalo taikyti Europos Sąjungos teisės aktus nuosekliai su Europos Sąjungos Teisingumo Teismo nustatytomis taisyklėmis. Todėl Europos Sąjungos teisė ir toliau daro įtaką nacionalinės teisės aktų raidai, administraciniam sprendimų priėmimui ir teismų praktikai, padedant užtikrinti nuoseklią teisių apsaugą visoje Europos Sąjungoje.",
+  },
+  {
+    heading: "Professional Focus",
+    ltHeading: "Profesinis fokusas",
+    body:
+      "My professional interest includes the practical application of European Union law within immigration and administrative matters, with particular attention to the jurisprudence of the Court of Justice of the European Union and its influence on Lithuanian administrative practice and judicial decision-making.",
+    ltBody:
+      "Mano profesinis susidomėjimas apima Europos Sąjungos teisės taikymą praktikoje imigracijos ir administracinių klausimais, ypač Europos Sąjungos Teisingumo Teismo teismų praktikai ir jos įtakai Lietuvos administracinei praktikai ir teismų sprendimų priėmimui.",
   },
 ];
 
@@ -115,7 +123,7 @@ export const Route = createFileRoute("/practice/eu-law")({
       {
         property: "og:description",
         content:
-          "How EU law governs immigration rights in Lithuania and when it overrides stricter domestic requirements.",
+          "European Union law and the legal principles influencing immigration, residence rights, free movement, and cross-border legal protection.",
       },
     ],
   }),
