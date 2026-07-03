@@ -66,7 +66,7 @@ const areas = [
     title: "Inside the Courtroom",
     ltTitle: "Kaip mąsto teismas",
     blurb:
-      "What actually persuades Lithuanian administrative judges — procedure, proportionality, and the deadlines that decide cases.",
+      "A closer look at how Lithuanian administrative courts interpret the law, assess evidence, and apply the legal principles behind judicial decisions.",
     ltBlurb:
       "Kas iš tiesų įtikina Lietuvos administracinius teisėjus — procedūra, proporcingumas ir terminai, lemiantys bylas.",
   },
