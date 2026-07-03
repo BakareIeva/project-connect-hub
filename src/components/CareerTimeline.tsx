@@ -45,7 +45,7 @@ export default function CareerTimeline() {
             initial={{ scaleY: 0 }}
             animate={inView ? { scaleY: 1 } : {}}
             transition={{ duration: 1.2, delay: 0.3 }}
-            className="absolute left-[3.5rem] top-0 bottom-0 w-px hidden lg:block"
+            className="absolute left-[6.5rem] top-0 bottom-0 w-px hidden lg:block"
             style={{ background: "rgba(201,168,76,0.35)", transformOrigin: "top" }}
           />
 
@@ -56,7 +56,7 @@ export default function CareerTimeline() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
-                className="group grid lg:grid-cols-[4rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
+                className="group grid lg:grid-cols-[7rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
                 style={{ borderColor: "rgba(255,255,255,0.08)" }}
               >
                 {/* Year */}
