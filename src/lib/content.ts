@@ -450,14 +450,6 @@ export const videos: Video[] = [
 
 export const certifications: Certification[] = [
   {
-    title: "Master of Laws (LL.M.)",
-    issuer: "Vytautas Magnus University, Lithuania",
-    year: "2019",
-    description:
-      "Advanced legal studies with focus on international and European law frameworks.",
-    type: "degree",
-  },
-  {
     title: "Certificate in EU Immigration and Asylum Law",
     issuer: "European Law Academy (ERA), Trier",
     year: "2017",
