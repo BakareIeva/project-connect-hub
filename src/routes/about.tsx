@@ -14,8 +14,6 @@ function AboutPage() {
   const headerInView = useInView(headerRef, { once: true });
   const bioRef = useRef(null);
   const bioInView = useInView(bioRef, { once: true, margin: "-80px" });
-  const bgRef = useRef(null);
-  const bgInView = useInView(bgRef, { once: true, margin: "-80px" });
 
   return (
     <>
