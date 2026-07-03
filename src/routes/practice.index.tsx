@@ -27,9 +27,9 @@ const areas = [
     title: "Administrative Law",
     ltTitle: "Administracinė teisė",
     summary:
-      "The framework governing how public institutions decide, and how those decisions can be challenged — the backbone of every Migration Department ruling.",
+      "The legal principles that shape administrative decision-making and judicial review of public authorities in Lithuania.",
     ltSummary:
-      "Sistema, reguliuojanti valstybės institucijų sprendimus ir jų ginčijimą — kiekvieno Migracijos departamento sprendimo pagrindas.",
+      "Teisiniai principai, formuojantys administracinį sprendimų priėmimą ir valstybės institucijų sprendimų teisinę peržiūrą Lietuvoje.",
   },
   {
     to: "/practice/eu-law",
