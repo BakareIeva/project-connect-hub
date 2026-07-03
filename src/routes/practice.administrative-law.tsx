@@ -10,28 +10,28 @@ const COLOR = "#9A8BB5";
 
 const sections = [
   {
-    heading: "What administrative law actually is",
-    ltHeading: "Kas iš tiesų yra administracinė teisė",
+    heading: "What Administrative Law Is",
+    ltHeading: "Kas yra administracinė teisė",
     body:
-      "Administrative law governs the relationship between the individual and the state — how public institutions make decisions, and how those decisions can be challenged. In immigration matters it is the framework behind every Migration Department ruling, every refusal, and every appeal that follows.",
+      "Administrative law regulates the relationship between individuals and public authorities. It establishes the legal principles governing how administrative decisions are made, how public powers are exercised, and how those decisions may be reviewed by the courts. In Lithuania, it plays a central role in ensuring that public authorities act lawfully, fairly, and within the limits of their legal powers.",
     ltBody:
-      "Administracinė teisė reguliuoja asmens ir valstybės santykius — kaip institucijos priima sprendimus ir kaip juos galima ginčyti. Imigracijos bylose tai yra kiekvieno Migracijos departamento sprendimo, atsisakymo ir skundo pagrindas.",
+      "Administracinė teisė reguliuoja asmenų ir valstybės institucijų santykius. Ji nustato teisinius principus, reglamentuojančius administracinių sprendimų priėmimą, valstybės galių vykdymą ir šių sprendimų teisinę peržiūrą teismuose. Lietuvoje ji atlieka svarbų vaidmenį užtikrinant, kad valstybės institucijos veiktų teisėtai, sąžiningai ir savo įstatymų suteiktų galių ribose.",
   },
   {
-    heading: "In plain terms",
+    heading: "In Plain Terms",
     ltHeading: "Paprasta kalba",
     body:
-      "When a state institution — the Migration Department, a ministry, a municipality — issues a decision that affects you (a refusal, a fine, a deportation order), administrative law is what you use to challenge it. It defines the deadlines, the correct court, the standard of review, and what evidence the court will actually weigh.",
+      "Whenever a public authority makes a decision that affects an individual, whether involving immigration, taxation, social benefits, licensing, or other administrative matters, administrative law provides the legal framework for assessing whether that decision was made in accordance with the law, proper procedure, and the principles of good public administration.",
     ltBody:
-      "Kai valstybės institucija — Migracijos departamentas, ministerija, savivaldybė — priima jums nepalankų sprendimą (atsisakymą, baudą, sprendimą išsiųsti), administracinė teisė nurodo, kaip jį ginčyti. Ji nustato terminus, kompetentingą teismą, peržiūros standartą ir svarbius įrodymus.",
+      "Kai viešoji valdžia priima sprendimą, turintį įtakos asmeniui — nesvarbu, ar tai imigracija, apmokestinimas, socialinės išmokos, licencijavimas ar kiti administraciniai klausimai, — administracinė teisė suteikia teisinį pagrindą vertinti, ar tas sprendimas buvo priimtas laikantis įstatymo, tinkamos tvarkos ir gerųjų viešojo administravimo principų.",
   },
   {
-    heading: "Why it matters for immigration cases",
-    ltHeading: "Kodėl tai svarbu imigracijos bylose",
+    heading: "Why It Matters",
+    ltHeading: "Kodėl tai svarbu",
     body:
-      "Almost every immigration dispute in Lithuania is, technically, an administrative dispute. Winning turns on administrative-law fundamentals: filing the right complaint in the right forum within the statutory window, framing the argument around a specific legal provision, and knowing which procedural errors by the authority are actually reviewable.",
+      "Administrative law is fundamental to judicial review in Lithuania. It ensures that public authorities exercise their powers lawfully, respect procedural safeguards, and properly justify their decisions. Through administrative court proceedings, individuals may challenge decisions that are alleged to be unlawful, disproportionate, or procedurally defective. Understanding these legal principles is essential to appreciating how administrative courts review the actions of public authorities in practice.",
     ltBody:
-      "Beveik kiekvienas imigracijos ginčas Lietuvoje techniškai yra administracinis. Laimėjimas priklauso nuo administracinės teisės pagrindų: tinkamas skundas tinkamai institucijai per įstatyminį terminą, argumentas, pagrįstas konkrečia norma, ir žinojimas, kurios institucijos procedūrinės klaidos iš tiesų yra peržiūrimos.",
+      "Administracinė teisė yra esminė teisinei peržiūrai Lietuvoje. Ji užtikrina, kad viešoji valdžia naudotų savo galias teisėtai, gerbtų procedūrinias garantijas ir tinkamai pagrįstų savo sprendimus. Per administracinio teismo procesą asmenys gali ginčyti sprendimus, kurie tariamai yra neteisėti, neproporcingi ar procedūriškai trūkūstami. Šių teisinių principų supratimas yra būtinas norint įvertinti, kaip administraciniai teismai praktikoje peržiūri valstybės institucijų veiksmus.",
   },
 ];
 
@@ -109,7 +109,7 @@ export const Route = createFileRoute("/practice/administrative-law")({
       {
         name: "description",
         content:
-          "Administrative law in Lithuania: how public-institution decisions are made, and how they can be challenged — the framework behind every immigration appeal.",
+          "Administrative law regulates the relationship between individuals and public authorities. It establishes the legal principles governing how administrative decisions are made, how public powers are exercised, and how those decisions may be reviewed by the courts. In Lithuania, it plays a central role in ensuring that public authorities act lawfully, fairly, and within the limits of their legal powers.",
       },
       { property: "og:title", content: "Administrative Law — Ieva Bakare" },
       {
