@@ -108,7 +108,7 @@ export default function Hero() {
             </p>
             <p
               className="text-sm font-light leading-relaxed mb-8"
-              style={{ color: "rgba(255,255,255,0.45)" }}
+              style={{ color: "rgba(255,255,255,0.45)", whiteSpace: "pre-line" }}
             >
               {t.hero.subtext}
             </p>

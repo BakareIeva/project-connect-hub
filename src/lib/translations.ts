@@ -19,7 +19,7 @@ export const translations = {
       heading2: "Lithuania",
       heading3: "Starts With the Right Guide.",
       subtext:
-        "Immigration legal counsel for individuals, families, and professionals navigating EU residency — based in Vilnius, serving Europe.",
+        "Immigration Law · Administrative Law · European Union Law\n\nDrawing on professional experience within Lithuania's immigration and judicial system to share recent court practice, legal insights, and developments in immigration, administrative, European Union, and human rights law.",
       ctaPrimary: "Get in Touch",
       ctaSecondary: "About Me",
       trustCountries: "Trusted by clients from 30+ countries",
