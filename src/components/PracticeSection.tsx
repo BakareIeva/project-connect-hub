@@ -69,15 +69,15 @@ export default function PracticeSection() {
             </div>
             <h2 className="font-serif font-light text-[#111111]" style={{ fontSize: "clamp(2.2rem, 5vw, 3.2rem)" }}>
               {locale === "lt"
-                ? "Dvi teisės sritys —\nviena perspektyva"
-                : "Two Areas of Law —\nOne Court-Side View"}
+                ? "Penkios teisės sritys —\nviena perspektyva"
+                : "Five Areas of Law —\nOne Court-Side View"}
             </h2>
           </div>
           <div className="flex flex-col gap-4">
             <p className="text-[#6B6B6B] font-light leading-relaxed">
               {locale === "lt"
-                ? "Trys atskiri puslapiai. Kiekvienas — savarankiška apžvalga: imigracijos teisė, administracinė teisė ir kaip mąsto teismas."
-                : "Three dedicated pages. Each a standalone read: immigration law, administrative law, and how the court thinks."}
+                ? "Šeši atskiri puslapiai. Kiekvienas — savarankiška apžvalga: teismo praktika, imigracijos teisė, administracinė teisė, Europos Sąjungos teisė, žmogaus teisių teisė ir kaip mąsto teismas."
+                : "Six dedicated pages. Each a standalone read: court practice, immigration law, administrative law, European Union law, human rights law, and how the court thinks."}
             </p>
           </div>
         </motion.div>
