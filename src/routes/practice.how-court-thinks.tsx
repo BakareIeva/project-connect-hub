@@ -10,42 +10,42 @@ const COLOR = "#C9A84C";
 
 const principles = [
   {
-    heading: "The burden of proof rests with the applicant",
+    heading: "1. The Burden of Proof Matters",
     ltHeading: "Įrodinėjimo pareiga tenka pareiškėjui",
     body:
-      "Lithuanian administrative courts do not investigate on your behalf. A missing, ambiguous, or poorly translated document is your problem, not the court's. The strongest appeals arrive as a complete, well-organised file.",
+      "In administrative proceedings, the burden of establishing the relevant facts generally rests with the applicant. Courts assess cases based on the evidence presented, making clear, complete, and properly documented submissions an important part of administrative and judicial proceedings.",
     ltBody:
       "Lietuvos administraciniai teismai netiria už jus. Trūkstamas, dviprasmiškas ar prastai išverstas dokumentas — jūsų, ne teismo problema. Stipriausi skundai pateikiami kaip pilna, tvarkinga byla.",
   },
   {
-    heading: "Procedural flaws open the widest door",
+    heading: "2. Procedural Fairness Is Fundamental",
     ltHeading: "Procedūriniai pažeidimai atveria plačiausias duris",
     body:
-      "Courts are most receptive to arguments that the Migration Department made a procedural error — failed to notify, used the wrong timeline, applied the wrong regulation. \"They used the wrong income threshold\" is an easier win than \"my income is enough.\"",
+      "Administrative courts carefully examine whether public authorities have complied with procedural requirements established by law. Questions relating to procedural fairness, proper notification, applicable legal provisions, and compliance with statutory procedures frequently form an important part of judicial review.",
     ltBody:
       "Teismai palankiausiai vertina argumentus, kad Migracijos departamentas padarė procedūrinę klaidą — nepranešė, taikė netinkamą terminą ar netinkamą teisės aktą. „Jie taikė netinkamą pajamų ribą“ laimima lengviau nei „mano pajamos pakankamos“.",
   },
   {
-    heading: "Courts read the statute, not the spirit",
+    heading: "3. Judicial Review Begins with the Law",
     ltHeading: "Teismai remiasi norma, ne dvasia",
     body:
-      "Lithuanian courts are statutory. Arguments must be tied to a specific article, paragraph, and sub-paragraph. \"It was unfair\" is not a legal argument. \"Article 40(3) of the Law on the Legal Status of Aliens was incorrectly applied\" is.",
+      "Administrative courts determine disputes by applying legislation to the facts of each case. Judicial reasoning is grounded in statutory provisions, legal principles, and established case law, ensuring that administrative decisions are assessed within the framework provided by law.",
     ltBody:
       "Lietuvos teismai remiasi įstatymu. Argumentai turi būti susieti su konkrečia straipsnio, dalies ir punkto nuoroda. „Buvo neteisinga“ nėra teisinis argumentas. „Užsieniečių teisinės padėties įstatymo 40 str. 3 d. taikyta netinkamai“ — yra.",
   },
   {
-    heading: "Proportionality carries weight in family cases",
+    heading: "4. Proportionality Plays an Important Role",
     ltHeading: "Proporcingumas svarbus šeimos bylose",
     body:
-      "When deportation or family separation is at stake, EU law and the ECHR require a proportionality assessment. A technical deficiency should not outweigh the right to family life. This is often the strongest argument for long-term residents and families with minor children.",
+      "In matters involving immigration, family life, or other fundamental rights, courts frequently assess whether administrative decisions strike a fair balance between the legitimate interests of the State and the rights of the individual. The principle of proportionality is an important feature of both Lithuanian administrative law and European human rights jurisprudence.",
     ltBody:
-      "Kai svarstoma išsiuntimas ar šeimos išskyrimas, pagal ES teisę ir EŽTK privalomas proporcingumo vertinimas. Techninis trūkumas negali nusverti teisės į šeimos gyvenimą. Tai dažnai stipriausias argumentas ilgalaikiams gyventojams ir šeimoms su nepilnamečiais vaikais.",
+      "Kai svarstoma išsiuntimas ar šeimos išskyrimas, pagal ES teisę ir EŽTK privalomas proporcingumo vertinimas. Techninis trūkumas negali nusverti teisės į šeimos gyvenimą. Tai dažnai stipriausias argumentas ilgalaikiems gyventojams ir šeimoms su nepilnamečiais vaikais.",
   },
   {
-    heading: "Speed is a legal requirement",
+    heading: "5. Procedural Time Limits Matter",
     ltHeading: "Greitis yra teisinis reikalavimas",
     body:
-      "Administrative appeals must be filed within 14 calendar days of the refusal. Miss it and the administrative route closes; the administrative court then applies a 30-day window. Acting immediately is not optional — it is the entire game.",
+      "Administrative law establishes specific procedural deadlines for challenging decisions. Observing these statutory time limits is an important part of ensuring access to judicial review and the effective exercise of legal rights.",
     ltBody:
       "Administracinis skundas turi būti paduotas per 14 kalendorinių dienų nuo atsisakymo. Praleidus, administracinis kelias uždaromas; administracinis teismas taiko 30 dienų terminą. Nedelsiant veikti — ne pasirinkimas, o esmė.",
   },
