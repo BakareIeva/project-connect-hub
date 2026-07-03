@@ -23,7 +23,7 @@ export type Certification = {
   issuer: string;
   year: string;
   description: string;
-  type: "bar" | "degree" | "certificate" | "award";
+  type: "degree" | "certificate" | "award";
 };
 
 // ─── BLOG POSTS ──────────────────────────────────────────────────────────────
