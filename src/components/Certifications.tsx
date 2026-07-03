@@ -7,14 +7,12 @@ import type { Certification } from "@/lib/content";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const iconMap: Record<Certification["type"], React.ElementType> = {
-  bar: Award,
   degree: GraduationCap,
   certificate: BookOpen,
   award: Star,
 };
 
 const labelMap: Record<Certification["type"], { en: string; lt: string }> = {
-  bar: { en: "Bar Membership", lt: "Advokatūros narystė" },
   degree: { en: "Academic Degree", lt: "Akademinis laipsnis" },
   certificate: { en: "Certification", lt: "Sertifikatas" },
   award: { en: "Recognition", lt: "Pripažinimas" },

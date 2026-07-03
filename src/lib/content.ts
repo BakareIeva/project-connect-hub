@@ -23,7 +23,7 @@ export type Certification = {
   issuer: string;
   year: string;
   description: string;
-  type: "bar" | "degree" | "certificate" | "award";
+  type: "degree" | "certificate" | "award";
 };
 
 // ─── BLOG POSTS ──────────────────────────────────────────────────────────────
@@ -449,14 +449,6 @@ export const videos: Video[] = [
 // ─── CERTIFICATIONS ───────────────────────────────────────────────────────────
 
 export const certifications: Certification[] = [
-  {
-    title: "Member of the Lithuanian Bar Association",
-    issuer: "Lietuvos advokatūra",
-    year: "2015",
-    description:
-      "Full membership and practising certificate with the Lithuanian Bar Association, authorising practice as an attorney in Lithuania.",
-    type: "bar",
-  },
   {
     title: "Master of Laws (LL.M.)",
     issuer: "Vytautas Magnus University, Lithuania",
