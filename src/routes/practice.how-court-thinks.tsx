@@ -139,7 +139,7 @@ export const Route = createFileRoute("/practice/how-court-thinks")({
       {
         name: "description",
         content:
-          "What actually persuades Lithuanian administrative judges — procedural leverage, statutory reading, proportionality, and the deadlines that decide cases.",
+          "A closer look at how Lithuanian administrative courts interpret the law, assess evidence, and apply the legal principles behind judicial decisions.",
       },
       { property: "og:title", content: "Inside the Courtroom — Ieva Bakare" },
       {
