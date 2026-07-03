@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ArrowLeft, ArrowRight, Globe, Scale, Gavel, BookOpen, Landmark, Shield } from "lucide-react";
+import { ArrowLeft, ArrowRight, Globe, Scale, Gavel, Landmark, Shield } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/lib/LanguageContext";
@@ -109,8 +109,8 @@ function PracticeIndex() {
               </h1>
               <p className="text-white/55 font-light leading-relaxed max-w-xl">
                 {locale === "lt"
-                  ? "Mano darbas sutelktas į penkias glaudžiai susijusias sritis — teismo praktiką, imigracijos, administracinę, Europos Sąjungos ir žmogaus teisių teisę — ir pagrįstas dešimtmečio patirtimi Lietuvos vyriausiajame administraciniame teisme."
-                  : "My work sits across five closely connected fields — court practice, immigration, administrative, European Union, and human rights law — grounded in a decade inside the Highest Administrative Court of Lithuania."}
+                  ? "Mano darbas sutelktas į keturias glaudžiai susijusias sritis — imigracijos, administracinę, Europos Sąjungos ir žmogaus teisių teisę — ir pagrįstas dešimtmečio patirtimi Lietuvos vyriausiajame administraciniame teisme."
+                  : "My work sits across four closely connected fields — immigration, administrative, European Union, and human rights law — grounded in a decade inside the Highest Administrative Court of Lithuania."}
               </p>
             </motion.div>
           </div>
