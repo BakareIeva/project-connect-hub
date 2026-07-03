@@ -157,20 +157,7 @@ function AboutPage() {
               </div>
             </motion.div>
 
-            <div className="grid lg:grid-cols-2 gap-x-16 gap-y-8">
-              {t.about.background.map((para, i) => (
-                <motion.p
-                  key={i}
-                  initial={{ opacity: 0, y: 16 }}
-                  animate={bgInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className="text-base font-light leading-relaxed"
-                  style={{ color: "rgba(255,255,255,0.55)" }}
-                >
-                  {para}
-                </motion.p>
-              ))}
-            </div>
+            {/* Content intentionally left empty */}
           </div>
         </section>
 

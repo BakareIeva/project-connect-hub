@@ -122,38 +122,7 @@ export default function About() {
             </div>
           </motion.div>
 
-          <div className="grid lg:grid-cols-2 gap-x-16 gap-y-6">
-            {t.about.background.map((para, i) => (
-              <motion.p
-                key={i}
-                initial={{ opacity: 0, y: 16 }}
-                animate={bgInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="text-base font-light leading-relaxed"
-                style={{ color: "#6B6B6B" }}
-              >
-                {para}
-              </motion.p>
-            ))}
-          </div>
-
-          {/* Credential pills */}
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={bgInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.45 }}
-            className="flex flex-wrap gap-3 mt-10"
-          >
-            {t.about.credentials.map((cred) => (
-              <span
-                key={cred}
-                className="text-xs font-medium tracking-wide px-4 py-2 border"
-                style={{ color: "#111111", borderColor: "#E4E4E2", background: "white" }}
-              >
-                {cred}
-              </span>
-            ))}
-          </motion.div>
+          {/* Content intentionally left empty */}
         </div>
       </div>
     </section>
