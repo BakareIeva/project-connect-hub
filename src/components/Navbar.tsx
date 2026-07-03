@@ -12,7 +12,10 @@ export default function Navbar() {
   const { locale } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [practiceOpen, setPracticeOpen] = useState(false);
+  const [mobilePracticeOpen, setMobilePracticeOpen] = useState(false);
   const navigate = useNavigate();
+
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
