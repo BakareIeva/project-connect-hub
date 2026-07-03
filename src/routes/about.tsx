@@ -157,7 +157,59 @@ function AboutPage() {
               </div>
             </motion.div>
 
-            {/* Content intentionally left empty */}
+            {/* Timeline */}
+            <div className="relative">
+              {/* Vertical line */}
+              <motion.div
+                initial={{ scaleY: 0 }}
+                animate={bgInView ? { scaleY: 1 } : {}}
+                transition={{ duration: 1.2, delay: 0.3 }}
+                className="absolute left-[3.5rem] top-0 bottom-0 w-px hidden lg:block"
+                style={{ background: "rgba(201,168,76,0.35)", transformOrigin: "top" }}
+              />
+
+              <div className="space-y-0">
+                {t.about.background.map((m, i) => (
+                  <motion.div
+                    key={m.period}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={bgInView ? { opacity: 1, x: 0 } : {}}
+                    transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
+                    className="group grid lg:grid-cols-[4rem_2rem_1fr] gap-0 lg:gap-6 items-start py-8 border-b"
+                    style={{ borderColor: "rgba(255,255,255,0.08)" }}
+                  >
+                    {/* Period */}
+                    <div
+                      className="font-serif font-light text-2xl mb-2 lg:mb-0 text-right pr-0 lg:pr-4 pt-1"
+                      style={{ color: "#C9A84C" }}
+                    >
+                      {m.period}
+                    </div>
+
+                    {/* Dot */}
+                    <div className="hidden lg:flex items-start justify-center pt-2.5">
+                      <div
+                        className="w-3 h-3 rounded-full border-2 transition-all duration-300 group-hover:scale-125"
+                        style={{ borderColor: "#C9A84C", background: "#111111" }}
+                      />
+                    </div>
+
+                    {/* Content */}
+                    <div className="pt-0.5">
+                      <h3 className="font-serif font-light text-xl mb-2" style={{ color: "white" }}>
+                        {m.title}
+                      </h3>
+                      <p
+                        className="font-light text-sm leading-relaxed"
+                        style={{ color: "rgba(242,241,239,0.6)" }}
+                      >
+                        {m.subtitle}
+                      </p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
