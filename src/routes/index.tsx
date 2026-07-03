@@ -18,7 +18,6 @@ function Home() {
         <About />
         <CareerTimeline />
         <PracticeSection />
-        <BlogPreview />
         <Certifications />
         <Contact />
       </main>
