@@ -12,6 +12,7 @@ export default function Footer() {
       links: [
         { label: locale === "lt" ? "Apie mane" : "About Me", href: "/about" },
         { label: locale === "lt" ? "Bylos" : "Cases", href: "/cases" },
+        { label: locale === "lt" ? "Blogas" : "Blog", href: "/blog" },
         { label: locale === "lt" ? "Susisiekite" : "Contact", href: "/#contact" },
       ],
     },

@@ -51,6 +51,7 @@ export default function Navbar() {
   const navLinks = [
     { label: locale === "lt" ? "Apie mane" : "About Me", href: "/about" },
     { label: locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights", href: "/practice" },
+    { label: locale === "lt" ? "Blogas" : "Blog", href: "/blog" },
   ];
 
   const practiceItems = [
