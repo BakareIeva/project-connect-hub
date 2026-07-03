@@ -75,10 +75,29 @@ export const translations = {
         "Over the years, immigration law has been more than just my profession, it has been a significant part of my life. I hold a Master's degree in Law from Vytautas Magnus University in 2019 and have dedicated much of my professional career to understanding and applying immigration law in practice. I worked within the Migration Department of the Republic of Lithuania from 2022, where I gained experience both in residence permit matters and within the legal department. During that time, I was involved in the practical application of immigration legislation and represented the institution in administrative court proceedings. These experiences provided me with valuable insight into how immigration decisions are assessed, how legal procedures operate, and how administrative authorities apply immigration regulations in practice. While I am not an advocate, my professional background has allowed me to gain both legal and practical experience in immigration and administrative matters from within the public sector as well as through my continued work in the legal field. Today, I continue my professional career at the Highest Administrative Court of Lithuania. My experience within both the Migration Department and the administrative court system has provided me with valuable insight into the practical application of immigration law, administrative procedures, the knowledge of practise in the European Court of Human Rights, the Court of Justice of the European Union and human rights issues that arise in complex immigration matters.",
       backgroundHeading: "Professional Milestones",
       background: [
-        "Over the years, immigration law has been more than just my profession — it has been a significant part of my life. I hold a Master's degree in Law from Vytautas Magnus University (2019) and have dedicated much of my professional career to understanding and applying immigration law in practice.",
-        "I worked within the Migration Department of the Republic of Lithuania from 2022, where I gained experience both in residence permit matters and within the legal department. During that time, I was involved in the practical application of immigration legislation and represented the institution in administrative court proceedings.",
-        "While I am not an advocate, my professional background has allowed me to gain both legal and practical experience in immigration and administrative matters from within the public sector as well as through my continued work in the legal field.",
-        "Today, I continue my professional career at the Highest Administrative Court of Lithuania. My experience within both the Migration Department and the administrative court system has provided me with valuable insight into the practical application of immigration law, administrative procedures, the practice of the European Court of Human Rights, the Court of Justice of the European Union, and human rights issues that arise in complex immigration matters.",
+        {
+          period: "2019",
+          title: "Master of Laws (LL.M.)",
+          subtitle: "Vytautas Magnus University, Lithuania",
+        },
+        {
+          period: "2022 – 2025",
+          title: "Migration Department of the Republic of Lithuania",
+          subtitle:
+            "Residence Permit Division • Legal Department • Administrative Court Representation",
+        },
+        {
+          period: "Present",
+          title: "Supreme Administrative Court of Lithuania",
+          subtitle:
+            "Administrative Justice • Immigration Law • EU Law • Human Rights Law",
+        },
+        {
+          period: "Today",
+          title: "Court Practice & Legal Insights",
+          subtitle:
+            "Sharing judicial developments and practical legal principles in immigration, administrative, European Union, and human rights law.",
+        },
       ],
       credentials: [
         "Master of Laws (LL.M.) — Vytautas Magnus University (2019)",
@@ -321,10 +340,29 @@ export const translations = {
         "Teisė daugelį metų buvo svarbi mano gyvenimo dalis, ypač imigracijos ir administracinės teisės srityse. Ši svetainė — erdvė, kurioje galiu dalintis profesinėmis įžvalgomis, praktiniais pastebėjimais ir temomis, kurios man atrodo įdomios ir aktualios, remiantis mano patirtimi ir nuolatiniu domėjimusi šiomis sritimis.",
       backgroundHeading: "Profesiniai etapai",
       background: [
-        "Imigracijos teisė daugelį metų buvo ne tik mano profesija — ji tapo reikšminga mano gyvenimo dalimi. Esu įgijusi teisės magistro laipsnį Vytauto Didžiojo universitete (2019) ir didžiąją dalį savo profesinės karjeros skyriau imigracijos teisės supratimui ir taikymui praktikoje.",
-        "Nuo 2022 metų dirbau Lietuvos Respublikos Migracijos departamente, kur įgijau patirties tiek leidimų gyventi srityje, tiek teisės skyriuje. Tuo laikotarpiu buvau įtraukta į praktinį imigracijos teisės aktų taikymą ir atstovavau institucijai administraciniame teisme.",
-        "Nors nesu advokatė, mano profesinis išsilavinimas leido įgyti teisinę ir praktinę patirtį imigracijos ir administracinių reikalų srityse tiek viešajame sektoriuje, tiek toliau dirbant teisės srityje.",
-        "Šiandien tęsiu profesinę karjerą Lietuvos vyriausiajame administraciniame teisme. Mano patirtis Migracijos departamente ir administracinių teismų sistemoje suteikė vertingų žinių apie praktinį imigracijos teisės taikymą, administracines procedūras, Europos žmogaus teisių teismo ir Europos Sąjungos Teisingumo Teismo praktiką bei žmogaus teisių klausimus, kylančius sudėtingose imigracijos bylose.",
+        {
+          period: "2019",
+          title: "Teisės magistras (LL.M.)",
+          subtitle: "Vytauto Didžiojo universitetas, Lietuva",
+        },
+        {
+          period: "2022 – 2025",
+          title: "Lietuvos Respublikos Migracijos departamentas",
+          subtitle:
+            "Leidimų gyventi skyrius • Teisės skyrius • Administracinio teismo atstovavimas",
+        },
+        {
+          period: "Šiuo metu",
+          title: "Lietuvos vyriausiasis administracinis teismas",
+          subtitle:
+            "Administracinis teisingumas • Imigracijos teisė • ES teisė • Žmogaus teisių teisė",
+        },
+        {
+          period: "Šiandien",
+          title: "Teismo praktika ir teisinės įžvalgos",
+          subtitle:
+            "Teismų praktikos raida ir praktiniai teisiniai principai imigracijos, administracinės, Europos Sąjungos ir žmogaus teisių teisėje.",
+        },
       ],
       credentials: [
         "Teisės magistras (LL.M.) — Vytauto Didžiojo universitetas (2019)",
