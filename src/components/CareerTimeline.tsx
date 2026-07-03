@@ -5,15 +5,9 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 const milestones = [
   {
-    year: "2011",
-    title: "LLB — Vilnius University",
-    detail: "Graduated with a Bachelor of Laws, specialising in civil and administrative law.",
-    type: "education",
-  },
-  {
-    year: "2013",
-    title: "LLM — International & European Law",
-    detail: "Master's thesis on EU free movement of persons and the rights of third-country nationals.",
+    year: "2019",
+    title: "LL.M. — Vytautas Magnus University",
+    detail: "Master of Laws degree from Vytautas Magnus University, Lithuania.",
     type: "education",
   },
   {
