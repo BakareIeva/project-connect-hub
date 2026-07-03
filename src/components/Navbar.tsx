@@ -198,18 +198,63 @@ export default function Navbar() {
             <p className="text-[10px] tracking-[0.3em] uppercase mb-3" style={{ color: "rgba(201,168,76,0.5)" }}>
               Navigate
             </p>
-            {navLinks.map((link, i) => (
-              <motion.button
-                key={link.href}
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.07 + 0.1 }}
-                onClick={() => handleNav(link.href)}
-                className="w-full py-4 border-b border-white/10 text-left font-serif text-2xl font-light text-white/90 hover:text-white transition-colors"
-              >
-                {link.label}
-              </motion.button>
-            ))}
+            {navLinks.map((link, i) =>
+              link.href === "/practice" ? (
+                <motion.div
+                  key={link.href}
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.07 + 0.1 }}
+                  className="border-b border-white/10"
+                >
+                  <button
+                    onClick={() => setMobilePracticeOpen((v) => !v)}
+                    className="w-full py-4 flex items-center justify-between text-left font-serif text-2xl font-light text-white/90 hover:text-white transition-colors"
+                  >
+                    {link.label}
+                    <ChevronDown
+                      size={18}
+                      className={`transition-transform ${mobilePracticeOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  <AnimatePresence>
+                    {mobilePracticeOpen && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.25 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="pb-3 pl-3">
+                          {practiceItems.map((item) => (
+                            <button
+                              key={item.href}
+                              onClick={() => handleNav(item.href)}
+                              className="w-full py-2.5 text-left text-sm font-medium tracking-[0.15em] uppercase text-white/70 hover:text-white transition-colors"
+                            >
+                              {item.label}
+                            </button>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.div>
+              ) : (
+                <motion.button
+                  key={link.href}
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.07 + 0.1 }}
+                  onClick={() => handleNav(link.href)}
+                  className="w-full py-4 border-b border-white/10 text-left font-serif text-2xl font-light text-white/90 hover:text-white transition-colors"
+                >
+                  {link.label}
+                </motion.button>
+              )
+            )}
+
 
             <motion.button
               initial={{ opacity: 0, y: 20 }}
