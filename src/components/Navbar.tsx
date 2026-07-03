@@ -56,12 +56,24 @@ export default function Navbar() {
 
   const practiceItems = [
     {
+      label: locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights",
+      href: "/practice/court-practice",
+    },
+    {
       label: locale === "lt" ? "Imigracijos teisė" : "Immigration Law",
       href: "/practice/immigration-law",
     },
     {
       label: locale === "lt" ? "Administracinė teisė" : "Administrative Law",
       href: "/practice/administrative-law",
+    },
+    {
+      label: locale === "lt" ? "Europos Sąjungos teisė" : "European Union Law",
+      href: "/practice/eu-law",
+    },
+    {
+      label: locale === "lt" ? "Žmogaus teisių teisė" : "Human Rights Law",
+      href: "/practice/human-rights-law",
     },
     {
       label: locale === "lt" ? "Kaip mąsto teismas" : "How the Court Thinks",

@@ -1,10 +1,23 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, Globe, Scale, Gavel } from "lucide-react";
+import { ArrowRight, Globe, Scale, Gavel, BookOpen, Landmark, Shield } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
+  {
+    to: "/practice/court-practice" as const,
+    icon: BookOpen,
+    color: "#5B8A72",
+    tag: "Practice Area",
+    ltTag: "Praktikos sritis",
+    title: "Court Practice & Legal Insights",
+    ltTitle: "Teismo praktika ir teisiniai įžvalgos",
+    blurb:
+      "Litigation strategy, evidence preparation, appellate briefs, and settlement negotiation in Lithuanian administrative courts.",
+    ltBlurb:
+      "Teismo strategija, įrodymų rengimas, apeliaciniai skundai ir taikos derybos Lietuvos administraciniuose teismuose.",
+  },
   {
     to: "/practice/immigration-law" as const,
     icon: Globe,
@@ -30,6 +43,32 @@ const areas = [
       "How public institutions decide, and how those decisions are challenged — the framework behind every Migration Department ruling.",
     ltBlurb:
       "Kaip valstybės institucijos priima sprendimus ir kaip juos ginčyti — kiekvieno Migracijos departamento sprendimo pagrindas.",
+  },
+  {
+    to: "/practice/eu-law" as const,
+    icon: Landmark,
+    color: "#7A8BB8",
+    tag: "Practice Area",
+    ltTag: "Praktikos sritis",
+    title: "European Union Law",
+    ltTitle: "Europos Sąjungos teisė",
+    blurb:
+      "Free movement, family reunification under EU directives, EU Blue Cards, and when EU law overrides national rules.",
+    ltBlurb:
+      "Laisvas judėjimas, šeimos susijungimas pagal ES direktyvas, ES mėlynoji kortelė ir kai ES teisė nusveria nacionalinius aktus.",
+  },
+  {
+    to: "/practice/human-rights-law" as const,
+    icon: Shield,
+    color: "#B87A6B",
+    tag: "Practice Area",
+    ltTag: "Praktikos sritis",
+    title: "Human Rights Law",
+    ltTitle: "Žmogaus teisių teisė",
+    blurb:
+      "ECHR protection of family and private life, non-refoulement, and proportionality in deportation and refusal cases.",
+    ltBlurb:
+      "EŽTK šeimos ir privataus gyvenimo apsauga, negrąžinimas ir proporcingumas išsiuntimo ir atsisakymo bylose.",
   },
   {
     to: "/practice/how-court-thinks" as const,
@@ -69,15 +108,15 @@ export default function PracticeSection() {
             </div>
             <h2 className="font-serif font-light text-[#111111]" style={{ fontSize: "clamp(2.2rem, 5vw, 3.2rem)" }}>
               {locale === "lt"
-                ? "Dvi teisės sritys —\nviena perspektyva"
-                : "Two Areas of Law —\nOne Court-Side View"}
+                ? "Penkios teisės sritys —\nviena perspektyva"
+                : "Five Areas of Law —\nOne Court-Side View"}
             </h2>
           </div>
           <div className="flex flex-col gap-4">
             <p className="text-[#6B6B6B] font-light leading-relaxed">
               {locale === "lt"
-                ? "Trys atskiri puslapiai. Kiekvienas — savarankiška apžvalga: imigracijos teisė, administracinė teisė ir kaip mąsto teismas."
-                : "Three dedicated pages. Each a standalone read: immigration law, administrative law, and how the court thinks."}
+                ? "Šeši atskiri puslapiai. Kiekvienas — savarankiška apžvalga: teismo praktika, imigracijos teisė, administracinė teisė, Europos Sąjungos teisė, žmogaus teisių teisė ir kaip mąsto teismas."
+                : "Six dedicated pages. Each a standalone read: court practice, immigration law, administrative law, European Union law, human rights law, and how the court thinks."}
             </p>
           </div>
         </motion.div>
