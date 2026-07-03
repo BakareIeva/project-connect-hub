@@ -15,9 +15,9 @@ const areas = [
     title: "Immigration Law",
     ltTitle: "Imigracijos teisė",
     summary:
-      "How non-citizens enter, reside, work, and settle in Lithuania — D-visas, residence permits, EU Blue Cards, family reunification, and citizenship.",
+      "The legal framework governing visas, residence, family reunification, EU Blue Cards, asylum, and citizenship in Lithuania.",
     ltSummary:
-      "Kaip ne ES piliečiai atvyksta, gyvena, dirba ir apsigyvena Lietuvoje — D vizos, leidimai gyventi, ES mėlynoji kortelė, šeimos susijungimas ir pilietybė.",
+      "Teisinė sistema, reguliuojanti vizas, gyvenamąją vietą, šeimos susijungimą, ES mėlynąją kortelę, prieglobstį ir pilietybę Lietuvoje.",
   },
   {
     to: "/practice/administrative-law",
