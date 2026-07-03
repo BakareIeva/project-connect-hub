@@ -109,7 +109,7 @@ export const Route = createFileRoute("/practice/eu-law")({
       {
         name: "description",
         content:
-          "European Union law in Lithuanian immigration cases: free movement, family reunification, EU Blue Cards, and the primacy of EU legislation over national rules.",
+          "European Union law and the legal principles influencing immigration, residence rights, free movement, and cross-border legal protection.",
       },
       { property: "og:title", content: "European Union Law — Ieva Bakare" },
       {
