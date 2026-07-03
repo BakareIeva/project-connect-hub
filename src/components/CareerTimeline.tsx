@@ -56,7 +56,7 @@ export default function CareerTimeline() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
-                className="group grid lg:grid-cols-[4rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
+                className="group grid lg:grid-cols-[7rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
                 style={{ borderColor: "rgba(255,255,255,0.08)" }}
               >
                 {/* Year */}
