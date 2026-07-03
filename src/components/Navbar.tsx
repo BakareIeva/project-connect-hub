@@ -72,7 +72,7 @@ export default function Navbar() {
       href: "/practice/human-rights-law",
     },
     {
-      label: locale === "lt" ? "Kaip mąsto teismas" : "How the Court Thinks",
+      label: locale === "lt" ? "Kaip mąsto teismas" : "Inside the Courtroom",
       href: "/practice/how-court-thinks",
     },
   ];

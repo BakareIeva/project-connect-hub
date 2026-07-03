@@ -60,7 +60,7 @@ const areas = [
     icon: Gavel,
     color: "#C9A84C",
     tag: "Perspective",
-    title: "How the Court Thinks",
+    title: "Inside the Courtroom",
     ltTitle: "Kaip mąsto teismas",
     summary:
       "What actually persuades Lithuanian administrative judges — from procedural leverage to proportionality and the deadlines that decide cases.",
