@@ -458,19 +458,11 @@ export const certifications: Certification[] = [
     type: "bar",
   },
   {
-    title: "Master of Laws (LLM) — International and European Law",
-    issuer: "Vilnius University Faculty of Law",
-    year: "2013",
+    title: "Master of Laws (LL.M.)",
+    issuer: "Vytautas Magnus University, Lithuania",
+    year: "2019",
     description:
-      "Specialisation in EU free movement law, human rights, and international migration frameworks.",
-    type: "degree",
-  },
-  {
-    title: "Bachelor of Laws (LLB)",
-    issuer: "Vilnius University Faculty of Law",
-    year: "2011",
-    description:
-      "Foundation in Lithuanian civil, administrative, and constitutional law.",
+      "Advanced legal studies with focus on international and European law frameworks.",
     type: "degree",
   },
   {
