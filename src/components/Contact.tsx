@@ -1,7 +1,7 @@
 
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { MapPin, Phone, Clock, Send } from "lucide-react";
+import { MapPin, Phone, Clock, Mail, Send } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Contact() {
