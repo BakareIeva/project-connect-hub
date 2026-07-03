@@ -2,20 +2,10 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useLanguage } from "@/lib/LanguageContext";
 
-const milestones = [
-  { year: "2019" },
-  { year: "2014" },
-  { year: "2017" },
-  { year: "2018" },
-  { year: "2020" },
-  { year: "2023" },
-  { year: "2025" },
-];
-
 const yearColor = "#C9A84C";
 
 export default function CareerTimeline() {
-  const { locale } = useLanguage();
+  const { t, locale } = useLanguage();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
@@ -60,12 +50,12 @@ export default function CareerTimeline() {
           />
 
           <div className="space-y-0">
-            {milestones.map((m, i) => (
+            {t.about.background.map((m, i) => (
               <motion.div
-                key={m.year}
+                key={m.period}
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
-                transition={{ duration: 0.6, delay: 0.2 + i * 0.09 }}
+                transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
                 className="group grid lg:grid-cols-[4rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
                 style={{ borderColor: "rgba(255,255,255,0.08)" }}
               >
@@ -74,7 +64,7 @@ export default function CareerTimeline() {
                   className="font-serif font-light text-2xl mb-2 lg:mb-0 text-right pr-0 lg:pr-4 pt-1"
                   style={{ color: yearColor }}
                 >
-                  {m.year}
+                  {m.period}
                 </div>
 
                 {/* Dot */}
@@ -83,6 +73,16 @@ export default function CareerTimeline() {
                     className="w-3 h-3 rounded-full border-2 transition-all duration-300 group-hover:scale-125"
                     style={{ borderColor: yearColor, background: "#111111" }}
                   />
+                </div>
+
+                {/* Content */}
+                <div className="pt-0.5">
+                  <h3 className="font-serif font-light text-xl mb-1" style={{ color: "white" }}>
+                    {m.title}
+                  </h3>
+                  <p className="font-light text-sm leading-relaxed" style={{ color: "rgba(242,241,239,0.55)" }}>
+                    {m.subtitle}
+                  </p>
                 </div>
               </motion.div>
             ))}
