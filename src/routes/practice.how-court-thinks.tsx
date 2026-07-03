@@ -135,13 +135,13 @@ function HowCourtThinksPage() {
 export const Route = createFileRoute("/practice/how-court-thinks")({
   head: () => ({
     meta: [
-      { title: "How the Court Thinks — Ieva Bakare" },
+      { title: "Inside the Courtroom — Ieva Bakare" },
       {
         name: "description",
         content:
           "What actually persuades Lithuanian administrative judges — procedural leverage, statutory reading, proportionality, and the deadlines that decide cases.",
       },
-      { property: "og:title", content: "How the Court Thinks — Ieva Bakare" },
+      { property: "og:title", content: "Inside the Courtroom — Ieva Bakare" },
       {
         property: "og:description",
         content:
