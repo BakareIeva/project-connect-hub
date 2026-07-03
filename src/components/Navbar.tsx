@@ -56,10 +56,6 @@ export default function Navbar() {
 
   const practiceItems = [
     {
-      label: locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights",
-      href: "/practice/court-practice",
-    },
-    {
       label: locale === "lt" ? "Imigracijos teisė" : "Immigration Law",
       href: "/practice/immigration-law",
     },

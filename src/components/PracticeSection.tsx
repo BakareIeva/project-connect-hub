@@ -6,19 +6,6 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
   {
-    to: "/practice/court-practice" as const,
-    icon: BookOpen,
-    color: "#5B8A72",
-    tag: "Practice Area",
-    ltTag: "Praktikos sritis",
-    title: "Court Practice & Legal Insights",
-    ltTitle: "Teismo praktika ir teisiniai įžvalgos",
-    blurb:
-      "Litigation strategy, evidence preparation, appellate briefs, and settlement negotiation in Lithuanian administrative courts.",
-    ltBlurb:
-      "Teismo strategija, įrodymų rengimas, apeliaciniai skundai ir taikos derybos Lietuvos administraciniuose teismuose.",
-  },
-  {
     to: "/practice/immigration-law" as const,
     icon: Globe,
     color: "#6B9EB8",
