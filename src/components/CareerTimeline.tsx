@@ -45,7 +45,7 @@ export default function CareerTimeline() {
             initial={{ scaleY: 0 }}
             animate={inView ? { scaleY: 1 } : {}}
             transition={{ duration: 1.2, delay: 0.3 }}
-            className="absolute left-[3.5rem] top-0 bottom-0 w-px hidden lg:block"
+            className="absolute left-[6.5rem] top-0 bottom-0 w-px hidden lg:block"
             style={{ background: "rgba(201,168,76,0.35)", transformOrigin: "top" }}
           />
 
