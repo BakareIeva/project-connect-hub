@@ -40,8 +40,10 @@ const areas = [
       "Paprastai: kai valstybės institucija priima jums nepalankų sprendimą, administracinė teisė nustato terminus, kompetentingą teismą ir įrodymus, kurie svarbūs ginčijant sprendimą.",
   },
   {
+    id: "how-courts-think",
     icon: Gavel,
     color: "#C9A84C",
+
     tag: "Perspective",
     title: "How the Court Thinks",
     ltTitle: "Kaip mąsto teismas",
