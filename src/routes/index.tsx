@@ -5,7 +5,7 @@ import About from "@/components/About";
 import CareerTimeline from "@/components/CareerTimeline";
 import PracticeSection from "@/components/PracticeSection";
 import Certifications from "@/components/Certifications";
-import BlogPreview from "@/components/BlogPreview";
+
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
