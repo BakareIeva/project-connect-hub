@@ -6,6 +6,19 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
   {
+    to: "/practice/court-practice" as const,
+    icon: BookOpen,
+    color: "#5B8A72",
+    tag: "Practice Area",
+    ltTag: "Praktikos sritis",
+    title: "Court Practice & Legal Insights",
+    ltTitle: "Teismo praktika ir teisiniai įžvalgos",
+    blurb:
+      "Litigation strategy, evidence preparation, appellate briefs, and settlement negotiation in Lithuanian administrative courts.",
+    ltBlurb:
+      "Teismo strategija, įrodymų rengimas, apeliaciniai skundai ir taikos derybos Lietuvos administraciniuose teismuose.",
+  },
+  {
     to: "/practice/immigration-law" as const,
     icon: Globe,
     color: "#6B9EB8",
@@ -30,6 +43,32 @@ const areas = [
       "How public institutions decide, and how those decisions are challenged — the framework behind every Migration Department ruling.",
     ltBlurb:
       "Kaip valstybės institucijos priima sprendimus ir kaip juos ginčyti — kiekvieno Migracijos departamento sprendimo pagrindas.",
+  },
+  {
+    to: "/practice/eu-law" as const,
+    icon: Landmark,
+    color: "#7A8BB8",
+    tag: "Practice Area",
+    ltTag: "Praktikos sritis",
+    title: "European Union Law",
+    ltTitle: "Europos Sąjungos teisė",
+    blurb:
+      "Free movement, family reunification under EU directives, EU Blue Cards, and when EU law overrides national rules.",
+    ltBlurb:
+      "Laisvas judėjimas, šeimos susijungimas pagal ES direktyvas, ES mėlynoji kortelė ir kai ES teisė nusveria nacionalinius aktus.",
+  },
+  {
+    to: "/practice/human-rights-law" as const,
+    icon: Shield,
+    color: "#B87A6B",
+    tag: "Practice Area",
+    ltTag: "Praktikos sritis",
+    title: "Human Rights Law",
+    ltTitle: "Žmogaus teisių teisė",
+    blurb:
+      "ECHR protection of family and private life, non-refoulement, and proportionality in deportation and refusal cases.",
+    ltBlurb:
+      "EŽTK šeimos ir privataus gyvenimo apsauga, negrąžinimas ir proporcingumas išsiuntimo ir atsisakymo bylose.",
   },
   {
     to: "/practice/how-court-thinks" as const,
