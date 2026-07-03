@@ -59,7 +59,7 @@ function AboutPage() {
         </section>
 
         {/* Video */}
-        <section className="py-16 lg:py-24" style={{ background: "#F2F1EF" }}>
+        <section className="pt-16 lg:pt-24 pb-6 lg:pb-8" style={{ background: "#F2F1EF" }}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
@@ -81,7 +81,7 @@ function AboutPage() {
         </section>
 
         {/* Bio — two column */}
-        <section ref={bioRef} className="py-24 lg:py-36" style={{ background: "#F2F1EF" }}>
+        <section ref={bioRef} className="pt-8 lg:pt-10 pb-24 lg:pb-36" style={{ background: "#F2F1EF" }}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
 
