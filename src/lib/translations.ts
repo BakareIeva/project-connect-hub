@@ -194,11 +194,11 @@ export const translations = {
       ],
     },
     contact: {
-      eyebrow: "Get in Touch",
-      heading1: "Get in",
-      heading2: "Touch",
+      eyebrow: "Professional Enquiries",
+      heading1: "Professional",
+      heading2: "Enquiries",
       subtext:
-        "Have a question about immigration law in Lithuania, or want to learn more about my work? Send a message and I'll get back to you.",
+        "Thank you for visiting my website. If you would like to discuss recent court practice, legal developments, publications, or professional matters, please feel free to get in touch.",
       location: "Location",
       email: "Email",
       hours: "Hours",
@@ -460,11 +460,11 @@ export const translations = {
       ],
     },
     contact: {
-      eyebrow: "Susisiekite",
-      heading1: "Pasiruošę žengti",
-      heading2: "kitą žingsnį?",
+      eyebrow: "Profesionalūs užklausimai",
+      heading1: "Profesionalūs",
+      heading2: "Užklausimai",
       subtext:
-        "Užsiregistruokite nemokamą 30 minučių konsultaciją. Jokių įsipareigojimų — tik aiškus ir sąžiningas pokalbis apie jūsų situaciją.",
+        "Ačiū, kad apsilankėte mano svetainėje. Jei norėtumėte aptarti naujausią teismo praktiką, teisės aktų pokyčius, publikacijas ar profesinius klausimus, prašom nedvejoti ir susisiekti.",
       location: "Vieta",
       email: "El. paštas",
       hours: "Darbo laikas",
