@@ -37,7 +37,7 @@ export default function Navbar() {
 
   const navLinks = [
     { label: locale === "lt" ? "Apie mane" : "About Me", href: "/about" },
-    { label: locale === "lt" ? "Bylos" : "Cases", href: "/cases" },
+    { label: locale === "lt" ? "Praktika" : "Practice", href: "/practice" },
     { label: locale === "lt" ? "Tinklaraštis" : "Blog", href: "/blog" },
   ];
 
