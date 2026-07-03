@@ -22,6 +22,7 @@ export default function Navbar() {
 
   const handleNav = (href: string) => {
     setMenuOpen(false);
+    setPracticeOpen(false);
     if (href.startsWith("#")) {
       const el = document.querySelector(href);
       if (el) {
@@ -30,6 +31,14 @@ export default function Navbar() {
       }
       navigate({ to: "/" });
       setTimeout(() => document.querySelector(href)?.scrollIntoView({ behavior: "smooth" }), 100);
+      return;
+    }
+    const hashIdx = href.indexOf("#");
+    if (hashIdx > 0) {
+      const path = href.slice(0, hashIdx);
+      const hash = href.slice(hashIdx);
+      navigate({ to: path });
+      setTimeout(() => document.querySelector(hash)?.scrollIntoView({ behavior: "smooth" }), 150);
       return;
     }
     navigate({ to: href });
@@ -41,6 +50,22 @@ export default function Navbar() {
     { label: locale === "lt" ? "Praktika" : "Practice", href: "/practice" },
     { label: locale === "lt" ? "Tinklaraštis" : "Blog", href: "/blog" },
   ];
+
+  const practiceItems = [
+    {
+      label: locale === "lt" ? "Imigracijos teisė" : "Immigration Law",
+      href: "/practice#immigration-law",
+    },
+    {
+      label: locale === "lt" ? "Administracinė teisė" : "Administrative Law",
+      href: "/practice#administrative-law",
+    },
+    {
+      label: locale === "lt" ? "Kaip mąsto teismas" : "How the Court Thinks",
+      href: "/practice#how-courts-think",
+    },
+  ];
+
 
   return (
     <>
