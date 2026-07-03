@@ -1,64 +1,18 @@
-
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useLanguage } from "@/lib/LanguageContext";
 
 const milestones = [
-  {
-    year: "2019",
-    title: "LL.M. — Vytautas Magnus University",
-    detail: "Master of Laws degree from Vytautas Magnus University, Lithuania.",
-    type: "education",
-  },
-  {
-    year: "2014",
-    title: "Junior Associate, Migration Law",
-    detail: "First role handling residence permit applications and family reunification cases. Handled 80+ cases in the first year.",
-    type: "career",
-  },
-  {
-    year: "2017",
-    title: "ERA Certificate, Trier",
-    detail: "Completed specialist training at the European Law Academy in EU immigration and asylum law.",
-    type: "education",
-  },
-  {
-    year: "2018",
-    title: "Independent Practice — Vilnius",
-    detail: "Established independent immigration law practice. Began taking complex appeal and refusal reversal cases.",
-    type: "career",
-  },
-  {
-    year: "2020",
-    title: "Recognised Migration Law Expert",
-    detail: "Designated as an expert in migration law by the Lithuanian Bar Association's specialist committee.",
-    type: "award",
-  },
-  {
-    year: "2023",
-    title: "EU Blue Card & High-Skilled Cases",
-    detail: "Expanded practice to cover EU Blue Card applications and cross-border corporate relocation for international employers.",
-    type: "career",
-  },
-  {
-    year: "2025",
-    title: "500+ Cases Resolved",
-    detail: "Reached milestone of 500 successfully resolved immigration cases across 30+ client nationalities.",
-    type: "award",
-  },
+  { year: "2019" },
+  { year: "2014" },
+  { year: "2017" },
+  { year: "2018" },
+  { year: "2020" },
+  { year: "2023" },
+  { year: "2025" },
 ];
 
-const typeColor: Record<string, string> = {
-  education: "#6B9EB8",
-  career: "#C9A84C",
-  award: "#7AAE82",
-};
-
-const typeLabel: Record<string, { en: string; lt: string }> = {
-  education: { en: "Education", lt: "Išsilavinimas" },
-  career: { en: "Career", lt: "Karjera" },
-  award: { en: "Recognition", lt: "Pripažinimas" },
-};
+const yearColor = "#C9A84C";
 
 export default function CareerTimeline() {
   const { locale } = useLanguage();
@@ -94,23 +48,6 @@ export default function CareerTimeline() {
           </p>
         </motion.div>
 
-        {/* Legend */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ delay: 0.2 }}
-          className="flex flex-wrap gap-5 mb-14"
-        >
-          {Object.entries(typeLabel).map(([key, labels]) => (
-            <div key={key} className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full" style={{ background: typeColor[key] }} />
-              <span className="text-xs font-light tracking-widest uppercase" style={{ color: "rgba(242,241,239,0.55)" }}>
-                {labels[locale]}
-              </span>
-            </div>
-          ))}
-        </motion.div>
-
         {/* Timeline */}
         <div className="relative">
           {/* Vertical line */}
@@ -118,7 +55,7 @@ export default function CareerTimeline() {
             initial={{ scaleY: 0 }}
             animate={inView ? { scaleY: 1 } : {}}
             transition={{ duration: 1.2, delay: 0.3 }}
-            className="absolute left-[7.5rem] top-0 bottom-0 w-px hidden lg:block"
+            className="absolute left-[3.5rem] top-0 bottom-0 w-px hidden lg:block"
             style={{ background: "rgba(201,168,76,0.35)", transformOrigin: "top" }}
           />
 
@@ -129,13 +66,13 @@ export default function CareerTimeline() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.2 + i * 0.09 }}
-                className="group grid lg:grid-cols-[8rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
+                className="group grid lg:grid-cols-[4rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
                 style={{ borderColor: "rgba(255,255,255,0.08)" }}
               >
                 {/* Year */}
                 <div
                   className="font-serif font-light text-2xl mb-2 lg:mb-0 text-right pr-0 lg:pr-4 pt-1"
-                  style={{ color: typeColor[m.type] }}
+                  style={{ color: yearColor }}
                 >
                   {m.year}
                 </div>
@@ -144,24 +81,8 @@ export default function CareerTimeline() {
                 <div className="hidden lg:flex items-start justify-center pt-2.5">
                   <div
                     className="w-3 h-3 rounded-full border-2 transition-all duration-300 group-hover:scale-125"
-                    style={{ borderColor: typeColor[m.type], background: "#111111" }}
+                    style={{ borderColor: yearColor, background: "#111111" }}
                   />
-                </div>
-
-                {/* Content */}
-                <div className="pb-2">
-                  <div className="flex items-center gap-3 mb-1.5 flex-wrap">
-                    <h3 className="font-serif font-medium text-lg leading-snug" style={{ color: "#111111" }}>
-                      {m.title}
-                    </h3>
-                    <span
-                      className="text-[10px] font-medium tracking-[0.2em] uppercase px-2 py-0.5"
-                      style={{ color: typeColor[m.type], background: `${typeColor[m.type]}18` }}
-                    >
-                      {typeLabel[m.type][locale]}
-                    </span>
-                  </div>
-                  <p className="text-sm font-light leading-relaxed" style={{ color: "rgba(242,241,239,0.55)" }}>{m.detail}</p>
                 </div>
               </motion.div>
             ))}
