@@ -58,6 +58,28 @@ function AboutPage() {
           </div>
         </section>
 
+        {/* Video */}
+        <section className="py-16 lg:py-24" style={{ background: "#F2F1EF" }}>
+          <div className="max-w-7xl mx-auto px-6 lg:px-12">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
+              <span className="text-xs font-medium tracking-[0.3em] uppercase" style={{ color: "#C9A84C" }}>
+                {locale === "lt" ? "Video" : "In Her Own Words"}
+              </span>
+            </div>
+            <div className="relative w-full overflow-hidden" style={{ background: "#111111", paddingBottom: "56.25%", height: 0 }}>
+              <iframe
+                src="https://www.youtube.com/embed/i-N-PBBlwMI"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+                style={{ border: 0 }}
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Bio — two column */}
         <section ref={bioRef} className="py-24 lg:py-36" style={{ background: "#F2F1EF" }}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -114,28 +136,6 @@ function AboutPage() {
                   <div className="w-6 h-px" style={{ background: "#C9A84C" }} />
                 </div>
               </motion.div>
-            </div>
-          </div>
-        </section>
-
-        {/* Video */}
-        <section className="py-16 lg:py-24" style={{ background: "#F2F1EF" }}>
-          <div className="max-w-7xl mx-auto px-6 lg:px-12">
-            <div className="flex items-center gap-3 mb-8">
-              <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
-              <span className="text-xs font-medium tracking-[0.3em] uppercase" style={{ color: "#C9A84C" }}>
-                {locale === "lt" ? "Video" : "In Her Own Words"}
-              </span>
-            </div>
-            <div className="relative w-full overflow-hidden" style={{ background: "#111111" }}>
-              <video
-                src="/videos/horizontal.mp4"
-                controls
-                playsInline
-                preload="metadata"
-                className="w-full block"
-                style={{ maxHeight: "70vh", objectFit: "contain" }}
-              />
             </div>
           </div>
         </section>
