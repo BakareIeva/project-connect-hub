@@ -115,7 +115,7 @@ export const Route = createFileRoute("/practice/administrative-law")({
       {
         property: "og:description",
         content:
-          "The legal framework governing state decisions and their appeal — the backbone of every Migration Department ruling.",
+          "The legal principles that shape administrative decision-making and judicial review of public authorities in Lithuania.",
       },
     ],
   }),
