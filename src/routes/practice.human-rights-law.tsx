@@ -117,13 +117,13 @@ export const Route = createFileRoute("/practice/human-rights-law")({
       {
         name: "description",
         content:
-          "Human rights law in Lithuanian immigration cases: ECHR Article 8 family life, non-refoulement, procedural fairness, and proportionality assessments before national courts.",
+          "Human rights law in Lithuania: ECHR protection, fundamental rights in immigration and administrative law, and the influence of European Court of Human Rights jurisprudence on national practice.",
       },
       { property: "og:title", content: "Human Rights Law — Ieva Bakare" },
       {
         property: "og:description",
         content:
-          "Protecting family life and private life against disproportionate state interference in immigration and deportation cases.",
+          "Fundamental rights protection in immigration and public law, shaped by the ECHR and European Court of Human Rights jurisprudence.",
       },
     ],
   }),
