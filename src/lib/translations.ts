@@ -466,6 +466,7 @@ export const translations = {
       subtext:
         "Užsiregistruokite nemokamą 30 minučių konsultaciją. Jokių įsipareigojimų — tik aiškus ir sąžiningas pokalbis apie jūsų situaciją.",
       location: "Vieta",
+      email: "El. paštas",
       hours: "Darbo laikas",
       hoursValue: "Pirm.–Penkt., 9–18 val. EET",
       fields: {
