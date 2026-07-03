@@ -15,6 +15,7 @@ function Home() {
       <main>
         <Hero />
         <About />
+        <CareerTimeline />
         <PracticeSection />
         <Certifications />
         <Contact />
