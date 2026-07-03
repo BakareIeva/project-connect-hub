@@ -340,10 +340,29 @@ export const translations = {
         "Teisė daugelį metų buvo svarbi mano gyvenimo dalis, ypač imigracijos ir administracinės teisės srityse. Ši svetainė — erdvė, kurioje galiu dalintis profesinėmis įžvalgomis, praktiniais pastebėjimais ir temomis, kurios man atrodo įdomios ir aktualios, remiantis mano patirtimi ir nuolatiniu domėjimusi šiomis sritimis.",
       backgroundHeading: "Profesiniai etapai",
       background: [
-        "Imigracijos teisė daugelį metų buvo ne tik mano profesija — ji tapo reikšminga mano gyvenimo dalimi. Esu įgijusi teisės magistro laipsnį Vytauto Didžiojo universitete (2019) ir didžiąją dalį savo profesinės karjeros skyriau imigracijos teisės supratimui ir taikymui praktikoje.",
-        "Nuo 2022 metų dirbau Lietuvos Respublikos Migracijos departamente, kur įgijau patirties tiek leidimų gyventi srityje, tiek teisės skyriuje. Tuo laikotarpiu buvau įtraukta į praktinį imigracijos teisės aktų taikymą ir atstovavau institucijai administraciniame teisme.",
-        "Nors nesu advokatė, mano profesinis išsilavinimas leido įgyti teisinę ir praktinę patirtį imigracijos ir administracinių reikalų srityse tiek viešajame sektoriuje, tiek toliau dirbant teisės srityje.",
-        "Šiandien tęsiu profesinę karjerą Lietuvos vyriausiajame administraciniame teisme. Mano patirtis Migracijos departamente ir administracinių teismų sistemoje suteikė vertingų žinių apie praktinį imigracijos teisės taikymą, administracines procedūras, Europos žmogaus teisių teismo ir Europos Sąjungos Teisingumo Teismo praktiką bei žmogaus teisių klausimus, kylančius sudėtingose imigracijos bylose.",
+        {
+          period: "2019",
+          title: "Teisės magistras (LL.M.)",
+          subtitle: "Vytauto Didžiojo universitetas, Lietuva",
+        },
+        {
+          period: "2022 – 2025",
+          title: "Lietuvos Respublikos Migracijos departamentas",
+          subtitle:
+            "Leidimų gyventi skyrius • Teisės skyrius • Administracinio teismo atstovavimas",
+        },
+        {
+          period: "Šiuo metu",
+          title: "Lietuvos vyriausiasis administracinis teismas",
+          subtitle:
+            "Administracinis teisingumas • Imigracijos teisė • ES teisė • Žmogaus teisių teisė",
+        },
+        {
+          period: "Šiandien",
+          title: "Teismo praktika ir teisinės įžvalgos",
+          subtitle:
+            "Teismų praktikos raida ir praktiniai teisiniai principai imigracijos, administracinės, Europos Sąjungos ir žmogaus teisių teisėje.",
+        },
       ],
       credentials: [
         "Teisės magistras (LL.M.) — Vytauto Didžiojo universitetas (2019)",
