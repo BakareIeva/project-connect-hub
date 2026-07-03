@@ -81,7 +81,7 @@ function AboutPage() {
         </section>
 
         {/* Bio — two column */}
-        <section ref={bioRef} className="py-24 lg:py-36" style={{ background: "#F2F1EF" }}>
+        <section ref={bioRef} className="pt-8 lg:pt-10 pb-24 lg:pb-36" style={{ background: "#F2F1EF" }}>
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
 
