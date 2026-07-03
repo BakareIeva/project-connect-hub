@@ -200,6 +200,7 @@ export const translations = {
       subtext:
         "Have a question about immigration law in Lithuania, or want to learn more about my work? Send a message and I'll get back to you.",
       location: "Location",
+      email: "Email",
       hours: "Hours",
       hoursValue: "Mon–Fri, 9am–6pm EET",
       fields: {
