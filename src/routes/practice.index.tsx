@@ -106,7 +106,7 @@ function PracticeIndex() {
                     transition={{ duration: 0.6, delay: i * 0.1 }}
                   >
                     <Link
-                      to={a.to}
+                      to={a.to as "/practice/immigration-law"}
                       className="group block bg-white border p-8 h-full transition-all duration-300"
                       style={{ borderColor: "#E4E4E2" }}
                       onMouseEnter={(e) => {
@@ -137,6 +137,7 @@ function PracticeIndex() {
                   </motion.div>
                 );
               })}
+
             </div>
           </div>
         </section>
