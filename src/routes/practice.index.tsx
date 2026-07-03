@@ -51,9 +51,9 @@ const areas = [
     title: "Human Rights Law",
     ltTitle: "Žmogaus teisių teisė",
     summary:
-      "ECHR protection of family and private life, non-refoulement, and proportionality in deportation and refusal cases.",
+      "Human rights law and the fundamental rights that protect individuals in immigration, administrative, and public law matters.",
     ltSummary:
-      "EŽTK šeimos ir privataus gyvenimo apsauga, negrąžinimas ir proporcingumas išsiuntimo ir atsisakymo bylose.",
+      "Žmogaus teisių teisė ir pagrindinės teisės, saugančios asmenis imigracijos, administracinės ir viešosios teisės srityse.",
   },
   {
     to: "/practice/how-court-thinks",
