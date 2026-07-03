@@ -10,28 +10,28 @@ const COLOR = "#6B9EB8";
 
 const sections = [
   {
-    heading: "What immigration law actually covers",
-    ltHeading: "Ką iš tiesų apima imigracijos teisė",
+    heading: "Understanding Immigration Law",
+    ltHeading: "Suprasti imigracijos teisę",
     body:
-      "Immigration law governs how non-citizens enter, reside, work, and settle in Lithuania and the European Union. It sets the conditions for national D-visas, temporary and permanent residence permits, EU Blue Cards, family reunification, and the path to citizenship. Each pathway carries its own eligibility rules, documentary requirements, and statutory deadlines.",
+      "Immigration law regulates the legal status of foreign nationals in Lithuania and the European Union. It governs matters such as national visas, temporary and permanent residence permits, EU Blue Cards, family reunification, asylum, long-term residence, and citizenship. It also establishes the legal framework within which public authorities assess immigration applications and make administrative decisions.",
     ltBody:
-      "Imigracijos teisė reguliuoja ne ES piliečių atvykimą, gyvenimą, darbą ir apsigyvenimą Lietuvoje bei ES. Ji nustato nacionalinių D vizų, laikinųjų ir nuolatinių leidimų gyventi, ES mėlynosios kortelės, šeimos susijungimo ir pilietybės sąlygas. Kiekvienas kelias turi savo tinkamumo taisykles, dokumentų reikalavimus ir įstatyminius terminus.",
+      "Imigracijos teisė reguliuoja užsieniečių teisinę padėtį Lietuvoje ir Europos Sąjungoje. Ji apima klausimus, susijusius su nacionalinėmis vizomis, laikinaisiais ir nuolatiniais leidimais gyventi, ES mėlynąja kortele, šeimos susijungimu, prieglobsčiu, ilgalaikiu gyvenimu ir pilietybe. Taip pat ji nustato teisinį pagrindą, kuriuo valdžios institucijos vertina imigracijos prašymus ir priima administracinius sprendimus.",
   },
   {
-    heading: "In plain terms",
-    ltHeading: "Paprasta kalba",
+    heading: "Why It Matters",
+    ltHeading: "Kodėl tai svarbu",
     body:
-      "If you — or a family member — are moving to Lithuania from outside the EU, immigration law decides whether you can come, on what basis, for how long, and what you are allowed to do here: work, study, run a business, join family, or eventually become a citizen. Getting the right pathway wrong at the start almost always costs time and money to fix later.",
+      "Immigration law affects every stage of a foreign national's journey, from entering Lithuania to obtaining long-term residence or citizenship. Understanding the legal requirements, administrative procedures, and judicial practice is essential for individuals, families, employers, and professionals navigating the immigration system.",
     ltBody:
-      "Jei jūs ar šeimos narys atvykstate į Lietuvą iš ne ES šalies, imigracijos teisė nustato, ar galite atvykti, kokiu pagrindu, kiek laiko ir ką čia galite daryti: dirbti, mokytis, verstis verslu, susijungti su šeima ar tapti piliečiu. Klaidingai pasirinktas kelias beveik visada brangiai kainuoja vėliau.",
+      "Imigracijos teisė veikia kiekvieną užsieniečio kelionės etapą, nuo atvykimo į Lietuvą iki ilgalaikio gyvenimo ar pilietybės įgijimo. Teisinių reikalavimų, administracinių procedūrų ir teismo praktikos supratimas yra būtinas asmenims, šeimoms, darbdaviams ir specialistams, naršantiems imigracijos sistemą.",
   },
   {
-    heading: "The core case types I handle",
-    ltHeading: "Pagrindinės bylos, kurias priimu",
+    heading: "Professional Focus",
+    ltHeading: "Profesinis dėmesys",
     body:
-      "Residence and settlement (D-visa through to permanent status), refusals and appeals, family reunification under EU law, work and business migration including EU Blue Cards, and citizenship and naturalisation. Each engagement starts with a clear eligibility assessment before any paperwork is filed.",
+      "My professional interest focuses on the practical application of immigration legislation, judicial review of administrative decisions, and the development of Lithuanian, European Union, and European human rights law in immigration matters. Through this website, I share recent court practice and legal insights to help readers better understand how immigration law is interpreted and applied in practice.",
     ltBody:
-      "Gyvenimas ir apsigyvenimas (nuo D vizos iki nuolatinio statuso), atsisakymai ir apeliacijos, šeimos susijungimas pagal ES teisę, darbo ir verslo migracija, įskaitant ES mėlynąją kortelę, bei pilietybė ir natūralizacija. Kiekvienas darbas prasideda aiškiu tinkamumo įvertinimu prieš teikiant dokumentus.",
+      "Mano profesinis susidomėjimas koncentruojasi į imigracijos teisės aktų praktinį taikymą, administracinių sprendimų teisinę priežiūrą ir Lietuvos, Europos Sąjungos bei Europos žmogaus teisių teisės plėtrą imigracijos klausimais. Per šią svetainę dalijuosi naujausia teismo praktika ir teisinėmis įžvalgomis, kad padėčiau skaitytojams geriau suprasti, kaip imigracijos teisė aiškinama ir taikoma praktikoje.",
   },
 ];
 
