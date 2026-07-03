@@ -37,12 +37,12 @@ function BlogPage() {
               </span>
             </div>
             <h1 className="font-serif font-light text-white mb-4" style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)" }}>
-              Immigration Law
+              Legal Insights &
               <br />
-              <span style={{ color: "#C9A84C" }}>Insights</span>
+              <span style={{ color: "#C9A84C" }}>Publications</span>
             </h1>
             <p className="text-white/60 text-lg font-light max-w-xl">
-              Practical guidance on Lithuanian immigration law, residency, and citizenship.
+              Articles, video series, and professional commentary exploring recent court practice, legal developments, and judicial insights in immigration, administrative, European Union, and human rights law.
             </p>
           </div>
         </section>
@@ -56,10 +56,10 @@ function BlogPage() {
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
-      { title: "Blog — Ieva Bakare · Immigration Law Insights" },
-      { name: "description", content: "Practical guidance on Lithuanian immigration law, residency, permits, appeals, and citizenship." },
-      { property: "og:title", content: "Blog — Ieva Bakare · Immigration Law Insights" },
-      { property: "og:description", content: "Practical guidance on Lithuanian immigration law, residency, and citizenship." },
+      { title: "Blog — Ieva Bakare · Legal Insights & Publications" },
+      { name: "description", content: "Articles, video series, and professional commentary exploring recent court practice, legal developments, and judicial insights in immigration, administrative, European Union, and human rights law." },
+      { property: "og:title", content: "Blog — Ieva Bakare · Legal Insights & Publications" },
+      { property: "og:description", content: "Articles, video series, and professional commentary exploring recent court practice, legal developments, and judicial insights in immigration, administrative, European Union, and human rights law." },
     ],
   }),
   component: BlogPage,
