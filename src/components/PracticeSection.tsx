@@ -6,8 +6,10 @@ import { useLanguage } from "@/lib/LanguageContext";
 
 const areas = [
   {
+    id: "immigration-law",
     icon: Globe,
     color: "#6B9EB8",
+
     tag: "Practice Area",
     title: "Immigration Law",
     ltTitle: "Imigracijos teisė",
