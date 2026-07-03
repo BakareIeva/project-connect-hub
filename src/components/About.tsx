@@ -59,15 +59,6 @@ export default function About() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
-                className="px-7 py-3.5 text-xs font-medium tracking-widest uppercase transition-colors duration-300"
-                style={{ background: "#111111", color: "white" }}
-              >
-                {t.about.cta}
-              </motion.button>
               <Link
                 to="/about"
                 className="group inline-flex items-center gap-2 px-7 py-3.5 text-xs font-medium tracking-widest uppercase border transition-colors duration-300"
