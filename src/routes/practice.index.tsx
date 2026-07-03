@@ -98,14 +98,14 @@ function PracticeIndex() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-px" style={{ background: "#C9A84C" }} />
                 <span className="text-xs font-medium tracking-[0.3em] uppercase" style={{ color: "#C9A84C" }}>
-                  {locale === "lt" ? "Praktika" : "Practice"}
+                  {locale === "lt" ? "Teismo praktika ir teisiniai įžvalgos" : "Court Practice & Legal Insights"}
                 </span>
               </div>
               <h1
                 className="font-serif font-light text-white leading-[1.05] mb-6"
                 style={{ fontSize: "clamp(2.8rem, 6vw, 4.5rem)" }}
               >
-                {locale === "lt" ? "Penkios sritys.\nViena perspektyva." : "Five Areas.\nOne Court-Side View."}
+                {locale === "lt" ? "Keturios sritys.\nViena perspektyva." : "Four Areas.\nOne Court-Side View."}
               </h1>
               <p className="text-white/55 font-light leading-relaxed max-w-xl">
                 {locale === "lt"
