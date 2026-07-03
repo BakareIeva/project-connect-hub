@@ -86,7 +86,7 @@ function HowCourtThinksPage() {
                 className="font-serif font-light text-white leading-[1.05] mb-6"
                 style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}
               >
-                {locale === "lt" ? "Kaip mąsto teismas" : "How the Court Thinks"}
+                {locale === "lt" ? "Kaip mąsto teismas" : "Inside the Courtroom"}
               </h1>
               <p className="text-white/55 font-light leading-relaxed max-w-xl">
                 {locale === "lt"
@@ -135,13 +135,13 @@ function HowCourtThinksPage() {
 export const Route = createFileRoute("/practice/how-court-thinks")({
   head: () => ({
     meta: [
-      { title: "How the Court Thinks — Ieva Bakare" },
+      { title: "Inside the Courtroom — Ieva Bakare" },
       {
         name: "description",
         content:
           "What actually persuades Lithuanian administrative judges — procedural leverage, statutory reading, proportionality, and the deadlines that decide cases.",
       },
-      { property: "og:title", content: "How the Court Thinks — Ieva Bakare" },
+      { property: "og:title", content: "Inside the Courtroom — Ieva Bakare" },
       {
         property: "og:description",
         content:
