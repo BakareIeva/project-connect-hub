@@ -15,7 +15,11 @@ import { Route as MediaRouteImport } from './routes/media'
 import { Route as BookRouteImport } from './routes/book'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as PracticeIndexRouteImport } from './routes/practice.index'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as PracticeImmigrationLawRouteImport } from './routes/practice.immigration-law'
+import { Route as PracticeHowCourtThinksRouteImport } from './routes/practice.how-court-thinks'
+import { Route as PracticeAdministrativeLawRouteImport } from './routes/practice.administrative-law'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 
 const VlogRoute = VlogRouteImport.update({
@@ -48,11 +52,32 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PracticeIndexRoute = PracticeIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => PracticeRoute,
+} as any)
 const BlogIndexRoute = BlogIndexRouteImport.update({
   id: '/blog/',
   path: '/blog/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PracticeImmigrationLawRoute = PracticeImmigrationLawRouteImport.update({
+  id: '/immigration-law',
+  path: '/immigration-law',
+  getParentRoute: () => PracticeRoute,
+} as any)
+const PracticeHowCourtThinksRoute = PracticeHowCourtThinksRouteImport.update({
+  id: '/how-court-thinks',
+  path: '/how-court-thinks',
+  getParentRoute: () => PracticeRoute,
+} as any)
+const PracticeAdministrativeLawRoute =
+  PracticeAdministrativeLawRouteImport.update({
+    id: '/administrative-law',
+    path: '/administrative-law',
+    getParentRoute: () => PracticeRoute,
+  } as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/blog/$slug',
   path: '/blog/$slug',
@@ -64,20 +89,27 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/book': typeof BookRoute
   '/media': typeof MediaRoute
-  '/practice': typeof PracticeRoute
+  '/practice': typeof PracticeRouteWithChildren
   '/vlog': typeof VlogRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/practice/administrative-law': typeof PracticeAdministrativeLawRoute
+  '/practice/how-court-thinks': typeof PracticeHowCourtThinksRoute
+  '/practice/immigration-law': typeof PracticeImmigrationLawRoute
   '/blog/': typeof BlogIndexRoute
+  '/practice/': typeof PracticeIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/book': typeof BookRoute
   '/media': typeof MediaRoute
-  '/practice': typeof PracticeRoute
   '/vlog': typeof VlogRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/practice/administrative-law': typeof PracticeAdministrativeLawRoute
+  '/practice/how-court-thinks': typeof PracticeHowCourtThinksRoute
+  '/practice/immigration-law': typeof PracticeImmigrationLawRoute
   '/blog': typeof BlogIndexRoute
+  '/practice': typeof PracticeIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -85,10 +117,14 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/book': typeof BookRoute
   '/media': typeof MediaRoute
-  '/practice': typeof PracticeRoute
+  '/practice': typeof PracticeRouteWithChildren
   '/vlog': typeof VlogRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/practice/administrative-law': typeof PracticeAdministrativeLawRoute
+  '/practice/how-court-thinks': typeof PracticeHowCourtThinksRoute
+  '/practice/immigration-law': typeof PracticeImmigrationLawRoute
   '/blog/': typeof BlogIndexRoute
+  '/practice/': typeof PracticeIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -100,17 +136,24 @@ export interface FileRouteTypes {
     | '/practice'
     | '/vlog'
     | '/blog/$slug'
+    | '/practice/administrative-law'
+    | '/practice/how-court-thinks'
+    | '/practice/immigration-law'
     | '/blog/'
+    | '/practice/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
     | '/book'
     | '/media'
-    | '/practice'
     | '/vlog'
     | '/blog/$slug'
+    | '/practice/administrative-law'
+    | '/practice/how-court-thinks'
+    | '/practice/immigration-law'
     | '/blog'
+    | '/practice'
   id:
     | '__root__'
     | '/'
@@ -120,7 +163,11 @@ export interface FileRouteTypes {
     | '/practice'
     | '/vlog'
     | '/blog/$slug'
+    | '/practice/administrative-law'
+    | '/practice/how-court-thinks'
+    | '/practice/immigration-law'
     | '/blog/'
+    | '/practice/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -128,7 +175,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   BookRoute: typeof BookRoute
   MediaRoute: typeof MediaRoute
-  PracticeRoute: typeof PracticeRoute
+  PracticeRoute: typeof PracticeRouteWithChildren
   VlogRoute: typeof VlogRoute
   BlogSlugRoute: typeof BlogSlugRoute
   BlogIndexRoute: typeof BlogIndexRoute
@@ -178,12 +225,40 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/practice/': {
+      id: '/practice/'
+      path: '/'
+      fullPath: '/practice/'
+      preLoaderRoute: typeof PracticeIndexRouteImport
+      parentRoute: typeof PracticeRoute
+    }
     '/blog/': {
       id: '/blog/'
       path: '/blog'
       fullPath: '/blog/'
       preLoaderRoute: typeof BlogIndexRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/practice/immigration-law': {
+      id: '/practice/immigration-law'
+      path: '/immigration-law'
+      fullPath: '/practice/immigration-law'
+      preLoaderRoute: typeof PracticeImmigrationLawRouteImport
+      parentRoute: typeof PracticeRoute
+    }
+    '/practice/how-court-thinks': {
+      id: '/practice/how-court-thinks'
+      path: '/how-court-thinks'
+      fullPath: '/practice/how-court-thinks'
+      preLoaderRoute: typeof PracticeHowCourtThinksRouteImport
+      parentRoute: typeof PracticeRoute
+    }
+    '/practice/administrative-law': {
+      id: '/practice/administrative-law'
+      path: '/administrative-law'
+      fullPath: '/practice/administrative-law'
+      preLoaderRoute: typeof PracticeAdministrativeLawRouteImport
+      parentRoute: typeof PracticeRoute
     }
     '/blog/$slug': {
       id: '/blog/$slug'
@@ -195,12 +270,30 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface PracticeRouteChildren {
+  PracticeAdministrativeLawRoute: typeof PracticeAdministrativeLawRoute
+  PracticeHowCourtThinksRoute: typeof PracticeHowCourtThinksRoute
+  PracticeImmigrationLawRoute: typeof PracticeImmigrationLawRoute
+  PracticeIndexRoute: typeof PracticeIndexRoute
+}
+
+const PracticeRouteChildren: PracticeRouteChildren = {
+  PracticeAdministrativeLawRoute: PracticeAdministrativeLawRoute,
+  PracticeHowCourtThinksRoute: PracticeHowCourtThinksRoute,
+  PracticeImmigrationLawRoute: PracticeImmigrationLawRoute,
+  PracticeIndexRoute: PracticeIndexRoute,
+}
+
+const PracticeRouteWithChildren = PracticeRoute._addFileChildren(
+  PracticeRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   BookRoute: BookRoute,
   MediaRoute: MediaRoute,
-  PracticeRoute: PracticeRoute,
+  PracticeRoute: PracticeRouteWithChildren,
   VlogRoute: VlogRoute,
   BlogSlugRoute: BlogSlugRoute,
   BlogIndexRoute: BlogIndexRoute,
