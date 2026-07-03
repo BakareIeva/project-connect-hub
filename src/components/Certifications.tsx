@@ -40,12 +40,6 @@ export default function Certifications() {
               {t.certifications.eyebrow}
             </span>
           </div>
-          <h2 className="font-serif font-light text-white mb-5" style={{ fontSize: "clamp(2.2rem, 5vw, 3.2rem)" }}>
-            {t.certifications.heading1}
-            <br />
-            {t.certifications.heading2}
-          </h2>
-          <p className="text-white/60 text-base leading-relaxed font-light">{t.certifications.subtext}</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px" style={{ background: "rgba(255,255,255,0.06)" }}>
