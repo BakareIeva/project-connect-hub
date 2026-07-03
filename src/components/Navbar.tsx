@@ -100,16 +100,61 @@ export default function Navbar() {
 
           {/* Desktop links */}
           <div className="hidden md:flex items-center gap-7">
-            {navLinks.map((link) => (
-              <button
-                key={link.href}
-                onClick={() => handleNav(link.href)}
-                className="text-xs font-medium tracking-widest uppercase text-white/80 hover:text-white transition-colors duration-200 relative group"
-              >
-                {link.label}
-                <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-[#C9A84C] group-hover:w-full transition-all duration-300" />
-              </button>
-            ))}
+            {navLinks.map((link) =>
+              link.href === "/practice" ? (
+                <div
+                  key={link.href}
+                  className="relative"
+                  onMouseEnter={() => setPracticeOpen(true)}
+                  onMouseLeave={() => setPracticeOpen(false)}
+                >
+                  <button
+                    onClick={() => handleNav(link.href)}
+                    className="flex items-center gap-1 text-xs font-medium tracking-widest uppercase text-white/80 hover:text-white transition-colors duration-200 relative group"
+                  >
+                    {link.label}
+                    <ChevronDown size={12} className={`transition-transform ${practiceOpen ? "rotate-180" : ""}`} />
+                    <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-[#C9A84C] group-hover:w-full transition-all duration-300" />
+                  </button>
+                  <AnimatePresence>
+                    {practiceOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, y: -6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -6 }}
+                        transition={{ duration: 0.18 }}
+                        className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-72"
+                      >
+                        <div
+                          className="py-2 backdrop-blur-md shadow-xl border"
+                          style={{ background: "rgba(10, 12, 18, 0.96)", borderColor: "rgba(201,168,76,0.15)" }}
+                        >
+                          {practiceItems.map((item) => (
+                            <button
+                              key={item.href}
+                              onClick={() => handleNav(item.href)}
+                              className="w-full text-left px-5 py-3 text-xs font-medium tracking-[0.15em] uppercase text-white/75 hover:text-white hover:bg-white/5 transition-colors"
+                            >
+                              {item.label}
+                            </button>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ) : (
+                <button
+                  key={link.href}
+                  onClick={() => handleNav(link.href)}
+                  className="text-xs font-medium tracking-widest uppercase text-white/80 hover:text-white transition-colors duration-200 relative group"
+                >
+                  {link.label}
+                  <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-[#C9A84C] group-hover:w-full transition-all duration-300" />
+                </button>
+              )
+            )}
+
 
             <LanguageSwitcher dark />
 
