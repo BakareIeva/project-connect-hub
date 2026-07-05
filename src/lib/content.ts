@@ -89,11 +89,11 @@ export const videos: Video[] = [
 
 export const certifications: Certification[] = [
   {
-    title: "Certificate in EU Immigration and Asylum Law",
-    issuer: "European Law Academy (ERA), Trier",
-    year: "2017",
+    title: "Annual Conference of the European Forum of the Legal Professions",
+    issuer: "Academy of European Law (ERA)",
+    year: "2025",
     description:
-      "Intensive professional training in EU immigration directives, asylum procedures, and the Dublin Regulation.",
+      "Participated in the Annual Conference of the European Forum of the Legal Professions, organised by the Academy of European Law (ERA), focusing on contemporary legal developments and professional issues affecting legal practitioners across Europe.\n\nTraining Hours: 6.18 hours",
     type: "certificate",
   },
   {
