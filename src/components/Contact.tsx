@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 
 export default function Contact() {
@@ -12,6 +12,7 @@ export default function Contact() {
     { icon: MapPin, label: t.contact.location, value: "Vilnius, Lithuania" },
     { icon: Phone, label: "Phone", value: "+370 _ ___ ____" },
     { icon: Mail, label: t.contact.email, value: "bakareieva@gmail.com" },
+    { icon: Instagram, label: t.contact.instagram, value: "@Lawyer.ievabakare", href: "https://instagram.com/Lawyer.ievabakare" },
   ];
 
   return (
@@ -39,14 +40,20 @@ export default function Contact() {
           </p>
 
           <div className="space-y-5 inline-block text-left">
-            {info.map(({ icon: Icon, label, value }) => (
+            {info.map(({ icon: Icon, label, value, href }) => (
               <div key={label} className="flex items-center gap-4">
                 <div className="w-10 h-10 flex items-center justify-center shrink-0" style={{ background: "rgba(201,168,76,0.15)" }}>
                   <Icon size={16} style={{ color: "#C9A84C" }} strokeWidth={1.5} />
                 </div>
                 <div>
                   <div className="text-xs tracking-widest uppercase mb-0.5" style={{ color: "#6B6B6B" }}>{label}</div>
-                  <div className="text-sm font-light" style={{ color: "#111111" }}>{value}</div>
+                  {href ? (
+                    <a href={href} target="_blank" rel="noopener noreferrer" className="text-sm font-light hover:underline" style={{ color: "#111111" }}>
+                      {value}
+                    </a>
+                  ) : (
+                    <div className="text-sm font-light" style={{ color: "#111111" }}>{value}</div>
+                  )}
                 </div>
               </div>
             ))}

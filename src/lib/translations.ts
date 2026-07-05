@@ -219,6 +219,7 @@ export const translations = {
         "Thank you for visiting my website. If you would like to discuss recent court practice, legal developments, publications, or professional matters, please feel free to get in touch.",
       location: "Location",
       email: "Email",
+      instagram: "Instagram",
       hours: "Hours",
       hoursValue: "Mon–Fri, 9am–6pm EET",
       fields: {
@@ -503,6 +504,7 @@ export const translations = {
         "Ačiū, kad apsilankėte mano svetainėje. Jei norėtumėte aptarti naujausią teismo praktiką, teisės aktų pokyčius, publikacijas ar profesinius klausimus, prašom nedvejoti ir susisiekti.",
       location: "Vieta",
       email: "El. paštas",
+      instagram: "Instagram",
       hours: "Darbo laikas",
       hoursValue: "Pirm.–Penkt., 9–18 val. EET",
       fields: {
