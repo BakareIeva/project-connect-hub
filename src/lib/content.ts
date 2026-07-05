@@ -109,7 +109,7 @@ export const certifications: Certification[] = [
     issuer: "Special Investigation Service of the Republic of Lithuania (STT)",
     year: "2026",
     description:
-      "Successfully completed the professional training \"Understanding Corruption\" provided by the Special Investigation Service of the Republic of Lithuania (STT), Lithuania's national anti-corruption authority. The training focused on the legal framework of corruption prevention, integrity, ethical standards, and anti-corruption principles within the Lithuanian public sector.\n\nDuration: 1 academic hour",
+      "Successfully completed the professional training \"Understanding Corruption,\" conducted by the Special Investigation Service of the Republic of Lithuania (STT), Lithuania's national anti-corruption authority. The programme examined the legal framework of corruption prevention, integrity, ethical standards, and anti-corruption principles within the Lithuanian public sector.\n\nDuration: 1 academic hour",
     type: "certificate",
   },
 ];
