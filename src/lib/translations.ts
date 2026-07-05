@@ -220,6 +220,7 @@ export const translations = {
       location: "Location",
       email: "Email",
       instagram: "Instagram",
+      facebook: "Facebook",
       hours: "Hours",
       hoursValue: "Mon–Fri, 9am–6pm EET",
       fields: {
@@ -505,6 +506,7 @@ export const translations = {
       location: "Vieta",
       email: "El. paštas",
       instagram: "Instagram",
+      facebook: "Facebook",
       hours: "Darbo laikas",
       hoursValue: "Pirm.–Penkt., 9–18 val. EET",
       fields: {
