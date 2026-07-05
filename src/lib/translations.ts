@@ -223,7 +223,7 @@ export const translations = {
     },
     footer: {
       tagline:
-        "Expert immigration legal counsel for individuals and families navigating EU residency. Based in Vilnius, Lithuania.",
+        "Sharing professional insights on immigration, administrative, European Union, and human rights law from Lithuania.",
       copyright: "Licensed Attorney. All rights reserved. Registered with the Lithuanian Bar Association.",
       backTop: "Back to top ↑",
       cols: {
