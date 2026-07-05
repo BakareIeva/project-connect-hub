@@ -112,4 +112,12 @@ export const certifications: Certification[] = [
       "Successfully completed the professional training \"Understanding Corruption,\" conducted by the Special Investigation Service of the Republic of Lithuania (STT), Lithuania's national anti-corruption authority. The programme examined the legal framework of corruption prevention, integrity, ethical standards, and anti-corruption principles within the Lithuanian public sector.\n\nDuration: 1 academic hour",
     type: "certificate",
   },
+  {
+    title: "Civil Resistance",
+    issuer: "Mobilisation and Civil Resistance Department under the Ministry of National Defence of the Republic of Lithuania",
+    year: "2026",
+    description:
+      "Professional training organised by the Mobilisation and Civil Resistance Department under the Ministry of National Defence of the Republic of Lithuania, focusing on the principles of civil resistance, civic preparedness, national resilience, and the role of society in responding to national emergencies and security challenges.",
+    type: "certificate",
+  },
 ];
