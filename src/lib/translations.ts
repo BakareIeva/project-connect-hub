@@ -82,6 +82,12 @@ export const translations = {
             "Vytautas Magnus University, Lithuania — Completed a structured Supplementary Studies Programme in Psychology alongside legal studies, developing an understanding of human behaviour, communication, interpersonal dynamics, and psychological principles that complement legal practice and professional decision-making.",
         },
         {
+          period: "2017 – 2018",
+          title: "Summer Law Programme – Comparative Law Studies",
+          subtitle:
+            "Vytautas Magnus University, Faculty of Law, Lithuania — Successfully completed the Summer Law Programme – Comparative Law Studies, organised by the Vytautas Magnus University Faculty of Law in collaboration with DePaul University (United States), University of Nottingham (United Kingdom), and KIMEP University (Kazakhstan). The programme explored comparative legal systems and the Fundamentals of International Law through lectures delivered by international legal academics. Programme Duration: 250 academic hours.",
+        },
+        {
           period: "2014 – 2019",
           title: "Master of Laws (LL.M.)",
           subtitle: "Vytautas Magnus University, Lithuania",
@@ -358,6 +364,12 @@ export const translations = {
           title: "Psichologijos papildomosios studijos",
           subtitle:
             "Vytauto Didžiojo universitetas, Lietuva — Įvykdžiau struktūrizuotą Psichologijos papildomųjų studijų programą paraleliai su teisės studijomis, tobulindama supratimą apie žmogaus elgseną, komunikaciją, tarpasmeninius santykius ir psichologinius principus, kurie papildo teisinę praktiką ir profesinį sprendimų priėmimą.",
+        },
+        {
+          period: "2017 – 2018",
+          title: "Vasaros teisės programa – Lyginamosios teisės studijos",
+          subtitle:
+            "Vytauto Didžiojo universitetas, Teisės fakultetas, Lietuva — Sėkmingai baigiau Vasaros teisės programą – Lyginamosios teisės studijas, kurią organizavo Vytauto Didžiojo universiteto Teisės fakultetas bendradarbiaudamas su DePaulo universitetu (Jungtinės Amerikos Valstijos), Notingemo universitetu (Jungtinė Karalystė) ir KIMEP universitetu (Kazachstanas). Programa apėmė lyginamąsias teisės sistemas ir tarptautinės teisės pagrindus per tarptautinių teisės akademikų paskaitas. Programos trukmė: 250 akademinių valandų.",
         },
         {
           period: "2014 – 2019",
