@@ -366,6 +366,12 @@ export const translations = {
             "Vytauto Didžiojo universitetas, Lietuva — Įvykdžiau struktūrizuotą Psichologijos papildomųjų studijų programą paraleliai su teisės studijomis, tobulindama supratimą apie žmogaus elgseną, komunikaciją, tarpasmeninius santykius ir psichologinius principus, kurie papildo teisinę praktiką ir profesinį sprendimų priėmimą.",
         },
         {
+          period: "2017 – 2018",
+          title: "Vasaros teisės programa – Lyginamosios teisės studijos",
+          subtitle:
+            "Vytauto Didžiojo universitetas, Teisės fakultetas, Lietuva — Sėkmingai baigiau Vasaros teisės programą – Lyginamosios teisės studijas, kurią organizavo Vytauto Didžiojo universiteto Teisės fakultetas bendradarbiaudamas su DePaulo universitetu (Jungtinės Amerikos Valstijos), Notingemo universitetu (Jungtinė Karalystė) ir KIMEP universitetu (Kazachstanas). Programa apėmė lyginamąsias teisės sistemas ir tarptautinės teisės pagrindus per tarptautinių teisės akademikų paskaitas. Programos trukmė: 250 akademinių valandų.",
+        },
+        {
           period: "2014 – 2019",
           title: "Teisės magistras (LL.M.)",
           subtitle: "Vytauto Didžiojo universitetas, Lietuva",
