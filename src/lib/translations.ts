@@ -76,6 +76,12 @@ export const translations = {
       backgroundHeading: "Professional Milestones",
       background: [
         {
+          period: "2015 – 2018",
+          title: "Supplementary Studies in Psychology",
+          subtitle:
+            "Vytautas Magnus University, Lithuania — Completed a structured Supplementary Studies Programme in Psychology alongside legal studies, developing an understanding of human behaviour, communication, interpersonal dynamics, and psychological principles that complement legal practice and professional decision-making.",
+        },
+        {
           period: "2014 – 2019",
           title: "Master of Laws (LL.M.)",
           subtitle: "Vytautas Magnus University, Lithuania",
