@@ -354,6 +354,12 @@ export const translations = {
       backgroundHeading: "Profesiniai etapai",
       background: [
         {
+          period: "2015 – 2018",
+          title: "Psichologijos papildomosios studijos",
+          subtitle:
+            "Vytauto Didžiojo universitetas, Lietuva — Įvykdžiau struktūrizuotą Psichologijos papildomųjų studijų programą paraleliai su teisės studijomis, tobulindama supratimą apie žmogaus elgseną, komunikaciją, tarpasmeninius santykius ir psichologinius principus, kurie papildo teisinę praktiką ir profesinį sprendimų priėmimą.",
+        },
+        {
           period: "2014 – 2019",
           title: "Teisės magistras (LL.M.)",
           subtitle: "Vytauto Didžiojo universitetas, Lietuva",
