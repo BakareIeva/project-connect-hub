@@ -81,6 +81,12 @@ export const translations = {
           subtitle: "Vytautas Magnus University, Lithuania",
         },
         {
+          period: "2019",
+          title: "Legal Assistant",
+          subtitle:
+            'UAB "Enodus" — Developed practical legal experience in civil law, including reviewing legal agreements, assisting with employment contract amendments, identifying legal issues, and contributing to practical legal solutions.',
+        },
+        {
           period: "2022 – 2025",
           title: "Migration Department of the Republic of Lithuania",
           subtitle:
@@ -345,6 +351,12 @@ export const translations = {
           period: "2019",
           title: "Teisės magistras (LL.M.)",
           subtitle: "Vytauto Didžiojo universitetas, Lietuva",
+        },
+        {
+          period: "2019",
+          title: "Teisininko padėjėja",
+          subtitle:
+            "UAB „Enodus“ — Įgijau praktinės teisinės patirties civilinės teisės srityje, peržiūrint teisinius susitarimus, rengiant darbo sutarčių pakeitimus, identifikuojant teisinius klausimus ir prisidedant prie praktinių teisinių sprendimų.",
         },
         {
           period: "2022 – 2025",
