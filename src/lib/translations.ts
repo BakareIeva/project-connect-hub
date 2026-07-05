@@ -110,7 +110,7 @@ export const translations = {
       statLabel: "Years of Practice",
     },
     certifications: {
-      eyebrow: "Credentials & Accomplishments",
+      eyebrow: "Professional Development & Certifications",
       heading1: "Qualifications You",
       heading2: "Can Trust",
       subtext:
