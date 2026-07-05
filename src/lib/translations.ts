@@ -76,7 +76,7 @@ export const translations = {
       backgroundHeading: "Professional Milestones",
       background: [
         {
-          period: "2019",
+          period: "2014 – 2019",
           title: "Master of Laws (LL.M.)",
           subtitle: "Vytautas Magnus University, Lithuania",
         },
@@ -348,7 +348,7 @@ export const translations = {
       backgroundHeading: "Profesiniai etapai",
       background: [
         {
-          period: "2019",
+          period: "2014 – 2019",
           title: "Teisės magistras (LL.M.)",
           subtitle: "Vytauto Didžiojo universitetas, Lietuva",
         },
