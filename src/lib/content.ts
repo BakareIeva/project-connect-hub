@@ -101,7 +101,7 @@ export const certifications: Certification[] = [
     issuer: "Mykolas Romeris University (MRU) Law School",
     year: "2026",
     description:
-      "8 May 2026\nVenue: Seimas of the Republic of Lithuania, Vilnius\n\nParticipated in the scientific-practical conference \"Current Issues in Administrative Law and Procedure,\" organised by the Mykolas Romeris University Law School. The conference, held at the Seimas of the Republic of Lithuania, explored recent developments, emerging challenges, and judicial practice in administrative law and administrative procedure.\n\nDuration: 6 academic hours",
+      "Venue: Seimas of the Republic of Lithuania, Vilnius\n\nParticipated in the scientific-practical conference \"Current Issues in Administrative Law and Procedure,\" organised by the Mykolas Romeris University (MRU) Law School. The conference, held at the Parliament of the Republic of Lithuania, explored recent developments, emerging challenges, and judicial practice in administrative law and administrative procedure.\n\nDuration: 6 academic hours",
     type: "certificate",
   },
   {
