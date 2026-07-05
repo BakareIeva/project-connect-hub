@@ -504,6 +504,7 @@ export const translations = {
         "Ačiū, kad apsilankėte mano svetainėje. Jei norėtumėte aptarti naujausią teismo praktiką, teisės aktų pokyčius, publikacijas ar profesinius klausimus, prašom nedvejoti ir susisiekti.",
       location: "Vieta",
       email: "El. paštas",
+      instagram: "Instagram",
       hours: "Darbo laikas",
       hoursValue: "Pirm.–Penkt., 9–18 val. EET",
       fields: {
