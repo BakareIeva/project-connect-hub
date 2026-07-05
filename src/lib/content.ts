@@ -120,4 +120,12 @@ export const certifications: Certification[] = [
       "Professional training organised by the Mobilisation and Civil Resistance Department under the Ministry of National Defence of the Republic of Lithuania, focusing on the principles of civil resistance, civic preparedness, national resilience, and the role of society in responding to national emergencies and security challenges.",
     type: "certificate",
   },
+  {
+    title: "Mobilisation Preparedness",
+    issuer: "Mobilisation and Civil Resistance Department under the Ministry of National Defence of the Republic of Lithuania",
+    year: "2026",
+    description:
+      "Professional training organised by the Mobilisation and Civil Resistance Department under the Ministry of National Defence of the Republic of Lithuania, examining the legal and practical framework of mobilisation preparedness, institutional responsibilities, and national readiness during emergency and mobilisation situations.",
+    type: "certificate",
+  },
 ];
