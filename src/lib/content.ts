@@ -97,12 +97,12 @@ export const certifications: Certification[] = [
     type: "certificate",
   },
   {
-    title: "Recognised Expert — Migration Law",
-    issuer: "Lithuanian Bar Association — Immigration Law Committee",
-    year: "2020",
+    title: "Current Issues in Administrative Law and Procedure",
+    issuer: "Mykolas Romeris University (MRU) Law School",
+    year: "2026",
     description:
-      "Designated expert status in immigration and foreign nationals law by the Lithuanian Bar Association specialist committee.",
-    type: "award",
+      "8 May 2026\nVenue: Seimas of the Republic of Lithuania, Vilnius\n\nParticipated in the scientific-practical conference \"Current Issues in Administrative Law and Procedure,\" organised by the Mykolas Romeris University Law School. The conference, held at the Seimas of the Republic of Lithuania, explored recent developments, emerging challenges, and judicial practice in administrative law and administrative procedure.\n\nDuration: 6 academic hours",
+    type: "certificate",
   },
   {
     title: "Certificate in Human Rights Law",
