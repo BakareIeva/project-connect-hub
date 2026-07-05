@@ -105,11 +105,11 @@ export const certifications: Certification[] = [
     type: "certificate",
   },
   {
-    title: "Certificate in Human Rights Law",
-    issuer: "Council of Europe Human Rights Education for Legal Professionals",
-    year: "2018",
+    title: "Understanding Corruption",
+    issuer: "Special Investigation Service of the Republic of Lithuania (STT)",
+    year: "2026",
     description:
-      "Completed HELP (Human Rights Education for Legal Professionals) programme in human rights standards and legal practice.",
+      "Successfully completed the professional training \"Understanding Corruption\" provided by the Special Investigation Service of the Republic of Lithuania (STT), Lithuania's national anti-corruption authority. The training focused on the legal framework of corruption prevention, integrity, ethical standards, and anti-corruption principles within the Lithuanian public sector.\n\nDuration: 1 academic hour",
     type: "certificate",
   },
 ];
