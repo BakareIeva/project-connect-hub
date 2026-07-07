@@ -272,10 +272,10 @@ function BookPage() {
                         {locale === "lt" ? "El. paštas" : "Email"}
                       </div>
                       <a
-                        href="mailto:ieva@bakare.law"
+                        href="mailto:bakare.ieva@gmail.com"
                         className="text-white/70 text-sm font-light hover:text-white transition-colors"
                       >
-                        ieva@bakare.law
+                        bakare.ieva@gmail.com
                       </a>
                     </div>
                   </div>
