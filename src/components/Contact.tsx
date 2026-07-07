@@ -11,7 +11,7 @@ export default function Contact() {
   const info = [
     { icon: MapPin, label: t.contact.location, value: "Vilnius, Lithuania" },
     { icon: Phone, label: "Phone", value: "+370 _ ___ ____" },
-    { icon: Mail, label: t.contact.email, value: "bakareieva@gmail.com" },
+    { icon: Mail, label: t.contact.email, value: "bakare.ieva@gmail.com" },
     { icon: Instagram, label: t.contact.instagram, value: "@Lawyer.ievabakare", href: "https://instagram.com/Lawyer.ievabakare" },
     { icon: Facebook, label: t.contact.facebook, value: "Ieva Bakare", href: "https://www.facebook.com/profile.php?id=61591941980440" },
   ];
