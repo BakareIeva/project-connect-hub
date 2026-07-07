@@ -29,7 +29,140 @@ export type Certification = {
 // ─── BLOG POSTS ──────────────────────────────────────────────────────────────
 
 export const blogPosts: BlogPost[] = [
-  // Temporarily removed
+  {
+    slug: "legal-limbo-lithuanian-immigration-law",
+    title: "Legal Limbo in Lithuanian Immigration Law: When a Person Cannot Be Deported but Cannot Regularise Their Status",
+    date: "2026-07-07",
+    category: "Immigration Law",
+    excerpt:
+      "The Foreigner Registration Certificate (SURP) is a welcome reform, but what happens when a foreign national cannot lawfully be deported from Lithuania, yet has no legal mechanism to regularise their immigration status?",
+    readTime: "9 min read",
+    content: `## Introduction
+
+The recent introduction of the Foreigner Registration Certificate (SURP) marks an important development in Lithuanian immigration law. Although SURP is not a residence permit, it provides temporary legal recognition to certain foreign nationals while their immigration status is being examined.
+
+Its introduction reflects an important principle: not every immigration case fits neatly within the traditional categories of lawful residence or unlawful stay. In some situations, the law recognises that a person's legal position remains unresolved and therefore requires temporary administrative recognition.
+
+While this reform is a welcome step, it also highlights a more fundamental question.
+
+**What happens when a foreign national cannot lawfully be deported from Lithuania, yet has no legal mechanism to regularise their immigration status?**
+
+In my view, this is one of the more complex issues currently facing Lithuanian immigration law. It raises questions not only about immigration legislation but also about legal certainty, good administration, and the protection of fundamental rights.
+
+## A Situation That Reveals a Legal Contradiction
+
+Consider the following scenario.
+
+A foreign national has remained in Lithuania without lawful immigration status for several years. The Migration Department refuses to issue a residence permit and adopts a decision ordering deportation.
+
+The individual challenges that decision before the courts.
+
+The Supreme Administrative Court of Lithuania concludes that deportation would disproportionately interfere with the person's right to respect for family life. The individual is legally married to a Lithuanian citizen, and together they are raising a minor child who is also a Lithuanian citizen.
+
+The Court therefore annuls the deportation decision.
+
+At first glance, this appears to resolve the case.
+
+In reality, however, it creates another problem.
+
+Although deportation is no longer legally possible, the individual is still regarded as unlawfully present under the Law on the Legal Status of Aliens. At the same time, Lithuanian legislation generally requires residence permit applications to be submitted either while the person is lawfully present or from outside Lithuania.
+
+The result is a legal contradiction.
+
+The individual cannot be deported, yet has no realistic legal pathway to regularise their immigration status.
+
+## A State of Permanent Legal Uncertainty
+
+This situation places the individual in an unusual legal position.
+
+- They cannot lawfully be removed because doing so would violate protected family life.
+- They cannot regularise their immigration status because the existing legislative framework does not provide an in-country procedure in these circumstances.
+- Leaving Lithuania voluntarily may separate them from their Lithuanian family and could trigger immigration consequences that undermine the very family life protected by the Court.
+- Remaining in Lithuania means continuing to live without lawful immigration status despite a final judicial decision preventing deportation.
+
+This is more than an unfortunate consequence of immigration legislation.
+
+It represents a situation in which different legal rules operate correctly on their own, yet together produce a result that appears difficult to reconcile.
+
+## The Role of the Foreigner Registration Certificate (SURP)
+
+The introduction of SURP demonstrates that Lithuanian immigration law increasingly recognises the need to document temporary legal situations.
+
+SURP is not intended to grant permanent residence rights. Instead, it acknowledges that certain individuals occupy a legally recognised temporary position while administrative procedures continue.
+
+Among those who may receive SURP are asylum applicants, unaccompanied minors, victims of trafficking during recovery periods, applicants awaiting decisions on residence permits, and other categories specifically provided for by law.
+
+The underlying idea is straightforward.
+
+Where a person's legal position has not yet been finally resolved, the legal system may provide temporary documentary recognition instead of leaving the individual entirely outside the administrative framework.
+
+This raises an interesting legal question.
+
+**Could the same principle apply where the highest administrative court has already concluded that deportation is not legally permissible?**
+
+## Does the Current Framework Leave a Legislative Gap?
+
+The situation described above appears to share several important characteristics with the purpose behind SURP.
+
+- The individual's legal status remains unresolved.
+- Their continued presence in Lithuania is supported not merely by administrative discretion but by a final judgment of the Supreme Administrative Court.
+- The State has accepted that removal cannot lawfully take place.
+- Yet no administrative mechanism currently exists that recognises this temporary legal reality.
+
+In my opinion, this raises a legitimate question as to whether Lithuanian immigration law contains a legislative gap rather than simply producing an unfavourable outcome in an individual case.
+
+The issue is not whether the person should automatically receive a residence permit.
+
+Rather, it is whether the legal system should recognise that some temporary form of lawful administrative status may be necessary while this exceptional situation is resolved.
+
+## Article 8 of the European Convention on Human Rights
+
+The discussion should also be considered in light of Article 8 of the European Convention on Human Rights, which protects the right to respect for private and family life.
+
+The European Court of Human Rights has repeatedly recognised that Article 8 may impose positive obligations on States, requiring them not only to avoid unjustified interference with family life but also, in appropriate circumstances, to adopt measures that make those rights effective in practice.
+
+Where a State accepts that deportation would violate Article 8, but simultaneously maintains procedural rules that permanently prevent any possibility of regularising immigration status, an important legal question arises.
+
+**Has the State fully discharged its positive obligations?**
+
+Protecting family life may require more than simply refraining from deportation.
+
+In some circumstances, effective protection may also require an accessible legal mechanism capable of resolving the individual's immigration status.
+
+## The Principle of Good Administration
+
+This issue also engages the principle of good administration, a principle recognised in both European Union law and Lithuanian administrative law.
+
+Administrative authorities should seek to provide procedures capable of resolving legal conflicts rather than allowing individuals to remain indefinitely in situations of uncertainty.
+
+A system that prevents lawful residence, prohibits deportation, and offers no effective administrative pathway risks undermining legal certainty, proportionality, and the effective implementation of judicial decisions.
+
+## Possible Approaches
+
+Several possible solutions could be considered.
+
+1. **Broader interpretation of SURP** — extending the existing framework where a final court judgment prevents deportation but immigration status remains unresolved.
+2. **Legislative reform** — creating an exceptional in-country procedure allowing residence permit applications in cases where removal has become legally impossible because of protected family life.
+3. **Judicial development** — recognising that requiring departure solely to submit a residence permit application may, in exceptional circumstances, be disproportionate and incompatible with Article 8 of the European Convention on Human Rights.
+
+Each of these approaches would seek to address the same underlying problem: ensuring that judicial protection of fundamental rights is supported by effective administrative procedures.
+
+## Conclusion
+
+The introduction of the Foreigner Registration Certificate represents a positive development in Lithuanian immigration law and demonstrates an increasing willingness to recognise temporary legal situations that fall outside traditional immigration categories.
+
+At the same time, cases in which deportation is judicially prohibited while regularisation remains legally unavailable reveal a question that, in my view, deserves further discussion.
+
+When the highest administrative court concludes that a person cannot lawfully be removed because of protected family life, yet immigration legislation offers no practical mechanism for resolving that person's status, the result is a state of legal uncertainty that is difficult to reconcile with the principles of legal certainty, proportionality, good administration, and the effective protection of fundamental rights.
+
+Whether the answer ultimately lies in a broader interpretation of the SURP framework, legislative reform, or future judicial development remains to be seen.
+
+What is clear, however, is that this issue extends beyond the circumstances of a single individual. It invites a broader discussion about how immigration law should respond when the protection of fundamental rights and administrative procedure no longer operate in harmony.
+
+---
+
+*The views expressed in this article are those of the author and are intended to contribute to academic and professional discussion. They do not constitute legal advice or represent the views of any institution with which the author is affiliated.*`,
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
