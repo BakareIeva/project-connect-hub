@@ -40,6 +40,9 @@ function renderContent(content: string) {
       html.push(`<li class="text-[#6B6B6B] font-light mb-3">${body}</li>`);
     } else if (t.startsWith("---")) {
       html.push(`<hr class="my-8" style="border-color:#E4E4E2"/>`);
+    } else if (/^!\[.*?\]\(.+?\)$/.test(t)) {
+      const m = t.match(/^!\[(.*?)\]\((.+?)\)$/);
+      if (m) html.push(`<figure class="my-8"><img src="${m[2]}" alt="${m[1]}" class="w-full rounded-md border" style="border-color:#E4E4E2"/>${m[1] ? `<figcaption class="text-[#6B6B6B] font-light text-sm mt-2 text-center">${m[1]}</figcaption>` : ""}</figure>`);
     } else {
       const bold = t.replace(/\*\*(.+?)\*\*/g, '<strong class="text-[#111111] font-medium">$1</strong>');
       html.push(`<p class="text-[#6B6B6B] font-light leading-relaxed mb-0">${bold}</p>`);
