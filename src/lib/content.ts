@@ -183,6 +183,8 @@ For that reason, legal analysis should not begin and end with a single question:
 
 A recent public debate in Lithuania illustrates why this distinction matters.
 
+![Screenshot of the social media post by Vytautas Sinica referenced in the discussion.](/__l5e/assets-v1/165e6a98-7d5b-4786-9667-43512fe56010/sinica-post.png)
+
 Lithuanian Member of Parliament and candidate for Mayor of Vilnius, Vytautas Sinica, recently published a social media post calling for the deportation of “Africans” and subsequently stated publicly that there was “no trace of racism” in the post. The publication generated considerable public discussion, with some viewing it as an exercise of political free expression and others questioning whether the language reflected the standards expected of someone seeking elected office.
 
 Whatever one’s political views, the legal questions raised by this discussion extend well beyond the facts of a single case. They invite a broader examination of the relationship between freedom of expression, democratic values and the ethical responsibilities of those who seek public office.
