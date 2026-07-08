@@ -14,7 +14,7 @@ export default function Contact() {
     { icon: Mail, label: t.contact.email, value: "bakare.ieva@gmail.com" },
     { icon: Instagram, label: t.contact.instagram, value: "@Lawyer.ievabakare", href: "https://instagram.com/Lawyer.ievabakare" },
     { icon: Facebook, label: t.contact.facebook, value: "Ieva Bakare", href: "https://www.facebook.com/profile.php?id=61591941980440" },
-    { icon: Linkedin, label: t.contact.linkedin, value: "Ieva Bakare", href: "https://www.linkedin.com/in/ievabakare" },
+    { icon: Linkedin, label: t.contact.linkedin, value: "Ieva Bakare", href: "www.linkedin.com/in/ievabakare" },
   ];
 
   return (
