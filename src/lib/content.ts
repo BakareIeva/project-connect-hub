@@ -163,6 +163,38 @@ What is clear, however, is that this issue extends beyond the circumstances of a
 
 *The views expressed in this article are those of the author and are intended to contribute to academic and professional discussion. They do not constitute legal advice or represent the views of any institution with which the author is affiliated.*`,
   },
+  {
+    slug: "when-political-speech-lawful-ethical-questions",
+    title: "When Political Speech Is Lawful but Still Raises Ethical Questions",
+    date: "2026-07-08",
+    category: "Constitutional Law",
+    excerpt:
+      "Freedom of expression is a cornerstone of democracy, but lawfulness is not the only question. This article examines the distinction between legal protection and ethical responsibility in political speech.",
+    readTime: "5 min read",
+    content: `## Introduction
+
+This article examines legal and constitutional principles arising from a publicly available statement made by a political figure. The discussion is intended solely as legal commentary on matters of public interest and should not be understood as support for or opposition to any political party, candidate or public office holder. The views expressed are those of the author alone.
+
+Freedom of expression is one of the cornerstones of every democratic society. Political speech enjoys particularly strong protection because open debate—including controversial and unpopular views—is essential to democratic life.
+
+For that reason, legal analysis should not begin and end with a single question: Was the statement lawful?
+
+## A Recent Public Debate
+
+A recent public debate in Lithuania illustrates why this distinction matters.
+
+Lithuanian Member of Parliament and candidate for Mayor of Vilnius, Vytautas Sinica, recently published a social media post calling for the deportation of “Africans” and subsequently stated publicly that there was “no trace of racism” in the post. The publication generated considerable public discussion, with some viewing it as an exercise of political free expression and others questioning whether the language reflected the standards expected of someone seeking elected office.
+
+Whatever one’s political views, the legal questions raised by this discussion extend well beyond the facts of a single case. They invite a broader examination of the relationship between freedom of expression, democratic values and the ethical responsibilities of those who seek public office.
+
+## Law and Ethics Are Not the Same Question
+
+From a legal perspective, these are not necessarily the same question.
+
+Under the European Convention on Human Rights, restrictions on political expression are interpreted narrowly. The European Court of Human Rights has consistently recognised that political speech receives one of the highest levels of protection within a democratic society. As a result, speech that many people consider offensive, provocative or insensitive will not automatically amount to unlawful hate speech.
+
+That, however, does not end the discussion.`,
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
