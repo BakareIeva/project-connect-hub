@@ -78,7 +78,7 @@ export default function BlogPreview() {
                     if (!ytId) return null;
                     return (
                       <div className="relative w-full aspect-video overflow-hidden bg-black">
-                        <img src={`https://img.youtube.com/vi/${ytId}/hqdefault.jpg`} alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                        <img src={`https://img.youtube.com/vi/${ytId}/maxresdefault.jpg`} onError={(e) => { (e.currentTarget as HTMLImageElement).src = `https://img.youtube.com/vi/${ytId}/hqdefault.jpg`; }} alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
                         <div className="absolute inset-0 flex items-center justify-center" aria-hidden>
                           <div className="w-14 h-14 flex items-center justify-center transition-transform duration-300 group-hover:scale-110" style={{ background: "#C9A84C" }}>
