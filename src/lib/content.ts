@@ -31,15 +31,17 @@ export type Certification = {
 export const blogPosts: BlogPost[] = [
   {
     slug: "residence-permit-national-security-lithuania",
-    title: "Can Lithuania Revoke a Residence Permit on National Security Grounds? The Supreme Administrative Court Explains",
+    title: "CAN A PERMANENT RESIDENCE PERMIT IN LITHUANIA BE REVOKED SIMPLY BECAUSE A PERSON IS SUSPECTED OF A CRIME?",
     date: "2026-07-25",
     category: "Immigration Law",
     excerpt:
-      "Can a residence permit be revoked because someone is considered a security risk? A recent judgment of the Supreme Administrative Court of Lithuania shows why the legal answer depends on more than national security alone.",
+      "Does being suspected of a criminal offence automatically justify revoking a permanent residence permit in Lithuania?",
     readTime: "3 min watch",
     content: `@[video](https://www.youtube.com/embed/CuA1PZ-HLjQ)
 
-Can a residence permit be revoked because someone is considered a security risk? A recent judgment of the Supreme Administrative Court of Lithuania shows why the legal answer depends on more than national security alone.`,
+Does being suspected of a criminal offence automatically justify revoking a permanent residence permit in Lithuania?
+
+In this video, I examine a judgment of the Supreme Administrative Court of Lithuania that clarifies the legal standard authorities must satisfy before relying on public order grounds to revoke the enhanced protection afforded to permanent residents. The case highlights the importance of an individual and proportionate assessment rather than assumptions based solely on criminal proceedings.`,
   },
   {
     slug: "legal-limbo-lithuanian-immigration-law",
