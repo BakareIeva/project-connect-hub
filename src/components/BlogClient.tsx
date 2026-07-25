@@ -172,13 +172,6 @@ export function BlogClient({ posts }: { posts: BlogPost[] }) {
                               background: `${colorFor(post.category)}18`,
                             }}
                           >
-                          <span
-                            className="text-[10px] font-medium tracking-[0.2em] uppercase px-2.5 py-1"
-                            style={{
-                              color: colorFor(post.category),
-                              background: `${colorFor(post.category)}18`,
-                            }}
-                          >
                             {post.category}
                           </span>
                           <div className="flex items-center gap-1 text-[#6B6B6B]/60 text-xs">
