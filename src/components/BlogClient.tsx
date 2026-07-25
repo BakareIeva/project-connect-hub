@@ -2,9 +2,15 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowRight, Clock, Search } from "lucide-react";
+import { ArrowRight, Clock, Search, Play } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 import type { BlogPost } from "@/lib/types";
+
+function getYouTubeId(content: string | undefined): string | null {
+  if (!content) return null;
+  const m = content.match(/@\[video\]\((?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/embed\/|youtu\.be\/|youtube\.com\/watch\?v=)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
 
 const categoryColors: Record<string, string> = {
   "Immigration Law": "#6B9EB8",
@@ -128,6 +134,35 @@ export function BlogClient({ posts }: { posts: BlogPost[] }) {
                         className="h-1 w-full"
                         style={{ background: colorFor(post.category) }}
                       />
+                      {(() => {
+                        const ytId = getYouTubeId(post.content);
+                        if (!ytId) return null;
+                        return (
+                          <div className="relative w-full aspect-video overflow-hidden bg-black">
+                            <img
+                              src={`https://img.youtube.com/vi/${ytId}/hqdefault.jpg`}
+                              alt=""
+                              className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                              loading="lazy"
+                            />
+                            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
+                            <div
+                              className="absolute inset-0 flex items-center justify-center"
+                              aria-hidden
+                            >
+                              <div
+                                className="w-14 h-14 flex items-center justify-center transition-transform duration-300 group-hover:scale-110"
+                                style={{ background: "#C9A84C" }}
+                              >
+                                <Play size={20} style={{ color: "#111111" }} fill="#111111" />
+                              </div>
+                            </div>
+                            <span className="absolute top-2 left-2 px-2 py-0.5 text-[10px] font-medium tracking-widest uppercase bg-black/70 text-white">
+                              Video
+                            </span>
+                          </div>
+                        );
+                      })()}
                       <div className="p-7 flex flex-col flex-1">
                         <div className="flex items-center gap-3 mb-5">
                           <span
