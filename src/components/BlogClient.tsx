@@ -2,9 +2,15 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowRight, Clock, Search } from "lucide-react";
+import { ArrowRight, Clock, Search, Play } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 import type { BlogPost } from "@/lib/types";
+
+function getYouTubeId(content: string | undefined): string | null {
+  if (!content) return null;
+  const m = content.match(/@\[video\]\((?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/embed\/|youtu\.be\/|youtube\.com\/watch\?v=)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
 
 const categoryColors: Record<string, string> = {
   "Immigration Law": "#6B9EB8",
