@@ -1,7 +1,7 @@
 
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ArrowRight, Clock } from "lucide-react";
+import { ArrowRight, Clock, Play } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { blogPosts } from "@/lib/content";
 import { useLanguage } from "@/lib/LanguageContext";
@@ -9,6 +9,12 @@ import { useLanguage } from "@/lib/LanguageContext";
 const categoryColors: Record<string, string> = {
   Residence: "#6B9EB8", Appeals: "#C47A6A", Family: "#7AAE82", Work: "#C9A84C", Citizenship: "#9A8BB5",
 };
+
+function getYouTubeId(content: string | undefined): string | null {
+  if (!content) return null;
+  const m = content.match(/@\[video\]\((?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/embed\/|youtu\.be\/|youtube\.com\/watch\?v=)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
 
 export default function BlogPreview() {
   const { t } = useLanguage();
