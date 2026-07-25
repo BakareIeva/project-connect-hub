@@ -140,7 +140,8 @@ export function BlogClient({ posts }: { posts: BlogPost[] }) {
                         return (
                           <div className="relative w-full aspect-video overflow-hidden bg-black">
                             <img
-                              src={`https://img.youtube.com/vi/${ytId}/hqdefault.jpg`}
+                              src={`https://img.youtube.com/vi/${ytId}/maxresdefault.jpg`}
+                              onError={(e) => { (e.currentTarget as HTMLImageElement).src = `https://img.youtube.com/vi/${ytId}/hqdefault.jpg`; }}
                               alt=""
                               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                               loading="lazy"
