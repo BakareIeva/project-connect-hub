@@ -211,6 +211,16 @@ export function getAllSlugs(): string[] {
 
 export const videos: Video[] = [
   {
+    id: "v0",
+    title: "Can Lithuania Revoke a Residence Permit on National Security Grounds? The Supreme Administrative Court Explains",
+    description:
+      "Can a residence permit be revoked because someone is considered a security risk? A recent judgment of the Supreme Administrative Court of Lithuania shows why the legal answer depends on more than national security alone.",
+    embedUrl: "https://www.youtube.com/embed/CuA1PZ-HLjQ",
+    thumbnail: "",
+    duration: "2:33",
+    date: "2026-07-25",
+  },
+  {
     id: "v1",
     title: "How to Apply for a Lithuanian Residence Permit — Step by Step",
     description:
