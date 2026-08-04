@@ -26,6 +26,7 @@ function BlogPage() {
       <Navbar />
       <main>
         <section className="pt-40 pb-20" style={{ background: "#111111" }}>
+          {/* Blog index — refreshed */}
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="flex items-center gap-3 mb-6">
               <Link to="/" className="text-xs tracking-widest uppercase text-white/40 hover:text-white/70 transition-colors">
