@@ -30,6 +30,73 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "can-maternity-leave-cost-residence-permit-lithuania",
+    title: "Can Maternity Leave Cost You Your Residence Permit in Lithuania?",
+    date: "2026-08-04",
+    category: "Immigration Law",
+    excerpt:
+      "A recent judgment of the Supreme Administrative Court of Lithuania suggests the answer is not as straightforward as many might think.",
+    readTime: "5 min read",
+    content: `By Ieva Bakare
+
+A recent judgment of the Supreme Administrative Court of Lithuania considers an important question for foreign nationals living and working in Lithuania:
+
+## Can a temporary residence permit be revoked simply because a person goes on maternity or parental leave?
+
+The case involved a third-country national who had been granted a temporary residence permit on the basis of employment. Several months later, she gave birth and exercised her right to maternity and parental leave.
+
+The Migration Department subsequently revoked her residence permit, taking the view that she no longer satisfied the conditions on which it had originally been granted.
+
+The Regional Administrative Court agreed and dismissed her appeal.
+
+The Supreme Administrative Court, however, reached a different conclusion.
+
+## What the Supreme Administrative Court Decided
+
+One of the key issues before the Court was whether the applicant had obtained her residence permit dishonestly. The evidence showed otherwise. She had entered into a genuine employment relationship, started working, received her salary and remained employed while on maternity and parental leave.
+
+The Court found no evidence that she had intended to mislead the authorities when applying for her residence permit.
+
+What makes this judgment particularly interesting is the Court's approach to financial resources.
+
+The Migration Department focused primarily on the fact that the applicant was no longer receiving her salary. According to the Court, that was not enough.
+
+Before concluding that the residence permit requirements were no longer met, the authorities should have examined whether she had other lawful and sufficient means of subsistence and should have given her an opportunity to provide that information.
+
+Because this assessment was not carried out, the Supreme Administrative Court annulled the Migration Department's decision.
+
+## A Question of Administrative Principle
+
+In my view, the judgment reinforces an important principle of administrative decision-making: exercising a statutory employment right, such as maternity or parental leave, cannot by itself justify the revocation of a residence permit. Administrative authorities must examine the individual circumstances of each case rather than rely on assumptions arising from a temporary interruption of salary.
+
+The judgment also reflects broader principles of European Union law.
+
+Although Member States retain the power to regulate access to their labour markets, those powers must be exercised objectively, proportionately and in accordance with the principle of equal treatment, as reflected in Directive 2011/98/EU (the Single Permit Directive).
+
+Equally important is the recognition that pregnancy, maternity leave and parental leave are protected rights. A temporary absence from work during these periods does not automatically mean that a person no longer satisfies the requirements for lawful residence.
+
+That does not mean financial requirements cease to exist.
+
+The Court's reasoning recognises that an applicant must still have sufficient means of subsistence during maternity or parental leave. However, those resources do not necessarily have to come from employment income alone. Other lawful and regular sources of income may also be relevant and should be properly assessed by the authorities.
+
+## Conclusion
+
+Ultimately, this judgment is not simply about maternity leave.
+
+It is about the obligation of public authorities to make decisions based on evidence rather than assumptions. Where the law requires an individual assessment, that assessment must genuinely be carried out.
+
+For foreign nationals living in Lithuania, the decision also provides an important reminder that residence permits cannot be revoked solely because someone has exercised rights that are recognised and protected by both Lithuanian and European Union law.
+
+---
+
+## Legal Sources
+
+- Directive 2011/98/EU (Single Permit Directive)
+- Article 33 of the Charter of Fundamental Rights of the European Union
+- Articles 26(1)(3), 35(1)(2), 44 and 50(1)(2) of the Lithuanian Law on the Legal Status of Aliens
+- Relevant provisions of the Lithuanian Labour Code`,
+  },
+  {
     slug: "residence-permit-national-security-lithuania",
     title: "CAN A PERMANENT RESIDENCE PERMIT IN LITHUANIA BE REVOKED SIMPLY BECAUSE A PERSON IS SUSPECTED OF A CRIME?",
     date: "2026-07-25",
