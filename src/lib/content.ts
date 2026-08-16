@@ -30,6 +30,142 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "two-years-or-three-family-reunification-lithuania",
+    title: "Two Years or Three? What Foreigners in Lithuania Should Know About the Family Reunification Rule.",
+    date: "2026-08-16",
+    category: "Family",
+    excerpt:
+      "A recent Supreme Administrative Court ruling clarifies how the two-year residence requirement and three-year employment evidence interact in Lithuanian family reunification cases.",
+    readTime: "8 min read",
+    content: `By Ieva Bakare
+
+One question that continues to cause confusion in Lithuanian family reunification cases is whether a person needs to have lived in Lithuania for two years or worked here for three years before their family member can qualify for a temporary residence permit.
+
+The confusion is understandable because both periods appear in the legal framework, but they do not refer to exactly the same requirement.
+
+A recent ruling of the Supreme Administrative Court of Lithuania (LVAT) provides a useful example of how these requirements are assessed in practice.
+
+## The dispute
+
+The case concerned a refusal by the Migration Department to issue a temporary residence permit on the basis of family reunification.
+
+The Regional Administrative court initially ruled in favour of the applicant and annulled the Migration Department's decision. Among other things, it took into account that the sponsoring spouse's temporary residence permit remained valid, had not been revoked, and that the employment contract had not been terminated.
+
+The Supreme Administrative Court took a different view.
+
+The Court looked beyond whether the sponsor formally held a valid residence permit and employment contract and considered whether the substantive requirements for family reunification had actually been met.
+
+This distinction became central to the case.
+
+## Where do the two years and three years come from?
+
+Under Article 43(6) of the Law on the Legal Status of Aliens, the relevant family reunification conditions include that the foreign national whose family members are joining them:
+
+- Has lived in Lithuania for the previous two years;
+- Holds a temporary residence permit valid for at least one year; and
+- Has reasonable prospects of acquiring the right of permanent residence in Lithuania.
+
+The two year requirement, therefore concerns the period of residence in Lithuania.
+
+But that is not the end of the assessment.
+
+The authorities must also determine whether the person has reasonable prospects of acquiring permanent residence.
+
+This is where the three-year period became important in the case.
+
+Under point 36.3 of the Procedure for Issuing Temporary Residence Permits in the Republic of Lithuania to Aliens, approved by Order No. 1V-329 of the Minister of the Interior of 12 October 2005, one of the forms of evidence used to demonstrate reasonable prospects is continuous full-time employment under an employment contract for at least three years, with no more than two employers.
+
+In other words, the two periods should not simply be treated as competing answers to the same question.
+
+The fact that a person has lived in Lithuania for two years may satisfy one part of the legal test, while the authorities must still separately assess whether there are reasonable prospects of that person eventually acquiring permanent residence.
+
+## An employment contract alone was not enough
+
+This is perhaps the most important part of the judgment.
+
+The sponsoring spouse had an employment contract. Formally, the contract continued to exist.
+
+However, the Supreme Administrative Court considered what had actually happened during the employment relationship.
+
+The Court established that between 1 May 2024 and 14 December 2025, the spouse had not actually worked and had not received wages for 202 days out of a total period of 593 days.
+
+For the Court, the continued existence of the employment contract was therefore not enough.
+
+What mattered was whether there had been genuine and continuous full-time employment in practice: work had to actually be performed and remuneration had to actually be received.
+
+The Supreme Administrative Court agreed with the Migration Department that, in those circumstances, the requirement of continuous full-time employment for at least three years had not been satisfied.
+
+This is an important distinction for applicants to understand.
+
+Having an employment contract on paper and having an actual, continuous employment relationship are not necessarily treated as the same thing when the authorities assess reasonable prospects of obtaining permanent residence.
+
+## A valid residence permit did not resolve the issue either
+
+Another interesting aspect of the case concerned the sponsor's existing temporary residence permit.
+
+No procedure had been initiated to revoke it.
+
+The Regional Administrative Court considered this relevant when ruling in the applicant's favour. The Supreme Administrative Court, however, found that the absence of revocation proceedings did not itself demonstrate that the sponsor had reasonable prospects of acquiring permanent residence.
+
+Again, the Court distinguished between the person's current legal status and their future prospects of obtaining permanent residence.
+
+A valid temporary residence permit confirms the person's present residence status. It does not, by itself, answer the separate question of whether the person has reasonable prospects of qualifying for permanent residence in the future.
+
+## What did the Supreme Administrative Court decide?
+
+The Supreme Administrative Court upheld the Migration Department's appeal, annulled the judgment of the lower court and adopted a new decision dismissing the applicant's complaint.
+
+The significance of the ruling goes beyond the outcome of this particular family reunification application.
+
+It shows that these applications may involve a substantive assessment of the sponsor's circumstances rather than a simple check of whether the required documents exist.
+
+A valid residence permit matters.
+
+An employment contract matters.
+
+The required period of residence matters.
+
+But none of these should necessarily be looked at in isolation.
+
+Where the law also requires reasonable prospects of acquiring permanent residence, the authorities may examine the reality behind the documents, including whether employment has actually been continuous and whether salary has actually been received.
+
+## So, is it two years or three years?
+
+This is probably the most useful question to address directly.
+
+Based on the legal provisions considered in this case, two years of residence and three years of employment concern different elements of the assessment.
+
+The two-year period relates to how long the sponsoring foreign national has lived in Lithuania.
+
+The three-year employment history discussed by the Court was relevant to demonstrating the separate requirement of having reasonable prospects of acquiring permanent residence.
+
+That is why simply saying that the rule is "two years" or "three years" can be misleading without explaining which legal requirement is being discussed.
+
+This ruling also illustrates why two people who appear to have similar residence permits may receive different outcomes. The assessment can depend on the person's actual residence and employment history, not simply the expiry date printed on the residence permit or the existence of an employment contract.
+
+## What applicants should take from this ruling?
+
+For family reunification applications where the reasonable-prospects requirement applies, it is important to look at the sponsor's immigration and employment history as a whole.
+
+Periods during which the person did not actually work or receive employment income may become relevant to the assessment. Likewise, the fact that the person's existing temporary residence permit has not been revoked does not automatically establish reasonable prospects of acquiring permanent residence.
+
+This does not mean that every family reunification case requires exactly the same circumstances. The applicable legal basis and the individual facts still matter.
+
+What this judgment makes particularly clear is that formal documents alone may not tell the whole story.
+
+When the law requires the authorities to assess a person's prospects of remaining in Lithuania on a long-term basis, they may look beyond the existence of a residence permit or employment contract and examine whether the underlying circumstances support that conclusion.
+
+For applicants, that distinction can make the difference between meeting one part of the family reunification test and satisfying the legal requirements as a whole.
+
+## Legal sources
+
+- Article 43(6) of the Law of the Republic of Lithuania on the Legal Status of Aliens (UTPĮ)
+- Point 36.3 of the Procedure for Issuing Temporary Residence Permits in the Republic of Lithuania to Aliens, approved by Order No. 1V-329 of the Minister of the Interior of the Republic of Lithuania of 12 October 2005
+- Judgment of the Supreme Administrative Court of Lithuania discussed in this commentary
+
+*The views expressed in this article are those of the author and are intended to contribute to legal and professional discussion. This article is for general informational purposes and does not constitute individual legal advice. The circumstances and applicable legal basis of each family reunification case should be assessed individually.*`,
+  },
+  {
     slug: "can-maternity-leave-cost-residence-permit-lithuania",
     title: "Can Maternity Leave Cost You Your Residence Permit in Lithuania?",
     date: "2026-08-04",
