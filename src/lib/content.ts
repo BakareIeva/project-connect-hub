@@ -30,6 +30,151 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "study-residence-permit-interview-refusal-lithuania",
+    title: "Study Residence Permits in Lithuania: Can an Interview Be Enough to Refuse an Application?",
+    date: "2026-08-18",
+    category: "Immigration Law",
+    excerpt:
+      "A Supreme Administrative Court judgment clarifies that an unsatisfying interview answer is not automatically a false answer — and that refusal decisions must rest on evidence, not assumptions.",
+    readTime: "7 min read",
+    content: `By Ieva Bakare
+
+For foreign students applying for a temporary residence permit in Lithuania, the interview with the Migration Department can be an important part of the application process.
+
+Applicants may be asked why they chose Lithuania, why they selected a particular university, what they know about their study programme and what they intend to do with the qualification.
+
+But what happens when the authorities are not satisfied with the answers?
+
+A case examined by the Supreme Administrative Court of Lithuania (LVAT) provides an interesting example of how interview answers should be assessed before they are used as a basis for refusing a study-based residence permit.
+
+## The residence permit was refused after an interview
+
+The case concerned a foreign national who had applied for a temporary residence permit in Lithuania for the purpose of studies.
+
+As part of the procedure, she participated in a remote interview with the Migration Department.
+
+Following that interview, the Migration Department refused to issue the permit. It relied on Article 35(1)(2) and (12) of the Law on the Legal Status of Aliens.
+
+The Department considered that the information provided by the applicant did not correspond to reality and that there were serious grounds to believe that a risk of illegal migration could arise.
+
+A significant part of that conclusion came from the applicant's answers during the interview.
+
+According to the Migration Department, she had not been able to properly explain why she wanted to study in Lithuania, why she had chosen the particular university or why she had selected that specific programme.
+
+The applicant challenged the refusal.
+
+## The first-instance court agreed with the Migration Department
+
+Initially, the applicant was unsuccessful.
+
+The first-instance court dismissed her complaint and agreed that her interview answers had not adequately explained the reasons and circumstances behind her decision to study in Lithuania.
+
+In particular, the court considered that she had not sufficiently substantiated her intention to come to Lithuania to study at the chosen institution and in the selected programme.
+
+When the case reached LVAT, however, the Court looked more closely at what had actually been said during the interview.
+
+That made a difference.
+
+## What did the interview actually show?
+
+LVAT examined the transcript of the remote interview rather than relying only on the conclusions that had been drawn from it.
+
+The Court did not find that the applicant's answers established that she had provided information which did not correspond to reality, attempted to mislead the Migration Department or intended to legalise her stay in Lithuania for some purpose other than studying.
+
+One point is particularly worth noting.
+
+During the interview, the Migration Department employee had to repeat or clarify some questions. That fact had contributed to concerns about the applicant's answers.
+
+LVAT did not consider this sufficient.
+
+The need to repeat or clarify a question does not automatically mean that an applicant has failed to understand it, avoided answering it or provided information that is unclear or illogical.
+
+What mattered was the substance of the answers that followed.
+
+After looking at the transcript, the Court considered that the applicant had actually provided sufficiently detailed responses in light of the questions she had been asked.
+
+## Her answers were not perfect
+
+The judgment is also interesting because LVAT did not suggest that every answer given during the interview was particularly strong.
+
+There were weaknesses.
+
+The applicant had not explained in detail why Lithuania specifically had been chosen. She had not provided an extensive comparison between the study programmes available in Lithuania and those in other European countries. There was also a six-year period between the completion of her Bachelor's studies and the Master's programme she intended to pursue.
+
+But the Court drew an important distinction.
+
+An answer that could have been more detailed is not necessarily a false answer.
+
+A person who does not provide the most convincing explanation possible has not, for that reason alone, provided information that does not correspond to reality.
+
+That distinction became important when assessing whether the legal grounds relied upon by the Migration Department had actually been established.
+
+## What had she explained?
+
+The interview transcript showed that the applicant had explained her choice of Master's programme and identified subjects she expected to study.
+
+She also explained, in substance, what she expected to gain from completing the programme and gave a reason for choosing Lithuania, including that studying here was more accessible to her than studying in Italy.
+
+LVAT considered those answers as part of the evidence as a whole.
+
+The question was therefore not whether she could have answered every question better. The question was whether the answers and other evidence were sufficient to establish that she had provided false information or that her real purpose for coming to Lithuania was something other than studies.
+
+The Court concluded that they were not.
+
+## Suspicion still has to be supported by evidence
+
+This is perhaps the most useful part of the judgment.
+
+Where the Migration Department relies on concerns about the truthfulness of information provided by an applicant or the possibility of another purpose behind the intended stay, those conclusions must be supported by the evidence in the individual case.
+
+LVAT found that the material before it did not clearly and unequivocally establish that the applicant had given incomplete or false answers or had deliberately pursued a purpose different from the one she had declared.
+
+Importantly, the Migration Department had not proved those circumstances.
+
+The Court therefore found that the established facts did not provide a legal basis for refusing the temporary residence permit under Article 35(1)(2) and (12) of the Law on the Legal Status of Aliens.
+
+LVAT partially upheld the applicant's appeal and quashed the Migration Department's decision.
+
+## The Court did not grant the residence permit
+
+There is an important distinction here.
+
+The judgment did 'not' mean that LVAT itself granted the applicant a temporary residence permit.
+
+Nor did the Court separately order the Migration Department to reconsider the application.
+
+The reason was procedural: the administrative procedure concerning the residence permit application had not yet been completed.
+
+Once the refusal decision was quashed, the Migration Department remained responsible for completing that procedure.
+
+This distinction matters because successfully challenging a refusal does not necessarily mean that a residence permit is automatically issued. What the judgment removed was the particular refusal decision that the Court found was not sufficiently supported by the evidence.
+
+## What can students take from this judgment?
+
+Interviews remain an important part of the residence permit process, and applicants should be able to explain genuinely and consistently why they have chosen their studies, institution and Lithuania.
+
+This judgment should therefore not be understood as saying that interview answers do not matter.
+
+They clearly do.
+
+What the ruling shows is that an interview must be assessed carefully and in context.
+
+Having difficulty with a question, asking for clarification or giving an answer that could have been more detailed does not automatically establish dishonesty or an intention to use studies merely as a way of obtaining legal residence.
+
+There is a meaningful difference between an 'unconvincing answer' and an 'untrue answer'.
+
+In this case, LVAT went back to the interview transcript, examined what the applicant had actually said and concluded that the evidence did not prove the grounds on which the refusal had been based.
+
+For me, that is the most important point arising from the judgment. Administrative decisions with serious consequences for an individual should ultimately rest on what the evidence establishes, rather than on assumptions drawn from how perfectly an applicant performed during an interview.
+
+## Legal sources
+
+- Article 35(1)(2) and (12) of the Law of the Republic of Lithuania on the Legal Status of Aliens (UTPĮ)
+- Judgment of the Supreme Administrative Court of Lithuania discussed in this commentary
+
+*The views expressed in this article are those of the author and are intended to contribute to legal and professional discussion. This article is for general informational purposes and does not constitute individual legal advice. Each residence permit application is assessed according to its individual circumstances.*`,
+  },
+  {
     slug: "two-years-or-three-family-reunification-lithuania",
     title: "Two Years or Three? What Foreigners in Lithuania Should Know About the Family Reunification Rule.",
     date: "2026-08-16",
