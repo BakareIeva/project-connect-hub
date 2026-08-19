@@ -30,6 +30,30 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "can-you-lose-permanent-residence-permit-forgot-language-lithuania",
+    title: "CAN YOU LOSE YOUR PERMANENT RESIDENCE PERMIT IN LITHUANIA BECAUSE YOU FORGOT THE LANGUAGE?",
+    date: "2026-08-19",
+    category: "Immigration Law",
+    excerpt:
+      "He passed the Lithuanian language exam and held a valid certificate. Years later, the Migration Department revoked his permanent residence permit. Was that enough to prove deception?",
+    readTime: "Video",
+    content: `By Ieva Bakare
+
+He had already passed the Lithuanian language exam and had a valid certificate.
+
+Years later, he struggled to answer simple questions in Lithuanian and the Migration Department revoked his permanent residence permit.
+
+So, was that enough to prove he had obtained his permit through deception?
+
+Watch the video to find out what the Supreme Administrative Court decided.
+
+@[video](https://www.youtube.com/embed/Agh6NJ9Dpo8)
+
+---
+
+*The views expressed in this article are those of the author and are intended to contribute to legal and professional discussion. This article is for general informational purposes and does not constitute individual legal advice. Each residence permit case is assessed according to its individual circumstances.*`,
+  },
+  {
     slug: "study-residence-permit-interview-refusal-lithuania",
     title: "Study Residence Permits in Lithuania: Can an Interview Be Enough to Refuse an Application?",
     date: "2026-08-18",
