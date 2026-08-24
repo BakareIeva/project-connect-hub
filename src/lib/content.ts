@@ -30,6 +30,144 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "employer-missed-deadline-reapply-residence-permit-lithuania",
+    title: "Your Employer Missed a Migration Department Deadline, Could You Be Unable to Reapply for a Residence Permit for a Year?",
+    date: "2026-08-24",
+    category: "Immigration Law",
+    excerpt:
+      "A refusal under Article 35(1)(13) of the UTPĮ can trigger a one-year ban on reapplying for a residence permit in Lithuania — even when the missed deadline was the employer's fault.",
+    readTime: "7 min read",
+    content: `By Ieva Bakare
+
+Sometimes the most interesting legal questions arise not from the decision itself, but from what happens afterwards.
+
+I recently came across such a situation in the context of a temporary residence permit application in Lithuania.
+
+A foreign national had applied for a temporary residence permit on the basis of employment. During the assessment of the application, the Migration Department asked the inviting company to provide additional documents and information concerning its business activities.
+
+The company did not provide everything within the deadline set by the Migration Department. It did, however, request additional time to submit the information.
+
+The residence permit application was ultimately refused under Article 35(1)(13) of the Law on the Legal Status of Aliens (UTPĮ).
+
+On its own, that may not appear particularly unusual. If information requested during an administrative procedure is not provided within the prescribed time, there may naturally be consequences.
+
+What caught my attention was something else: the consequence that followed for the foreign national.
+
+## The refusal does not end with one application
+
+Under Article 35(2) of the UTPĮ, where a residence permit is refused on certain grounds, the foreign national cannot simply correct the problem and immediately submit a new application.
+
+A one year waiting period applies.
+
+In practical terms, the company's failure to provide the requested documents on time meant that the foreign national was not only unsuccessful with that particular application. The person also became unable to submit a new residence permit application for twelve months.
+
+That is a significant consequence, particularly when the failure itself was attributable to the inviting company rather than to the foreign national.
+
+But the situation becomes even more interesting when this ground for refusal is compared with another one contained in the same law.
+
+## What if the documents were actually false?
+
+Article 35(1)(19) deals with a rather different situation.
+
+It concerns cases where information submitted by the natural or legal person inviting the foreign national does not correspond to reality, or where illegally obtained or forged documents have been submitted.
+
+Intuitively, one might expect such circumstances to carry at least the same consequences as simply failing to provide requested information on time.
+
+Yet Article 35(2) produces an unusual result.
+
+Where the refusal is based on Article 35(1)(13), the one-year restriction applies.
+
+Where the refusal arises under Article 35(1)(19) because the inviting person provided information that did not correspond to reality or submitted illegally obtained or forged documents, that same one-year restriction does not apply.
+
+The foreign national may therefore submit another application without waiting twelve months.
+
+And this is where, in my view, the legal regulation becomes difficult to reconcile.
+
+## A less serious failure, but a more serious practical consequence?
+
+Consider the two situations side by side.
+
+In the first, an employer fails to provide documents requested by the Migration Department within the prescribed deadline.
+
+The residence permit is refused and the foreign national must wait a year before applying again.
+
+In the second, the inviting person provides information that does not correspond to reality or submits illegally obtained or forged documents.
+
+The residence permit may again be refused, but the foreign national is not subject to the same one-year restriction.
+
+The difficulty is obvious.
+
+The failure to submit information on time may be regarded as a procedural failure. Providing false information or forged documents is, by its nature, something considerably different.
+
+Yet when we look at the practical consequences for the foreign national, the procedural failure can leave them in the more difficult position.
+
+This raises a legitimate question: are the consequences sufficiently aligned with the nature of the conduct that caused the refusal?
+
+## The issue is not whether deadlines should matter
+
+Of course, this should not be understood as suggesting that employers can simply disregard requests from the Migration Department.
+
+They cannot.
+
+The Migration Department must be able to request information necessary to assess an application, establish deadlines and make a decision where the requested information is not provided.
+
+The more difficult question is what should happen to the foreign national afterwards.
+
+Where an employer misses a deadline, should that automatically prevent the foreign national from making another residence permit application for an entire year?
+
+And if the answer is yes, how should that be reconciled with a situation in which the inviting person actually provides information that is found to be false or submits forged documents, yet the foreign national is not subject to the same twelve-month restriction?
+
+That is where I see a possible inconsistency in the current legal framework.
+
+## Who actually bears the consequence?
+
+There is another aspect that should not be overlooked.
+
+The person facing the twelve month restriction is the foreign national.
+
+Yet in the situation considered here, it was the inviting company that had been asked to provide information concerning its activities, clients, contracts and other aspects of its business.
+
+This makes the practical effect of the rule particularly significant.
+
+A foreign national may find themselves unable to submit another residence permit application for a year because a third party failed to comply with an administrative deadline.
+
+Whether that outcome is sufficiently proportionate, particularly when compared with the exceptions already provided elsewhere in Article 35, is in my view a question deserving further legal discussion.
+
+## A possible gap in the regulation?
+
+I would be cautious about suggesting that the refusal itself was necessarily unlawful simply because the consequence appears severe. These are two separate questions.
+
+The Migration Department may have a legal basis to refuse an application where documents required for its assessment are not submitted.
+
+The broader concern lies in what Article 35(2) automatically attaches to that refusal.
+
+When one ground leads to a twelve-month inability to reapply, while another ground involving potentially more serious conduct does not, it is reasonable to ask whether the distinction reflects a deliberate and sufficiently balanced legislative choice.
+
+Perhaps the issue is therefore not the institution of refusal itself.
+
+Perhaps it lies in the way the law differentiates or does not sufficiently differentiate between the consequences attached to different grounds for refusal.
+
+For the foreign national concerned, this is far from an abstract legal question.
+
+It can mean twelve months without the possibility of submitting a new temporary residence permit application in Lithuania.
+
+And that is why I believe the question deserves attention:
+
+Should a company's failure to submit documents on time really result in a one year restriction for the foreign national when the same restriction does not apply where the inviting person has submitted information that does not correspond to reality or forged documents?
+
+The current wording of the law appears to produce precisely that result.
+
+Whether this represents an intentional legislative distinction or a gap that should be reconsidered is a question worth discussing.
+
+## Legal provisions discussed
+
+- Article 35(1)(13) of the Law of the Republic of Lithuania on the Legal Status of Aliens (UTPĮ)
+- Article 35(1)(19) of the UTPĮ
+- Article 35(2) of the UTPĮ
+
+*The views expressed in this article are those of the author and are intended to contribute to legal and professional discussion. This article is provided for general informational purposes and does not constitute individual legal advice.*`,
+  },
+  {
     slug: "can-you-lose-permanent-residence-permit-forgot-language-lithuania",
     title: "CAN YOU LOSE YOUR PERMANENT RESIDENCE PERMIT IN LITHUANIA BECAUSE YOU FORGOT THE LANGUAGE?",
     date: "2026-08-19",
