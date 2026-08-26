@@ -42,8 +42,13 @@ export default function About() {
             >
               {t.about.name}
             </h2>
-            <p className="font-serif italic font-light text-xl mb-8" style={{ color: "#C9A84C" }}>
+            <p className="font-serif italic font-light text-xl mb-3" style={{ color: "#C9A84C" }}>
               {t.about.role}
+            </p>
+            <p className="text-base font-light leading-relaxed mb-8" style={{ color: "#6B6B6B" }}>
+              Immigration & Administrative Law Professional,
+              <br />
+              Former Migration Department Officer | Lithuania.
             </p>
             <div className="w-12 h-px mb-8" style={{ background: "rgba(201,168,76,0.4)" }} />
 
