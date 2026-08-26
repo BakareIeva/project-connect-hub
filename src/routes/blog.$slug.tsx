@@ -105,6 +105,14 @@ function BlogPostPage() {
           <div className="max-w-4xl mx-auto px-6 lg:px-12 grid lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
               <div className="prose-content space-y-4" dangerouslySetInnerHTML={{ __html: renderContent(post.content) }} />
+              <div className="mt-12 pt-8 border-t" style={{ borderColor: "#E4E4E2" }}>
+                <p className="font-serif text-[#111111] text-lg mb-1">Ieva Bakare</p>
+                <p className="text-[#6B6B6B] text-sm font-light leading-relaxed">
+                  Immigration & Administrative Law Professional,
+                  <br />
+                  Former Migration Department Officer | Lithuania.
+                </p>
+              </div>
             </div>
             <aside className="space-y-8">
               <div className="p-6" style={{ background: "#111111" }}>
