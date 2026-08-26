@@ -32,6 +32,11 @@ export default function Footer() {
               <div className="text-[10px] font-sans font-medium tracking-[0.25em] uppercase mt-1" style={{ color: "#C9A84C" }}>
                 Immigration & Administrative Law · Vilnius
               </div>
+              <p className="text-white/50 text-[10px] font-light leading-relaxed mt-2 max-w-sm">
+                Immigration & Administrative Law Professional,
+                <br />
+                Former Migration Department Officer | Lithuania.
+              </p>
             </div>
             <p className="text-white/40 text-xs font-light leading-relaxed max-w-sm">{t.footer.tagline}</p>
             <div className="w-8 h-px mt-8" style={{ background: "#C9A84C" }} />
