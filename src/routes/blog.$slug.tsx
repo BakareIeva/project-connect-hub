@@ -91,11 +91,16 @@ function BlogPostPage() {
             <h1 className="font-serif font-light text-white mb-6 leading-tight" style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}>
               {post.title}
             </h1>
-            <div className="flex items-center gap-6 text-white/40 text-xs font-light">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-white/40 text-xs font-light">
               <span className="flex items-center gap-2"><Calendar size={12} />{formatDate(post.date)}</span>
               <span className="flex items-center gap-2"><Clock size={12} />{post.readTime}</span>
-              <span>Ieva Bakare</span>
+              <span>By Ieva Bakare</span>
             </div>
+            <p className="mt-4 max-w-2xl text-sm font-bold leading-relaxed text-white/80">
+              Immigration &amp; Administrative Law Professional,
+              <br />
+              Former Migration Department Officer | Lithuania.
+            </p>
           </div>
         </section>
 
