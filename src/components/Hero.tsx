@@ -75,17 +75,30 @@ export default function Hero() {
         <div className="grid lg:grid-cols-[1fr_360px] gap-10 lg:gap-20 items-end">
 
           {/* Large name — left */}
-          <motion.h1
-            initial={{ opacity: 0, y: 32 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, delay: 0.3 }}
-            className="font-serif font-light leading-[0.92]"
-            style={{ fontSize: "clamp(4.2rem, 9.5vw, 8rem)", color: "white" }}
-          >
-            Ieva
-            <br />
-            <span style={{ color: "#C9A84C" }}>Bakare</span>
-          </motion.h1>
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 32 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, delay: 0.3 }}
+              className="font-serif font-light leading-[0.92]"
+              style={{ fontSize: "clamp(4.2rem, 9.5vw, 8rem)", color: "white" }}
+            >
+              Ieva
+              <br />
+              <span style={{ color: "#C9A84C" }}>Bakare</span>
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.45 }}
+              className="font-serif italic font-light text-lg mt-5"
+              style={{ color: "rgba(255,255,255,0.55)" }}
+            >
+              Immigration & Administrative Law Professional,
+              <br />
+              Former Migration Department Officer | Lithuania.
+            </motion.p>
+          </div>
 
           {/* Description + CTAs — right */}
           <motion.div
