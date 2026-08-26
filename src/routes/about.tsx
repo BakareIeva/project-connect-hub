@@ -47,10 +47,15 @@ function AboutPage() {
               >
                 Ieva Bakare
               </h1>
-              <p className="font-serif italic font-light text-white/50 text-xl">
+              <p className="font-serif italic font-light text-white/50 text-xl mb-4">
                 {locale === "lt"
                   ? "Imigracijos ir administracinė teisė · Vilnius, Lietuva"
                   : "Immigration & Administrative Law · Vilnius, Lithuania"}
+              </p>
+              <p className="text-base font-light leading-relaxed text-white/70">
+                Immigration &amp; Administrative Law Professional,
+                <br />
+                Former Migration Department Officer | Lithuania.
               </p>
             </motion.div>
           </div>
