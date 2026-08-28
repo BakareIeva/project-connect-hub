@@ -780,6 +780,14 @@ export const videos: Video[] = [
 
 export const certifications: Certification[] = [
   {
+    title: "Professional Lecture: Current Issues and Latest Jurisprudence of the Court of Justice",
+    issuer: "Ministry of Justice of the Republic of Lithuania",
+    year: "2026",
+    description:
+      "Attended a professional lecture delivered by Prof. Dr. Irmantas Jarukaitis, Judge of the Court of Justice of the European Union, exploring recent trends in CJEU case law. The lecture focused on selected significant judgments from 2025–2026 and current developments in EU jurisprudence.\n\nVenue: Ministry of Justice of the Republic of Lithuania",
+    type: "certificate",
+  },
+  {
     title: "Annual Conference of the European Forum of the Legal Professions",
     issuer: "Academy of European Law (ERA)",
     year: "2025",
