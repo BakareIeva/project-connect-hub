@@ -30,6 +30,26 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "lithuania-trp-revocation-11-years-lithuanian-child",
+    title: "Lithuania TRP Revocation: 11 Years in Lithuania, a Lithuanian Child, yet His TRP Was Revoked",
+    date: "2026-09-07",
+    category: "Immigration Law",
+    excerpt:
+      "A foreign national who had lived in Lithuania for around 11 years had his temporary residence permit annulled after the Migration Department concluded that he was spending too little time in Lithuania.",
+    readTime: "Video",
+    content: `By Ieva Bakare
+
+**Immigration & Administrative Law Professional, Former Migration Department Officer | Lithuania.**
+
+A foreign national who had lived in Lithuania for around 11 years had his temporary residence permit annulled after the Migration Department concluded that he was spending too little time in Lithuania. In this video, I discuss how the Lithuania TRP case was challenged and what happened when the dispute reached the Supreme Administrative Court of Lithuania.
+
+@[video](https://www.youtube.com/embed/GM-HAi4FWkI)
+
+---
+
+*The views expressed in this article are those of the author and are intended to contribute to legal and professional discussion. This article is for general informational purposes and does not constitute individual legal advice. Each residence permit case is assessed according to its individual circumstances.*`,
+  },
+  {
     slug: "employer-missed-deadline-reapply-residence-permit-lithuania",
     title: "Your Employer Missed a Migration Department Deadline, Could You Be Unable to Reapply for a Residence Permit for a Year?",
     date: "2026-08-24",
