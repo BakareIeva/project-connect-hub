@@ -30,6 +30,32 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "student-trp-revoked-just-before-graduation-lithuania",
+    title: "Student TRP Revoked in Lithuania Just Before Graduation, Can the Decision Be Challenged?",
+    date: "2026-09-18",
+    category: "Immigration Law",
+    excerpt:
+      "A foreign student had been studying in Lithuania for three years and was approaching the final stage of his studies when his temporary residence permit was revoked.",
+    readTime: "Video",
+    content: `By Ieva Bakare
+
+**Immigration & Administrative Law Professional, Former Migration Department Officer | Lithuania.**
+
+A foreign student had been studying in Lithuania for three years and was approaching the final stage of his studies when his temporary residence permit was revoked. After his thesis project was refused, he followed the university’s advice to take a study break without realising the immigration consequences that would follow.
+
+The case became even more complicated during the legal challenge. The fact that he had also submitted a TRP application on the basis of employment was used to argue that his real intention in Lithuania was no longer to study.
+
+I assisted with the legal assessment, strategy and preparation of the documents challenging the Migration Department’s decision.
+
+Was there enough to successfully challenge the revocation? Watch the video to find out how the case ended. ⚖️
+
+@[video](https://www.youtube.com/embed/apmtRIr3Cx0)
+
+---
+
+*The views expressed in this article are those of the author and are intended to contribute to legal and professional discussion. This article is for general informational purposes and does not constitute individual legal advice. Each residence permit case is assessed according to its individual circumstances.*`,
+  },
+  {
     slug: "lithuania-trp-revocation-11-years-lithuanian-child",
     title: "Lithuania TRP Revocation: 11 Years in Lithuania, a Lithuanian Child, yet His TRP Was Revoked",
     date: "2026-09-07",
