@@ -109,8 +109,8 @@ function PracticeIndex() {
               </h1>
               <p className="text-white/55 font-light leading-relaxed max-w-xl">
                 {locale === "lt"
-                  ? "Mano darbas sutelktas į keturias glaudžiai susijusias sritis — imigracijos, administracinę, Europos Sąjungos ir žmogaus teisių teisę — ir pagrįstas dešimtmečio patirtimi Lietuvos vyriausiajame administraciniame teisme."
-                  : "My work sits across four closely connected fields — immigration, administrative, European Union, and human rights law — grounded in a decade inside the Highest Administrative Court of Lithuania."}
+                  ? "Mano darbas sutelktas į keturias glaudžiai susijusias sritis — imigracijos, administracinę, Europos Sąjungos ir žmogaus teisių teisę."
+                  : "My work sits across four closely connected fields — immigration, administrative, European Union, and human rights law."}
               </p>
             </motion.div>
           </div>
