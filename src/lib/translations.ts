@@ -82,6 +82,8 @@ export const translations = {
         "This website is a space where I share legal insights, practical observations, developments in legislation and court decisions, and topics that I find interesting and relevant. My aim is to make legal information more accessible while sharing perspectives shaped by my professional experience and continuing involvement in different areas of Lithuanian and European law.",
       ],
       backgroundHeading: "Professional Milestones",
+      careerHeading: "From Studies to Legal Practice",
+      careerDescription: "A professional journey shaped by legal education, experience in public administration and the judicial system, and continued development across different areas of Lithuanian law.",
       background: [
         {
           period: "2015 – 2018",
@@ -93,36 +95,42 @@ export const translations = {
           period: "2017 – 2018",
           title: "Summer Law Programme – Comparative Law Studies",
           subtitle:
-            "Vytautas Magnus University, Faculty of Law, Lithuania — Successfully completed the Summer Law Programme – Comparative Law Studies, organised by the Vytautas Magnus University Faculty of Law in collaboration with DePaul University (United States), University of Nottingham (United Kingdom), and KIMEP University (Kazakhstan). The programme explored comparative legal systems and the Fundamentals of International Law through lectures delivered by international legal academics. Programme Duration: 250 academic hours.",
+            "Vytautas Magnus University, Faculty of Law, Lithuania — Successfully completed the Summer Law Programme in Comparative Law Studies, organised in collaboration with DePaul University (United States), the University of Nottingham (United Kingdom), and KIMEP University (Kazakhstan).\n\nThe programme explored comparative legal systems and the fundamentals of international law through lectures delivered by international legal academics.\n\nProgramme duration: 250 academic hours.",
         },
         {
           period: "2014 – 2019",
           title: "Master of Laws (LL.M.)",
-          subtitle: "Vytautas Magnus University, Lithuania",
+          subtitle: "Vytautas Magnus University, Lithuania.",
         },
         {
           period: "2019",
           title: "Legal Assistant",
           subtitle:
-            'UAB "Enodus" — Developed practical legal experience in civil law, including reviewing legal agreements, assisting with employment contract amendments, identifying legal issues, and contributing to practical legal solutions.',
+            'UAB "Enodus" Gained practical experience in civil law, including reviewing legal agreements, assisting with employment contract amendments, identifying legal issues, and contributing to practical legal solutions.',
         },
         {
           period: "2022 – 2025",
           title: "Migration Department of the Republic of Lithuania",
           subtitle:
-            "Residence Permit Division • Legal Department • Administrative Court Representation",
+            "Residence Permit Division • Legal Department • Administrative Court Representation\n\nWorked on matters involving residence permits, immigration legislation and administrative proceedings, including representing the institution before administrative courts.",
         },
         {
-          period: "Present",
+          period: "2025 – 2026",
           title: "Supreme Administrative Court of Lithuania",
           subtitle:
-            "Administrative Justice • Immigration Law • EU Law • Human Rights Law",
+            "Administrative Justice • Legal Research • EU Law • Human Rights Law\n\nWorked in a legal capacity at Lithuania's highest administrative court, gaining further experience in judicial procedures, administrative litigation and the application of Lithuanian and European Union law.",
+        },
+        {
+          period: "2026 – Present",
+          title: "Corporate Legal Work & Independent Law Firm Collaboration",
+          subtitle:
+            "Criminal Law • Civil Law • Corporate Law • Administrative Law • Immigration Law\n\nCurrently working in a corporate legal environment while independently collaborating with a law firm, with professional activities extending across several areas of Lithuanian law.",
         },
         {
           period: "Today",
           title: "Court Practice & Legal Insights",
           subtitle:
-            "Sharing judicial developments and practical legal principles in immigration, administrative, European Union, and human rights law.",
+            "Sharing legal insights, recent court decisions and developments in criminal, civil, corporate, immigration, administrative, European Union and human rights law.",
         },
       ],
       credentials: [
@@ -379,6 +387,8 @@ export const translations = {
         "Ši svetainė — erdvė, kurioje dalinuosi teisinėmis įžvalgomis, praktiniais pastebėjimais, teisės aktų ir teismų sprendimų pokyčiais bei temomis, kurios man atrodo įdomios ir aktualios. Mano tikslas — padaryti teisinę informaciją labiau prieinamą, dalinantis požiūriais, suformuotais profesinės patirties ir nuolatinio dalyvavimo įvairiose Lietuvos ir Europos teisės srityse.",
       ],
       backgroundHeading: "Profesiniai etapai",
+      careerHeading: "Nuo studijų iki teisinės praktikos",
+      careerDescription: "Profesinis kelias, kurį formavo teisinis išsilavinimas, patirtis viešojo administravimo ir teismų sistemoje bei nuolatinis tobulėjimas įvairiose Lietuvos teisės srityse.",
       background: [
         {
           period: "2015 – 2018",
@@ -390,12 +400,12 @@ export const translations = {
           period: "2017 – 2018",
           title: "Vasaros teisės programa – Lyginamosios teisės studijos",
           subtitle:
-            "Vytauto Didžiojo universitetas, Teisės fakultetas, Lietuva — Sėkmingai baigiau Vasaros teisės programą – Lyginamosios teisės studijas, kurią organizavo Vytauto Didžiojo universiteto Teisės fakultetas bendradarbiaudamas su DePaulo universitetu (Jungtinės Amerikos Valstijos), Notingemo universitetu (Jungtinė Karalystė) ir KIMEP universitetu (Kazachstanas). Programa apėmė lyginamąsias teisės sistemas ir tarptautinės teisės pagrindus per tarptautinių teisės akademikų paskaitas. Programos trukmė: 250 akademinių valandų.",
+            "Vytauto Didžiojo universitetas, Teisės fakultetas, Lietuva — Sėkmingai baigiau Vasaros teisės programą lyginamosios teisės srityje, organizuotą bendradarbiaujant su DePaulo universitetu (Jungtinės Amerikos Valstijos), Notingemo universitetu (Jungtinė Karalystė) ir KIMEP universitetu (Kazachstanas).\n\nProgramoje nagrinėtos lyginamosios teisės sistemos ir tarptautinės teisės pagrindai, paskaitas skaitė tarptautiniai teisės akademikai.\n\nProgramos trukmė: 250 akademinių valandų.",
         },
         {
           period: "2014 – 2019",
           title: "Teisės magistras (LL.M.)",
-          subtitle: "Vytauto Didžiojo universitetas, Lietuva",
+          subtitle: "Vytauto Didžiojo universitetas, Lietuva.",
         },
         {
           period: "2019",
@@ -407,19 +417,25 @@ export const translations = {
           period: "2022 – 2025",
           title: "Lietuvos Respublikos Migracijos departamentas",
           subtitle:
-            "Leidimų gyventi skyrius • Teisės skyrius • Administracinio teismo atstovavimas",
+            "Leidimų gyventi skyrius • Teisės skyrius • Atstovavimas administraciniuose teismuose\n\nDirbau su leidimais gyventi, imigracijos teisės aktais ir administraciniais procesais susijusiais klausimais, įskaitant institucijos atstovavimą administraciniuose teismuose.",
         },
         {
-          period: "Šiuo metu",
+          period: "2025 – 2026",
           title: "Lietuvos vyriausiasis administracinis teismas",
           subtitle:
-            "Administracinis teisingumas • Imigracijos teisė • ES teisė • Žmogaus teisių teisė",
+            "Administracinis teisingumas • Teisiniai tyrimai • ES teisė • Žmogaus teisių teisė\n\nDirbau teisinio pobūdžio darbą Lietuvos aukščiausios instancijos administraciniame teisme, gilindama patirtį teismo procedūrų, administracinio proceso ir Lietuvos bei Europos Sąjungos teisės taikymo srityse.",
+        },
+        {
+          period: "2026 – dabar",
+          title: "Teisinis darbas įmonėje ir nepriklausomas bendradarbiavimas su advokatų kontora",
+          subtitle:
+            "Baudžiamoji teisė • Civilinė teisė • Korporatyvinė teisė • Administracinė teisė • Imigracijos teisė\n\nŠiuo metu dirbu įmonės teisinėje aplinkoje ir nepriklausomai bendradarbiauju su advokatų kontora, vykdydama profesinę veiklą keliose Lietuvos teisės srityse.",
         },
         {
           period: "Šiandien",
           title: "Teismo praktika ir teisinės įžvalgos",
           subtitle:
-            "Teismų praktikos raida ir praktiniai teisiniai principai imigracijos, administracinės, Europos Sąjungos ir žmogaus teisių teisėje.",
+            "Dalinuosi teisinėmis įžvalgomis, naujausiais teismų sprendimais ir pokyčiais baudžiamosios, civilinės, korporatyvinės, imigracijos, administracinės, Europos Sąjungos ir žmogaus teisių teisės srityse.",
         },
       ],
       credentials: [
