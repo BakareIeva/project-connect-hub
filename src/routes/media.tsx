@@ -186,4 +186,11 @@ function MediaPage() {
   );
 }
 
-export const Route = createFileRoute("/media")({ component: MediaPage });
+export const Route = createFileRoute("/media")({ head: () => ({ meta: [
+      { title: "Media — Ieva Bakare" },
+      { name: "description", content: "Videos and legal commentary from Ieva Bakare on Lithuanian immigration and administrative law." },
+      { property: "og:title", content: "Media — Ieva Bakare" },
+      { property: "og:description", content: "Videos and legal commentary from Ieva Bakare on Lithuanian immigration and administrative law." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ] }), component: MediaPage });

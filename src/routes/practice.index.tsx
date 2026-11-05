@@ -171,4 +171,11 @@ function PracticeIndex() {
   );
 }
 
-export const Route = createFileRoute("/practice/")({ component: PracticeIndex });
+export const Route = createFileRoute("/practice/")({ head: () => ({ meta: [
+      { title: "Practice Areas — Ieva Bakare" },
+      { name: "description", content: "Explore immigration, administrative, European Union and human rights law through Ieva Bakare’s professional insights." },
+      { property: "og:title", content: "Practice Areas — Ieva Bakare" },
+      { property: "og:description", content: "Explore immigration, administrative, European Union and human rights law through Ieva Bakare’s professional insights." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ] }), component: PracticeIndex });

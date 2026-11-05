@@ -176,4 +176,11 @@ function AboutPage() {
   );
 }
 
-export const Route = createFileRoute("/about")({ component: AboutPage });
+export const Route = createFileRoute("/about")({ head: () => ({ meta: [
+      { title: "About Ieva Bakare — Professional Background" },
+      { name: "description", content: "Explore Ieva Bakare’s legal education, former immigration and judicial work, and current corporate legal practice and law firm collaboration." },
+      { property: "og:title", content: "About Ieva Bakare — Professional Background" },
+      { property: "og:description", content: "Explore Ieva Bakare’s legal education, former immigration and judicial work, and current corporate legal practice and law firm collaboration." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ] }), component: AboutPage });

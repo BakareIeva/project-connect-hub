@@ -367,4 +367,11 @@ function BookPage() {
   );
 }
 
-export const Route = createFileRoute("/book")({ component: BookPage });
+export const Route = createFileRoute("/book")({ head: () => ({ meta: [
+      { title: "Professional Enquiries — Ieva Bakare" },
+      { name: "description", content: "Contact Ieva Bakare about legal developments, court practice and professional matters in Lithuania." },
+      { property: "og:title", content: "Professional Enquiries — Ieva Bakare" },
+      { property: "og:description", content: "Contact Ieva Bakare about legal developments, court practice and professional matters in Lithuania." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ] }), component: BookPage });
