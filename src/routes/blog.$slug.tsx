@@ -97,9 +97,11 @@ function BlogPostPage() {
               <span>By Ieva Bakare</span>
             </div>
             <p className="mt-4 max-w-2xl text-sm font-bold leading-relaxed text-white/80">
-              Immigration &amp; Administrative Law Professional,
+              Legal Professional | Criminal, Civil, Corporate & Administrative Law
               <br />
-              Former Migration Department Officer | Lithuania.
+              Former Migration Department Officer | Lithuania
+              <br />
+              Former Legal Professional, Supreme Administrative Court of Lithuania
             </p>
           </div>
         </section>
