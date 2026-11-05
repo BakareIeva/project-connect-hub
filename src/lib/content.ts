@@ -39,7 +39,11 @@ export const blogPosts: BlogPost[] = [
     readTime: "Video",
     content: `By Ieva Bakare
 
-**Immigration & Administrative Law Professional, Former Migration Department Officer | Lithuania.**
+**Legal Professional | Criminal, Civil, Corporate & Administrative Law**
+
+**Former Migration Department Officer | Lithuania**
+
+**Former Legal Professional, Supreme Administrative Court of Lithuania**
 
 A foreign student had been studying in Lithuania for three years and was approaching the final stage of his studies when his temporary residence permit was revoked. After his thesis project was refused, he followed the university’s advice to take a study break without realising the immigration consequences that would follow.
 
@@ -65,7 +69,11 @@ Was there enough to successfully challenge the revocation? Watch the video to fi
     readTime: "Video",
     content: `By Ieva Bakare
 
-**Immigration & Administrative Law Professional, Former Migration Department Officer | Lithuania.**
+**Legal Professional | Criminal, Civil, Corporate & Administrative Law**
+
+**Former Migration Department Officer | Lithuania**
+
+**Former Legal Professional, Supreme Administrative Court of Lithuania**
 
 A foreign national who had lived in Lithuania for around 11 years had his temporary residence permit annulled after the Migration Department concluded that he was spending too little time in Lithuania. In this video, I discuss how the Lithuania TRP case was challenged and what happened when the dispute reached the Supreme Administrative Court of Lithuania.
 

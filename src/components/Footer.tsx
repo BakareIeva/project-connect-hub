@@ -33,9 +33,11 @@ export default function Footer() {
                 Immigration & Administrative Law · Vilnius
               </div>
               <p className="text-white/50 text-[10px] font-light leading-relaxed mt-2 max-w-sm">
-                Immigration & Administrative Law Professional,
+                Legal Professional | Criminal, Civil, Corporate & Administrative Law
                 <br />
-                Former Migration Department Officer | Lithuania.
+                Former Migration Department Officer | Lithuania
+                <br />
+                Former Legal Professional, Supreme Administrative Court of Lithuania
               </p>
             </div>
             <p className="text-white/40 text-xs font-light leading-relaxed max-w-sm">{t.footer.tagline}</p>

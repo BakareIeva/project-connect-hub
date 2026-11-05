@@ -53,9 +53,11 @@ function AboutPage() {
                   : "Immigration & Administrative Law · Vilnius, Lithuania"}
               </p>
               <p className="text-base font-light leading-relaxed text-white/70">
-                Immigration &amp; Administrative Law Professional,
+                Legal Professional | Criminal, Civil, Corporate & Administrative Law
                 <br />
-                Former Migration Department Officer | Lithuania.
+                Former Migration Department Officer | Lithuania
+                <br />
+                Former Legal Professional, Supreme Administrative Court of Lithuania
               </p>
             </motion.div>
           </div>

@@ -94,9 +94,11 @@ export default function Hero() {
               className="font-serif italic font-light text-lg mt-5"
               style={{ color: "rgba(255,255,255,0.55)" }}
             >
-              Immigration & Administrative Law Professional,
+              Legal Professional | Criminal, Civil, Corporate & Administrative Law
               <br />
-              Former Migration Department Officer | Lithuania.
+              Former Migration Department Officer | Lithuania
+              <br />
+              Former Legal Professional, Supreme Administrative Court of Lithuania
             </motion.p>
           </div>
 
