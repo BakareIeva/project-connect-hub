@@ -54,7 +54,7 @@ function renderContent(content: string) {
   return html.join("\n");
 }
 
-function BlogPostPage() {
+export function BlogPostPage() {
   const { slug } = Route.useParams();
   const post = getPostBySlug(slug);
   if (!post) throw notFound();
@@ -167,7 +167,7 @@ function BlogPostPage() {
   );
 }
 
-function NotFoundPost() {
+export function NotFoundPost() {
   return (
     <>
       <Navbar />
@@ -185,7 +185,7 @@ function NotFoundPost() {
   );
 }
 
-function ErrorBoundary() {
+export function ErrorBoundary() {
   return <NotFoundPost />;
 }
 
