@@ -113,6 +113,8 @@ function HumanRightsLawPage() {
 export const Route = createFileRoute("/practice/human-rights-law")({
   head: () => ({
     meta: [
+        { name: "twitter:card", content: "summary_large_image" },
+        { property: "og:type", content: "website" },
       { title: "Human Rights Law — Ieva Bakare" },
       {
         name: "description",

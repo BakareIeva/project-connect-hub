@@ -28,13 +28,11 @@ export default function CareerTimeline() {
               </span>
             </div>
             <h2 className="font-serif font-light" style={{ fontSize: "clamp(2.2rem, 5vw, 3.5rem)", color: "white" }}>
-              {locale === "lt" ? "Nuo studijų iki praktikos" : "From Studies\nto Practice"}
+              {t.about.careerHeading}
             </h2>
           </div>
           <p className="font-light leading-relaxed" style={{ maxWidth: 420, color: "rgba(242,241,239,0.55)" }}>
-            {locale === "lt"
-              ? "Dešimtmetis formalaus mokymo, specializuotos praktikos ir nuolatinio augimo imigracijos teisės srityje."
-              : "A decade of formal training, specialist practice, and continuous growth in immigration law — built case by case."}
+            {t.about.careerDescription}
           </p>
         </motion.div>
 
@@ -45,7 +43,7 @@ export default function CareerTimeline() {
             initial={{ scaleY: 0 }}
             animate={inView ? { scaleY: 1 } : {}}
             transition={{ duration: 1.2, delay: 0.3 }}
-            className="absolute left-[6.5rem] top-0 bottom-0 w-px hidden lg:block"
+            className="absolute left-[12.5rem] top-0 bottom-0 w-px hidden lg:block"
             style={{ background: "rgba(201,168,76,0.35)", transformOrigin: "top" }}
           />
 
@@ -56,12 +54,12 @@ export default function CareerTimeline() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
-                className="group grid lg:grid-cols-[7rem_2rem_1fr] gap-0 lg:gap-6 items-start py-6 border-b"
+                className="group grid lg:grid-cols-[10rem_2rem_minmax(0,1fr)] gap-0 lg:gap-6 items-start py-6 border-b"
                 style={{ borderColor: "rgba(255,255,255,0.08)" }}
               >
                 {/* Year */}
                 <div
-                  className="font-serif font-light text-2xl mb-2 lg:mb-0 text-right pr-0 lg:pr-4 pt-1"
+                  className="font-serif font-light text-xl mb-2 lg:mb-0 text-left lg:text-right whitespace-nowrap pt-1"
                   style={{ color: yearColor }}
                 >
                   {m.period}
@@ -80,7 +78,7 @@ export default function CareerTimeline() {
                   <h3 className="font-serif font-light text-xl mb-1" style={{ color: "white" }}>
                     {m.title}
                   </h3>
-                  <p className="font-light text-sm leading-relaxed" style={{ color: "rgba(242,241,239,0.55)" }}>
+                  <p className="font-light text-sm leading-relaxed whitespace-pre-line" style={{ color: "rgba(242,241,239,0.55)" }}>
                     {m.subtitle}
                   </p>
                 </div>

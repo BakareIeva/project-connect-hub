@@ -105,6 +105,8 @@ function ImmigrationLawPage() {
 export const Route = createFileRoute("/practice/immigration-law")({
   head: () => ({
     meta: [
+        { name: "twitter:card", content: "summary_large_image" },
+        { property: "og:type", content: "website" },
       { title: "Immigration Law — Ieva Bakare" },
       {
         name: "description",

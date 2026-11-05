@@ -74,4 +74,11 @@ function VlogPage() {
   );
 }
 
-export const Route = createFileRoute("/vlog")({ component: VlogPage });
+export const Route = createFileRoute("/vlog")({ head: () => ({ meta: [
+      { title: "Video Series — Ieva Bakare" },
+      { name: "description", content: "Watch Ieva Bakare’s video series exploring immigration law and recent Lithuanian court decisions." },
+      { property: "og:title", content: "Video Series — Ieva Bakare" },
+      { property: "og:description", content: "Watch Ieva Bakare’s video series exploring immigration law and recent Lithuanian court decisions." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ] }), component: VlogPage });

@@ -135,6 +135,8 @@ function HowCourtThinksPage() {
 export const Route = createFileRoute("/practice/how-court-thinks")({
   head: () => ({
     meta: [
+        { name: "twitter:card", content: "summary_large_image" },
+        { property: "og:type", content: "website" },
       { title: "Inside the Courtroom — Ieva Bakare" },
       {
         name: "description",

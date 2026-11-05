@@ -200,6 +200,7 @@ export const Route = createFileRoute("/blog/$slug")({
     const desc = p?.excerpt ?? "Immigration law insights from Ieva Bakare.";
     return {
       meta: [
+        { name: "twitter:card", content: "summary_large_image" },
         { title },
         { name: "description", content: desc },
         { property: "og:title", content: title },

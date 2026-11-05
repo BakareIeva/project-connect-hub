@@ -113,6 +113,8 @@ function EULawPage() {
 export const Route = createFileRoute("/practice/eu-law")({
   head: () => ({
     meta: [
+        { name: "twitter:card", content: "summary_large_image" },
+        { property: "og:type", content: "website" },
       { title: "European Union Law — Ieva Bakare" },
       {
         name: "description",

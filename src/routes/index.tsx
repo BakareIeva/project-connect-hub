@@ -26,5 +26,13 @@ function Home() {
 }
 
 export const Route = createFileRoute("/")({
+  head: () => ({ meta: [
+      { title: "Ieva Bakare — Legal Professional in Lithuania" },
+      { name: "description", content: "Legal insights and professional experience across criminal, civil, corporate, immigration, administrative, European Union and human rights law." },
+      { property: "og:title", content: "Ieva Bakare — Legal Professional in Lithuania" },
+      { property: "og:description", content: "Legal insights and professional experience across criminal, civil, corporate, immigration, administrative, European Union and human rights law." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ] }),
   component: Home,
 });

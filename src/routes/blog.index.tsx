@@ -57,6 +57,8 @@ function BlogPage() {
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     meta: [
+        { name: "twitter:card", content: "summary_large_image" },
+        { property: "og:type", content: "website" },
       { title: "Blog — Ieva Bakare · Legal Insights & Publications" },
       { name: "description", content: "Articles, video series, and professional commentary exploring recent court practice, legal developments, and judicial insights in immigration, administrative, European Union, and human rights law." },
       { property: "og:title", content: "Blog — Ieva Bakare · Legal Insights & Publications" },
