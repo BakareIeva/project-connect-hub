@@ -96,12 +96,11 @@ function AboutPage() {
               >
                 <div className="w-12 h-px mb-8" style={{ background: "rgba(201,168,76,0.4)" }} />
                 <div className="space-y-6 mb-10">
-                  <p className="text-base font-light leading-relaxed" style={{ color: "#6B6B6B" }}>
-                    {t.about.bio1}
-                  </p>
-                  <p className="text-base font-light leading-relaxed" style={{ color: "#6B6B6B" }}>
-                    {t.about.bio2}
-                  </p>
+                  {t.about.bio.map((paragraph, index) => (
+                    <p key={index} className="text-base font-light leading-relaxed" style={{ color: "#6B6B6B" }}>
+                      {paragraph}
+                    </p>
+                  ))}
                 </div>
 
                 {/* Credentials */}

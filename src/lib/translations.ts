@@ -69,10 +69,18 @@ export const translations = {
       eyebrow: "About Ieva",
       name: "Ieva Bakare",
       role: "Immigration & Administrative Law",
-      bio1:
-        "My name is Ieva Bakare and I am a legal professional with a particular focus on immigration and administrative law in Lithuania. As the mother of two children in a multicultural family living in Lithuania, I also understand that immigration is not only about legislation and procedures. Behind every application, appeal, and decision, there are individuals, families, careers, and future plans. Law has been a significant part of my life for many years, particularly in the areas of immigration and administrative law. This website serves as a space where I can share professional insights, practical observations, and topics that I find both interesting and relevant based on my experience and continuing interest in these areas.",
-      bio2:
-        "Over the years, immigration law has been more than just my profession, it has been a significant part of my life. I hold a Master's degree in Law from Vytautas Magnus University in 2019 and have dedicated much of my professional career to understanding and applying immigration law in practice. I worked within the Migration Department of the Republic of Lithuania from 2022, where I gained experience both in residence permit matters and within the legal department. During that time, I was involved in the practical application of immigration legislation and represented the institution in administrative court proceedings. These experiences provided me with valuable insight into how immigration decisions are assessed, how legal procedures operate, and how administrative authorities apply immigration regulations in practice. While I am not an advocate, my professional background has allowed me to gain both legal and practical experience in immigration and administrative matters from within the public sector as well as through my continued work in the legal field. Today, I continue my professional career at the Highest Administrative Court of Lithuania. My experience within both the Migration Department and the administrative court system has provided me with valuable insight into the practical application of immigration law, administrative procedures, the knowledge of practise in the European Court of Human Rights, the Court of Justice of the European Union and human rights issues that arise in complex immigration matters.",
+      bio: [
+        "My name is Ieva Bakare, and I am a legal professional working across several areas of Lithuanian law, including criminal, civil, corporate, immigration and administrative law.",
+        "As the mother of two children in a multicultural family living in Lithuania, I understand that legal matters are not only about legislation and procedures. Behind every application, dispute, legal decision or court proceeding, there are individuals, families, businesses and circumstances that can significantly affect people's lives.",
+        "Law has been an important part of my life for many years. While much of my earlier professional experience was concentrated in immigration and administrative law, my professional work has since expanded into other areas of legal practice.",
+        "I obtained my Master's degree in Law from Vytautas Magnus University in 2019.",
+        "In 2022, I began working at the Migration Department of the Republic of Lithuania, where I gained experience in residence permit matters and within the institution's legal department. My responsibilities included the practical application of immigration legislation and representing the institution in administrative court proceedings.",
+        "I subsequently continued my professional career at the Supreme Administrative Court of Lithuania, where I worked in a legal capacity. This experience further developed my understanding of administrative litigation, judicial procedures, legal research and the application of national and European law, including the case law of the European Court of Human Rights and the Court of Justice of the European Union.",
+        "Having worked within both an administrative authority and the judicial system, I gained valuable insight into how legal decisions are made, challenged and examined.",
+        "Today, my professional career has taken a broader direction. I work in a corporate legal environment while also collaborating independently with a law firm. My current work covers criminal, civil, corporate and administrative law, alongside immigration matters, which remain an important part of my professional background.",
+        "While I am not an advocate, my professional experience has allowed me to develop a practical understanding of legal matters from different perspectives, including public administration, the judicial system and private legal practice.",
+        "This website is a space where I share legal insights, practical observations, developments in legislation and court decisions, and topics that I find interesting and relevant. My aim is to make legal information more accessible while sharing perspectives shaped by my professional experience and continuing involvement in different areas of Lithuanian and European law.",
+      ],
       backgroundHeading: "Professional Milestones",
       background: [
         {
@@ -356,10 +364,18 @@ export const translations = {
       eyebrow: "Apie Ievą",
       name: "Ieva Bakare",
       role: "Imigracijos ir administracinė teisė",
-      bio1:
-        "Esu teisininkė, ypač besidominti imigracijos ir administracine teise Lietuvoje. Kaip dviejų vaikų mama daugiakultūrėje šeimoje, gyvenančioje Lietuvoje, suprantu, kad imigracija — tai ne tik teisės aktai ir procedūros. Už kiekvieno prašymo, skundo ir sprendimo slypi žmonės, šeimos, karjeros ir ateities planai.",
-      bio2:
-        "Teisė daugelį metų buvo svarbi mano gyvenimo dalis, ypač imigracijos ir administracinės teisės srityse. Ši svetainė — erdvė, kurioje galiu dalintis profesinėmis įžvalgomis, praktiniais pastebėjimais ir temomis, kurios man atrodo įdomios ir aktualios, remiantis mano patirtimi ir nuolatiniu domėjimusi šiomis sritimis.",
+      bio: [
+        "Mano vardas Ieva Bakare, esu teisininkė, dirbanti keliose Lietuvos teisės srityse, įskaitant baudžiamąją, civilinę, korporatyvinę, imigracijos ir administracinę teisę.",
+        "Kaip dviejų vaikų mama daugiakultūrėje šeimoje, gyvenančioje Lietuvoje, suprantu, kad teisiniai klausimai — tai ne tik teisės aktai ir procedūros. Už kiekvieno prašymo, ginčo, teisinio sprendimo ar teismo proceso slypi žmonės, šeimos, verslai ir aplinkybės, galinčios reikšmingai paveikti žmonių gyvenimus.",
+        "Teisė daugelį metų yra svarbi mano gyvenimo dalis. Nors didžioji dalis mano ankstesnės profesinės patirties buvo susitelkusi imigracijos ir administracinės teisės srityse, mano profesinė veikla vėliau išsiplėtė ir į kitas teisinės praktikos sritis.",
+        "2019 m. įgijau teisės magistro laipsnį Vytauto Didžiojo universitete.",
+        "2022 m. pradėjau dirbti Lietuvos Respublikos Migracijos departamente, kur įgijau patirties leidimų gyventi klausimų srityje ir institucijos teisės skyriuje. Mano pareigos apėmė praktinį imigracijos teisės aktų taikymą ir institucijos atstovavimą administracinių teismų procesuose.",
+        "Vėliau tęsiau profesinę karjerą Lietuvos vyriausiąjame administraciniame teisme, kur dirbau teisinio pobūdžio darbą. Ši patirtis dar labiau pagilino mano supratimą apie administracinį procesą, teismo procedūras, teisinius tyrimus bei nacionalinės ir Europos teisės taikymą, įskaitant Europos Žmogaus Teisių Teismo ir Europos Sąjungos Teisingumo Teismo praktiką.",
+        "Dirbdama tiek administracinėje institucijoje, tiek teismų sistemoje, įgijau vertingos įžvalgų apie tai, kaip teisiniai sprendimai priimami, ginčijami ir nagrinėjami.",
+        "Šiandien mano profesinė karjera nukrypo platesne kryptimi. Dirbu korporatyvinėje teisinėje aplinkoje ir nepriklausomai bendradarbiauju su advokatų kontora. Mano dabartinis darbas apima baudžiamąją, civilinę, korporatyvinę ir administracinę teisę, taip pat imigracijos klausimus, kurie išlieka svarbi mano profesinės patirties dalis.",
+        "Nors nesu advokatė, mano profesinė patirtis leido ugdyti praktinį teisinių klausimų supratimą iš skirtingų perspektyvų — viešojo administravimo, teismų sistemos ir privačios teisinės praktikos.",
+        "Ši svetainė — erdvė, kurioje dalinuosi teisinėmis įžvalgomis, praktiniais pastebėjimais, teisės aktų ir teismų sprendimų pokyčiais bei temomis, kurios man atrodo įdomios ir aktualios. Mano tikslas — padaryti teisinę informaciją labiau prieinamą, dalinantis požiūriais, suformuotais profesinės patirties ir nuolatinio dalyvavimo įvairiose Lietuvos ir Europos teisės srityse.",
+      ],
       backgroundHeading: "Profesiniai etapai",
       background: [
         {
