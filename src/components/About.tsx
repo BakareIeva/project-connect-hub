@@ -46,9 +46,11 @@ export default function About() {
               {t.about.role}
             </p>
             <p className="text-base font-light leading-relaxed mb-8" style={{ color: "#6B6B6B" }}>
-              Immigration & Administrative Law Professional,
+              Legal Professional | Criminal, Civil, Corporate & Administrative Law
               <br />
-              Former Migration Department Officer | Lithuania.
+              Former Migration Department Officer | Lithuania
+              <br />
+              Former Legal Professional, Supreme Administrative Court of Lithuania
             </p>
             <div className="w-12 h-px mb-8" style={{ background: "rgba(201,168,76,0.4)" }} />
 

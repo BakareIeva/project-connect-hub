@@ -113,9 +113,11 @@ function BlogPostPage() {
               <div className="mt-12 pt-8 border-t" style={{ borderColor: "#E4E4E2" }}>
                 <p className="font-serif text-[#111111] text-lg mb-1">Ieva Bakare</p>
                 <p className="text-[#6B6B6B] text-sm font-light leading-relaxed">
-                  Immigration & Administrative Law Professional,
-                  <br />
-                  Former Migration Department Officer | Lithuania.
+              Legal Professional | Criminal, Civil, Corporate & Administrative Law
+              <br />
+              Former Migration Department Officer | Lithuania
+              <br />
+              Former Legal Professional, Supreme Administrative Court of Lithuania
                 </p>
               </div>
             </div>
