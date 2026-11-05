@@ -54,7 +54,7 @@ function renderContent(content: string) {
   return html.join("\n");
 }
 
-export function BlogPostPage() {
+function BlogPostPage() {
   const { slug } = Route.useParams();
   const post = getPostBySlug(slug);
   if (!post) throw notFound();
@@ -167,7 +167,7 @@ export function BlogPostPage() {
   );
 }
 
-export function NotFoundPost() {
+function NotFoundPost() {
   return (
     <>
       <Navbar />
@@ -185,7 +185,7 @@ export function NotFoundPost() {
   );
 }
 
-export function ErrorBoundary() {
+function ErrorBoundary() {
   return <NotFoundPost />;
 }
 
@@ -205,6 +205,6 @@ export const Route = createFileRoute("/blog/$slug")({
     };
   },
   component: BlogPostPage,
-  notFoundComponent: NotFoundPost,
+  notFoundComponent: () => <NotFoundPost />,
   errorComponent: ErrorBoundary,
 });
