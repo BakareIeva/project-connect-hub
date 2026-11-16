@@ -119,7 +119,7 @@ export default function Hero() {
               className="text-[10px] font-medium tracking-[0.25em] uppercase mb-5"
               style={{ color: "rgba(201,168,76,0.75)" }}
             >
-              Individual Activity — 1526707
+              Individual Activity — 1562428
             </p>
             <p
               className="text-sm font-light leading-relaxed mb-8"
