@@ -1000,6 +1000,22 @@ export const certifications: Certification[] = [
     type: "certificate",
   },
   {
+    title: "Content, Structure and Quality of Procedural Decisions: Presentation of Evidence, Reasoning and Argumentation",
+    issuer: "National Courts Administration of Lithuania",
+    year: "2026",
+    description:
+      "Participated in professional training organised by the National Courts Administration of Lithuania, focusing on the content, structure and quality of procedural decisions, including the presentation and assessment of evidence, legal reasoning and argumentation.\n\nVenue: National Courts Administration, Vilnius, Lithuania\n\nDuration: 6 academic hours",
+    type: "certificate",
+  },
+  {
+    title: "13th International Constitutional Law Conference: The Multilayered Nature of the Constitution",
+    issuer: "Mykolas Romeris University (MRU) Law School",
+    year: "2026",
+    description:
+      "Participated in the 13th International Scientific-Practical Conference on Constitutional Law, held to commemorate Constitution Day of the Republic of Lithuania. The conference, entitled \u201CThe Multilayered Nature of the Constitution: Its Visible and Invisible Dimensions,\u201D explored constitutional law through its different dimensions and perspectives.\n\nVenue: Seimas of the Republic of Lithuania, Vilnius\n\nDuration: 5 academic hours",
+    type: "certificate",
+  },
+  {
     title: "Annual Conference of the European Forum of the Legal Professions",
     issuer: "Academy of European Law (ERA)",
     year: "2025",
