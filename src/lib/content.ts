@@ -30,6 +30,164 @@ export type Certification = {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "when-can-administrative-decision-be-challenged-lithuania",
+    title: "When Can an Administrative Decision Be Challenged in Lithuania?",
+    date: "2026-11-21",
+    category: "Administrative Law",
+    excerpt:
+      "Understanding why a decision was made can be just as important as the decision itself. A closer look at the facts, legal reasoning and procedures that may provide grounds to challenge an administrative decision in Lithuania.",
+    readTime: "9 min read",
+    content: `By Ieva Bakare
+
+**Understanding why a decision was made can be just as important as the decision itself.**
+
+When someone receives a negative decision from a public institution, the first reaction is often disappointment, frustration or disbelief. This is understandable, particularly when the decision affects something important, such as the right to live in Lithuania, continue studying, work or remain together with family members.
+
+But there is an important distinction between a decision that feels unfair and one that is legally flawed.
+
+Not every unfavourable decision is unlawful. Equally, the fact that a decision has been issued by a public institution does not automatically mean that it is legally correct.
+
+Having worked at the Migration Department and subsequently at the Supreme Administrative Court of Lithuania, I have come to appreciate how important this distinction is when examining administrative decisions.
+
+The legality of a decision cannot be assessed solely by looking at its outcome. It is also necessary to understand how the institution reached that outcome, what information it considered and which legal provisions it relied upon.
+
+## A negative decision does not automatically mean the institution acted unlawfully
+
+Public institutions are required to make decisions within the powers granted to them by law.
+
+In immigration matters, for example, the Migration Department examines applications and makes decisions according to the requirements established in Lithuanian legislation. If an applicant does not meet a mandatory legal requirement, the Department may have grounds to refuse an application or revoke an existing residence permit.
+
+The consequences of such a decision may be serious, but those consequences alone do not establish that the decision is unlawful.
+
+At the same time, an institution's authority to make a particular decision does not remove its obligation to apply the law correctly and follow the applicable procedures.
+
+This is where the legal assessment becomes important.
+
+A person considering an appeal should not focus exclusively on why the outcome is disappointing. The more useful starting point is to examine whether there are identifiable legal or procedural problems with the decision.
+
+## Were all the relevant circumstances properly considered?
+
+One of the first questions worth examining is whether the institution considered the information that was relevant to the case.
+
+Administrative decisions are often based on documents, official records, explanations submitted by the applicant and information obtained from other institutions.
+
+However, the existence of information in a case file does not necessarily mean that it has been properly evaluated.
+
+For example, a foreign student may face difficulties meeting academic requirements because of serious personal circumstances. A business owner may experience interruptions in company activities because of a dispute with another shareholder or director.
+
+Such circumstances do not automatically exempt anyone from the legal requirements applicable to their residence permit.
+
+Nevertheless, where the law makes those circumstances relevant, the institution must assess them in accordance with the applicable legal framework.
+
+An important question is therefore not simply whether the applicant experienced difficulties, but whether those difficulties were legally relevant and whether the institution properly considered the evidence presented.
+
+## Was the law applied correctly?
+
+Another important aspect is the legal basis of the decision.
+
+Lithuanian immigration law contains different requirements depending on the grounds on which a foreign national applies for or holds a residence permit.
+
+The conditions applicable to a student are not necessarily the same as those applicable to an employee, a company shareholder or a family member.
+
+This distinction matters because a legal provision must be applied to the circumstances for which it was intended.
+
+When reviewing a decision, it may be necessary to examine whether the institution relied on the correct legal provision, interpreted it appropriately and established the facts required for its application.
+
+It is also important to distinguish between situations where the law gives an institution discretion and situations where the law requires a particular decision once specified conditions are established.
+
+An institution cannot simply disregard a mandatory legal requirement because an applicant's personal circumstances are difficult.
+
+Equally, where the law requires an individual assessment, the institution must exercise its powers within the limits established by law.
+
+## A decision must explain more than the final outcome
+
+A properly reasoned administrative decision should allow the person concerned to understand why the institution reached its conclusion.
+
+In Lithuania, the Law on Public Administration establishes requirements concerning the factual and legal basis of administrative decisions. Depending on the type of decision, additional requirements may arise under the legislation governing the particular procedure.
+
+In practical terms, a person should be able to identify the essential facts relied upon by the institution and the legal provisions supporting its conclusion.
+
+This is particularly important when a decision is negative.
+
+Without a sufficiently clear explanation, it may be difficult to understand whether the institution misunderstood the circumstances, relied on incomplete information or applied the relevant law incorrectly.
+
+However, a decision does not become unlawful merely because the applicant disagrees with its reasoning. The question is whether the reasoning satisfies the applicable legal requirements and supports the conclusion reached.
+
+## Procedural requirements also matter
+
+Administrative procedures are not simply formalities.
+
+They help ensure that decisions are made lawfully and that the individuals affected have the procedural protections provided by law.
+
+Depending on the circumstances and the applicable legislation, relevant questions may include whether the institution requested necessary information, provided an opportunity to submit explanations where required, observed the applicable deadlines and followed the prescribed decision-making procedure.
+
+Not every procedural irregularity will necessarily justify overturning a decision.
+
+Its legal significance must be assessed in the context of the particular case, including the nature of the requirement and the effect of the irregularity on the decision-making process.
+
+This is one reason why examining the full administrative file can be important. The final decision may not tell the entire story of how the matter was handled.
+
+## What happens when an administrative decision is challenged in court?
+
+In Lithuania, administrative courts examine disputes concerning the legality of administrative acts and actions falling within their jurisdiction.
+
+A person challenging an administrative decision must identify the relevant grounds for the complaint and comply with the applicable procedural requirements.
+
+The court examines the dispute within the framework of the law and the circumstances of the case. It does not automatically replace the institution's decision simply because the applicant would prefer a different outcome.
+
+Where the court finds that an administrative decision is unlawful, the appropriate remedy depends on the nature of the dispute and the applicable legal provisions.
+
+In some cases, a decision may be annulled and the institution required to reconsider the matter. In other circumstances, a different form of judicial relief may be available.
+
+This distinction is important.
+
+A successful court challenge does not always mean that the applicant immediately receives the residence permit or other administrative outcome originally requested.
+
+Sometimes, the result is that the institution must examine the matter again and issue a new decision in accordance with the law and the court's findings.
+
+## Why this is particularly important in immigration cases
+
+Immigration decisions often have consequences extending beyond the individual applicant.
+
+A refusal to renew a residence permit may affect someone's ability to continue employment or studies in Lithuania.
+
+The revocation of a residence permit may also have implications for family members whose right of residence depends on the principal permit holder.
+
+For a foreign national who has already established a life in Lithuania, these consequences can be significant.
+
+Nevertheless, the seriousness of the consequences does not, by itself, determine whether an appeal will succeed.
+
+The legal assessment must still address the relevant statutory requirements, the evidence, the institution's reasoning and the procedures followed.
+
+There is also a practical consideration that should not be overlooked: appeal deadlines.
+
+Administrative decisions may be subject to relatively short periods for challenging them. The applicable deadline and the procedure for submitting a complaint depend on the decision and the relevant legislation.
+
+Anyone considering an appeal should therefore examine the decision promptly, including its instructions concerning available remedies.
+
+It is also important not to assume that submitting an appeal automatically extends a residence permit or gives the person a right to remain in Lithuania while the proceedings continue. That question requires a separate assessment under the applicable rules.
+
+## Understanding the decision is the starting point
+
+In my experience, one of the most important steps in assessing an administrative dispute is understanding the reasoning behind the decision.
+
+What facts did the institution establish? Which legal provisions did it apply? Were the applicant's explanations considered? Were the necessary procedures followed?
+
+These questions help distinguish a disagreement with an outcome from a potentially valid legal challenge.
+
+There will be cases where an institution has applied the law correctly, even though the consequences are difficult for the person concerned.
+
+There will also be cases where the decision requires closer examination because of possible errors in the assessment of facts, the interpretation of legislation or the procedure followed.
+
+The purpose of legal review is to identify that difference.
+
+Ultimately, the important question is not only what the institution decided, but how and why it reached that decision.
+
+Understanding those reasons is the first step towards determining whether there are legal grounds to challenge it.
+
+---`,
+  },
+  {
     slug: "student-trp-revoked-just-before-graduation-lithuania",
     title: "Student TRP Revoked in Lithuania Just Before Graduation, Can the Decision Be Challenged?",
     date: "2026-09-18",
